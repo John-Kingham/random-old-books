@@ -26,16 +26,29 @@ The business is struggling to remain viable as it doesn't have enough customers 
 - **The Conversational Enthusiast**: Values engaging discussions more than just the books themselves. Enjoys interacting with authors and readers, asking thought-provoking questions, and participating in lively debates.
 
 ### User Stories
-1. As an **Adventurous Browser**, I need to see a professional website that looks good on various screen sizes and is easy to navigate, so I'm not put off by a poor user experience.
-2. As an **Adventurous Browser**, I need to know what kind of books the business sells, so I know if it sells the type of books I'm interested in.
-3. As an **Adventurous Browser**, I need to know how and why the store sorts its books randomly, so I understand what makes this bookstore special.
-4. As an **Adventurous Browser**, I need to see what the store looks like inside, so I can decide if it's worth visiting.
-5. As an **Adventurous Browser**, I need to be able to easily find the store's location and opening hours, so I know where and when to visit.
-6. As an **Online Surprise Seeker**, I need to see a description of the subscription service, so I know if it's something I'd like to subscribe to.
-7. As an **Online Surprise Seeker**, I need to be able to easily subscribe to the subscription box service online, so I don't have to call or visit the store.
-8. As a **Conversational Enthusiast**, I need to see a list of upcoming events, so I can see if they're the sort of events I'm interested in.
-9. As an **Conversational Enthusiast**, - I need to be able to easily book seats at an event online, so I don't have to bother calling the store.
-10. As an **Conversational Enthusiast**, I need to be able to easily subscribe to the monthly e-newsletter, so I can be one of the first to find out about new upcoming events and book a seat before they've all gone.
+**User Story 1**: A professional-looking, responsive, user-friendly interface
+
+- As an **Adventurous Browser**, I want to see a professional website that looks good on various screen sizes and is easy to navigate, so I'm not put off by a poor user experience.
+
+**User Story 2**: Enticing images and descriptions of the business, its products and services
+
+- As an **Adventurous Browser**, I want to learn about the business, its products and services, so I can decide if I'd like to visit the store.
+
+**User Story 3**: Location, opening hours and contact details
+
+- As an **Adventurous Browser**, I want to be able to easily find the store's location and opening hours, so I know where and when to visit.
+
+**User Story 4**: Subscription box subscription form
+
+- As an **Online Surprise Seeker**, I want to be able to easily find a subscription box sign-up form, so I can subscribe immediately.
+
+**User Story 5**: List of events and booking form
+
+- As a **Conversational Enthusiast**, I want to see a list of upcoming events and a booking form, so decide which event to attend and book my place.
+
+**User Story 6**: E-newsletter sign-up form
+
+- As an **Conversational Enthusiast**, I want to be able to easily subscribe to the monthly e-newsletter, so I can be one of the first to find out about new events and book my seat before they've all gone.
 
 ### Wireframes
 
