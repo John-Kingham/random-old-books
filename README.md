@@ -50,6 +50,11 @@ The business is struggling to remain viable as it doesn't have enough customers 
 
 - As an **Conversational Enthusiast**, I want to be able to easily subscribe to the monthly e-newsletter, so I can be one of the first to find out about new events and book my seat before they've all gone.
 
+### Site Structure
+
+To flesh out the structure of the site at a very high level, I came up with a list of sections that would fulfil all of the user stories and arranged them onto a handful of web pages, as shown in the diagram below.
+![Random Old Books Structure Diagram](assets/images/Random%20Old%20Books%20Structure%20Diagram.png)
+
 ### Wireframes
 
 ## Features 
