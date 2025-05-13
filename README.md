@@ -57,6 +57,10 @@ To flesh out the structure of the site at a very high level, I came up with a li
 
 ### Wireframes
 
+After laying out the site's structure, I used [Wireframe.cc](https://www.wireframe.cc) to build laptop, tablet and mobile wireframes for each page.
+
+- [Random Old Books Wireframes](assets/docs/Random-Old-Books-Wireframes.pdf) (pdf)
+
 ## Features 
 
 ### Existing Features
