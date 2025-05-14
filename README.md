@@ -57,9 +57,24 @@ To flesh out the structure of the site at a very high level, I came up with a li
 
 ### Wireframes
 
-After laying out the site's structure, I used [Wireframe.cc](https://www.wireframe.cc) to build laptop, tablet and mobile wireframes for each page.
+After laying out the site's structure, I used [Wireframe.cc](https://www.wireframe.cc) to build laptop, tablet and mobile wireframes for each page. Click on the links below to see an image of each wireframe.
 
-- [Random Old Books Wireframes](assets/docs/Random-Old-Books-Wireframes.pdf) (pdf)
+- Home
+  - [Laptop](assets/docs/1-Home-Laptop.png)
+  - [Tablet](assets/docs/2-Home-Tablet.png)
+  - [Mobile](assets/docs/3-Home-Mobile.png)
+- Subscription box
+  - [Laptop](assets/docs/4-Subscription-Box-Laptop.png)
+  - [Tablet](assets/docs/5-Subscription-Box-Tablet.png)
+  - [Mobile](assets/docs/6-Subscription-Box-Mobile.png)
+- Events
+  - [Laptop](assets/docs/7-Events-Laptop.png)
+  - [Tablet](assets/docs/8-Events-Tablet.png)
+  - [Mobile](assets/docs/9-Events-Mobile.png)
+- Form success
+  - [Laptop](assets/docs/10-Success-Laptop.png)
+  - [Tablet](assets/docs/11-Success-Tablet.png)
+  - [Mobile](assets/docs/12-Success-Mobile.png)
 
 ## Features 
 
