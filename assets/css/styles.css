@@ -1,8 +1,12 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Quicksand:wght@300..700&display=swap");
+
+body {
+    font-family: Quicksand, serif;
+}
+
 h1 {
+    font-family: Limelight, sans-serif;
     color: red;
 }
 
-p {
-    font-weight: bold;
-    color: green;
-}
