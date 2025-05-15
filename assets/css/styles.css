@@ -1,12 +1,22 @@
-/* Google Fonts */
+/* Google Fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Limelight&family=Quicksand:wght@300..700&display=swap");
 
+/* CSS variables */
+
+:root {
+    --heading-font: Limelight, sans-serif;
+    --body-font: Quicksand, serif;
+    --primary-color: #567a79;
+    --secondary-color: #504746;
+    --contrast-color: #e0dbd1;
+}
+
+/* Global styles */
+
 body {
-    font-family: Quicksand, serif;
+    font-family: var(--body-font);
 }
 
 h1 {
-    font-family: Limelight, sans-serif;
-    color: red;
+    font-family: var(--heading-font);
 }
-

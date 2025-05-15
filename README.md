@@ -113,5 +113,8 @@ After laying out the site's structure, I used [Wireframe.cc](https://www.wirefra
   - I read [The Elements of User Experience](http://www.jjg.net/elements/) and used it to guide me through the user experience design phase.
 - User Personas
   - I used Microsoft Co-Pilot to help me develop the user personas.
+- Colour palette
+  - I extracted colors from images using [imagecolorpicker.com](https://imagecolorpicker.com/).
 
 ### Media
+
