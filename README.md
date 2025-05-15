@@ -114,7 +114,11 @@ After laying out the site's structure, I used [Wireframe.cc](https://www.wirefra
 - User Personas
   - I used Microsoft Co-Pilot to help me develop the user personas.
 - Colour palette
-  - I extracted colors from images using [imagecolorpicker.com](https://imagecolorpicker.com/).
+  - Used https://imagecolorpicker.com/ to extract hex colours from images.
+- Favicon
+  - Used https://gauger.io/fonticon/ to create a favicon image from an icon.
+  - Used https://favicon.io/ to convert the favicon into multiple favicon formats.
+  - Converted hex to RGB using https://www.rgbtohex.net/hex-to-rgb/.
 
 ### Media
 
