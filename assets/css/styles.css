@@ -20,3 +20,18 @@ body {
 h1 {
     font-family: var(--heading-font);
 }
+
+/* Navbar styles */
+nav {
+    background-color: var(--primary-color);
+}
+
+/* Test styles - DELETE BEFORE GOING LIVE! */
+/* .container, .row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightblue;
+} */
