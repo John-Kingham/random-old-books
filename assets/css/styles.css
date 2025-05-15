@@ -17,12 +17,14 @@ body {
     font-family: var(--body-font);
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: var(--heading-font);
 }
 
 /* Navbar styles */
-nav {
+#topnav {
     background-color: var(--primary-color);
 }
 
@@ -39,8 +41,16 @@ nav {
     font-weight: bold;
 }
 
+/* Footer styles */
+
+#contact-details {
+    background-color: var(--secondary-color);
+    color: var(--contrast-color);
+}
+
 /* Styles for testing - DELETE BEFORE GOING LIVE! */
-/* .container, .row {
+/* .container,
+.row {
     border: 2px solid black;
 }
 

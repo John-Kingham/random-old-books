@@ -44,7 +44,7 @@
     <!-- flex and min-vh-100 keeps the footer at the bottom of the screen -->
     <body class="d-flex flex-column min-vh-100">
         <!-- Nav element contains the top navbar common to all pages -->
-        <nav id="topnav" class="navbar navbar-expand-lg">
+        <nav id="topnav" class="navbar navbar-expand-lg py-3">
             <div class="container">
                 <a class="navbar-brand" href="index.html">Random Old Books</a>
                 <button
@@ -74,16 +74,29 @@
         </nav>
         <!-- Footer with contact details -->
         <!-- mt-auto allows footer to stay at the bottom of the screen -->
-        <footer class="mt-auto">
-            <section class="container">
-                <div class="row">
-                    <div class="col-12">Contact Details</div>
+        <footer id="contact-details" class="mt-auto">
+            <section class="container py-3">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h2>Contact Details</h2>
+                    </div>
                     <!-- Bookstore location -->
-                    <div class="col-12">Bookshop Location</div>
+                    <div class="col-12">
+                        <h3>Location</h3>
+                        123 Book Street, Booksville, Bookland, RB12 4RB
+                    </div>
                     <!-- Bookstore opening times -->
-                    <div class="col-12">Bookshop Opening Times</div>
+                    <div class="col-12">
+                        <h3>Opening Times</h3>
+                        Mon, Tue, Thu, Fri, Sat (8am - 6pm)
+                        Wed (9am - Noon)
+                        Sun (Closed)
+                    </div>
                     <!-- Social media links -->
-                    <div class="col-12">Social Media Links</div>
+                    <div class="col-12">
+                        <h3>Social Media Links</h3>
+                        Bluesky, TikTok, Facebook
+                    </div>
                 </div>
             </section>
         </footer>
