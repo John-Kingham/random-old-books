@@ -26,6 +26,8 @@ h3 {
 /* Navbar styles */
 #topnav {
     background-color: var(--primary-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #topnav .navbar-brand {
@@ -46,6 +48,25 @@ h3 {
 #contact-details {
     background-color: var(--secondary-color);
     color: var(--contrast-color);
+}
+
+#contact-details a {
+    color: var(--contrast-color);
+}
+
+#contact-details .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#contact-details h3 {
+    margin-top: 1rem;
+
+}
+
+#contact-details i {
+    margin: 2rem 1rem 0 1rem;
+    font-size: 1.5rem;
 }
 
 /* Styles for testing - DELETE BEFORE GOING LIVE! */
