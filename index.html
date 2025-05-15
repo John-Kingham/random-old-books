@@ -41,7 +41,8 @@
             href="assets/images/favicon-16x16.png"
         />
     </head>
-    <body>
+    <!-- flex and min-vh-100 keeps the footer at the bottom of the screen -->
+    <body class="d-flex flex-column min-vh-100">
         <!-- Nav element contains the top navbar common to all pages -->
         <nav id="topnav" class="navbar navbar-expand-lg">
             <div class="container">
@@ -57,10 +58,7 @@
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div
-                    class="collapse navbar-collapse"
-                    id="navbarNav"
-                >
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a
@@ -74,6 +72,21 @@
                 </div>
             </div>
         </nav>
+        <!-- Footer with contact details -->
+        <!-- mt-auto allows footer to stay at the bottom of the screen -->
+        <footer class="mt-auto">
+            <section class="container">
+                <div class="row">
+                    <div class="col-12">Contact Details</div>
+                    <!-- Bookstore location -->
+                    <div class="col-12">Bookshop Location</div>
+                    <!-- Bookstore opening times -->
+                    <div class="col-12">Bookshop Opening Times</div>
+                    <!-- Social media links -->
+                    <div class="col-12">Social Media Links</div>
+                </div>
+            </section>
+        </footer>
         <!-- Bootstrap JS script -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
