@@ -26,6 +26,19 @@ nav {
     background-color: var(--primary-color);
 }
 
+#topnav .navbar-brand {
+    color: var(--contrast-color);
+    font-family: var(--heading-font);
+}
+
+#topnav .nav-link {
+    color: var(--contrast-color);
+}
+
+#topnav .nav-link.active {
+    font-weight: bold;
+}
+
 /* Test styles - DELETE BEFORE GOING LIVE! */
 /* .container, .row {
     border: 2px solid black;
