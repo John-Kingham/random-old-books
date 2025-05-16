@@ -80,8 +80,12 @@ main {
     padding-bottom: 3rem;
 }
 
-#why-random :is(h2, h3) {
+main :is(h2, h3) {
     color: var(--tertiary-color);
+}
+
+#why-random {
+    margin-bottom: 3rem;
 }
 
 #why-random h3 {
