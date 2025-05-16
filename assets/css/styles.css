@@ -10,7 +10,7 @@
     --primary-color-transparent: rgba(86, 122, 121, 0.9);
     --secondary-color: #504746;
     --secondary-color-transparent: rgba(80, 71, 70, 0.9);
-    --contrast-color: #FFFFFF;
+    --contrast-color: #ffffff;
 }
 
 /* Global styles */
@@ -48,7 +48,8 @@ h3 {
 /* Header styles */
 
 header {
-    background: url(../images/random-old-books-in-shop.jpg) no-repeat center center/cover;
+    background: url(../images/random-old-books-in-shop.jpg) no-repeat center
+        center/cover;
 }
 
 header > div {
@@ -67,8 +68,8 @@ header p {
 
 #hero {
     background-color: var(--primary-color-transparent);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 1rem;
+    margin: 1rem;
     border-radius: 30px;
 }
 
@@ -90,7 +91,6 @@ header p {
 
 #contact-details h3 {
     margin-top: 1rem;
-
 }
 
 #location i {
@@ -102,7 +102,17 @@ header p {
     font-size: 1.5rem;
 }
 
+/* Media queries for responsive styles */
+
+@media (min-width: 768px) {
+    #hero {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
 /* Styles for testing - DELETE BEFORE GOING LIVE! */
+
 /* .container,
 .row {
     border: 2px solid black;
