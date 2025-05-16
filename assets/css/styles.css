@@ -10,7 +10,8 @@
     --primary-color-transparent: rgba(86, 122, 121, 0.9);
     --secondary-color: #504746;
     --secondary-color-transparent: rgba(80, 71, 70, 0.9);
-    --contrast-color: #ffffff;
+    --tertiary-color: #444752;
+    --contrast-color: white;
 }
 
 /* Global styles */
@@ -63,7 +64,6 @@ header h1 {
 
 header p {
     font-weight: bold;
-    /* font-size: 1.25rem; */
 }
 
 #hero {
@@ -71,6 +71,17 @@ header p {
     padding: 3rem 1rem;
     margin: 1rem;
     border-radius: 30px;
+}
+
+/* Main styles */
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#why-random :is(h2, h3) {
+    color: var(--tertiary-color);
 }
 
 /* Footer styles */
@@ -85,12 +96,12 @@ header p {
 }
 
 #contact-details .container {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 #contact-details h3 {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 #location i {
