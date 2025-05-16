@@ -43,6 +43,21 @@ h3 {
     font-weight: bold;
 }
 
+/* Header styles */
+
+#hero {
+    background: url(../images/random-old-books-in-shop.jpg) no-repeat center center/cover;
+}
+
+#hero > div {
+    height: 500px;
+    color: var(--contrast-color);
+}
+
+#hero p {
+    font-weight: bold;
+}
+
 /* Footer styles */
 
 #contact-details {
