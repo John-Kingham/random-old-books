@@ -6,9 +6,11 @@
 :root {
     --heading-font: Limelight, sans-serif;
     --body-font: Quicksand, serif;
-    --primary-color: #3A5050;
-    --secondary-color: #554A4A;
-    --contrast-color: #EEEBE7;
+    --primary-color: #567a79;
+    --primary-color-transparent: rgba(86, 122, 121, 0.9);
+    --secondary-color: #504746;
+    --secondary-color-transparent: rgba(80, 71, 70, 0.9);
+    --contrast-color: #FFFFFF;
 }
 
 /* Global styles */
@@ -45,17 +47,29 @@ h3 {
 
 /* Header styles */
 
-#hero {
+header {
     background: url(../images/random-old-books-in-shop.jpg) no-repeat center center/cover;
 }
 
-#hero > div {
+header > div {
     height: 500px;
     color: var(--contrast-color);
 }
 
-#hero p {
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
     font-weight: bold;
+    /* font-size: 1.25rem; */
+}
+
+#hero {
+    background-color: var(--primary-color-transparent);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 30px;
 }
 
 /* Footer styles */
