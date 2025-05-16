@@ -115,6 +115,7 @@ After laying out the site's structure, I used [Wireframe.cc](https://www.wirefra
   - I used Microsoft Co-Pilot to help me develop the user personas.
 - Colour palette
   - Used https://imagecolorpicker.com/ to extract hex colours from images.
+  - Used https://webaim.org/resources/contrastchecker/ to adjust foreground and background colours until a sufficient contrast was achieved to pass all checks.
 - Favicon
   - Used https://gauger.io/fonticon/ to create a favicon image from an icon.
   - Used https://favicon.io/ to convert the favicon into multiple favicon formats.

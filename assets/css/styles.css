@@ -6,9 +6,9 @@
 :root {
     --heading-font: Limelight, sans-serif;
     --body-font: Quicksand, serif;
-    --primary-color: #567a79;
-    --secondary-color: #504746;
-    --contrast-color: #e0dbd1;
+    --primary-color: #3A5050;
+    --secondary-color: #554A4A;
+    --contrast-color: #EEEBE7;
 }
 
 /* Global styles */
@@ -64,7 +64,11 @@ h3 {
 
 }
 
-#contact-details i {
+#location i {
+    margin-right: 0.5rem;
+}
+
+#socials i {
     margin: 2rem 1rem 0 1rem;
     font-size: 1.5rem;
 }
