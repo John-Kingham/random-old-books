@@ -111,11 +111,13 @@ main {
     color: var(--primary-color);
 }
 
-main .card {
+main .services-card {
     box-shadow: 3px 3px 3px 1px lightgrey;
+    padding: 0;
+    margin-top: 2rem;
 }
 
-main .card-title {
+main .services-card-title {
     font-weight: bold;
 }
 
