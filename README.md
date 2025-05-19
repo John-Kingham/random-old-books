@@ -1,46 +1,85 @@
 # Random Old Books
 
-Random Old Books is website built for a fictional retailer of the same name, which sells vintage books printed more than 20 years ago.
+Random Old Books is a website built for a fictional retailer of the same name that sells vintage books printed more than 20 years ago.
 
-The business has one physical book store, where it also holds regular events with authors (events are free, but participants often buy books while they're at the store), and it has a mail-order subscription box service where subscribers are sent one book per month.
+The business has one physical bookshop, where it also holds regular events with authors (events are free, but participants often buy books while they're at the store), and it has a mail-order subscription box service where subscribers are sent one random book per month.
 
 The company's unique selling proposition is that it believes in the positive power of random events and chance encounters, so it adds a dash of randomness to its customers' lives by placing books randomly on its bookshelves and by sending out a random book each month to subscription box subscribers.
+
+Todo: Include an image showing what the site looks like on various device sizes.
 
 ## User Experience Design
 
 ### Site Goals (Strategy Plane)
 
-The business is struggling to remain viable as it doesn't have enough customers and the customers it has don't make enough repeat purchases. To help fix this problem, the website has the following goals:
+The backstory is that the Random Old Books business is struggling to remain viable as it doesn't have enough customers and its existing customers don't make enough repeat purchases. To help fix this problem, the manager wanted a new website to be developed with the following goals:
 
-1. Raise awareness of the business and what it has to offer (a vintage bookstore, a subscription service and regular events)
-2. Maintain the company's sophisticated buy slightly quirky branding
+1. Raise awareness of the business and its services (a vintage bookstore, a subscription service and regular events)
+2. Maintain the company's relatively understated branding
 3. Make it easy for users to find and contact the store
 4. Inform users about upcoming events and make it easy for them to book events
 5. Inform users about the subscription box service and make it easy for them to sign up for a trial
-6. Make it easy for users to subscribe to the company's free monthly e-newsletter, where it highlights new stock, upcoming events and the benefits of the subscription box
+6. Make it easy for users to subscribe to the company's free monthly e-newsletter, which promotes the store, upcoming events and the subscription box service
 
 ### User Personas (Strategy Plane)
 
-- **The Adventurous Browser**: Loves the thrill of unpredictability. Often buys books from authors they've never heard of, accepting whatever fate hands them.
-- **The Online Surprise Seeker**: Prefers reading experiences where every month brings a surprise. Embraces the challenge of reading whatever book they get, treating it as an opportunity to experience new things.
-- **The Conversational Enthusiast**: Values engaging discussions more than just the books themselves. Enjoys interacting with authors and readers, asking thought-provoking questions, and participating in lively debates.
+There are three main user personas, one for each of the business's three main services (bookstore, subscription box, events):
+
+**The Adventurous Browser**: Loves the thrill of unpredictability. Often buys books from authors they've never heard of, accepting whatever fate hands them.
+
+**The Online Surprise Seeker**: Prefers reading experiences where every month brings a surprise. Embraces the challenge of reading whatever book they get, treating it as an opportunity to experience new things.
+
+**The Conversational Enthusiast**: Values engaging discussions more than just the books themselves. Enjoys interacting with authors and readers, asking thought-provoking questions, and participating in lively debates.
 
 ### User Stories (Scope Plane)
-**User Story 1**: A professional-looking, responsive, user-friendly interface
 
+#### User Story 1: A professional-looking, responsive, user-friendly interface
+
+User story
 - As an **Adventurous Browser**, I want to see a professional website that looks good on various screen sizes and is easy to navigate, so I'm not put off by a poor user experience.
 
-**User Story 2**: Enticing images and descriptions of the business, its products and services
+Acceptance Criteria
+- The website is responsive and looks good across all common screen widths.
+- The site's pages and sections are intuitively laid out and easy to navigate.
+- The site follows best practices for accessibility.
 
+Tasks
+- Use responsive design principles to ensure the site looks good on various device sizes.
+- Structure the site based on best practices, so that all sections are easy to navigate to.
+- Include accessibility attributes for screen readers. 
+
+#### User Story 2: Enticing images and descriptions of the business, its products and services
+
+User story
 - As an **Adventurous Browser**, I want to learn about the business, its products and services, so I can decide if I'd like to visit the store.
 
-**User Story 3**: Location, opening hours and contact details
+Acceptance Criteria
+- The site contains high-quality images of the store, some books, subscription boxes and events, in prominent positions and in a way that looks attractive.
+- The site contains enticing descriptions of the business, its bookshop, subscription service and events, which are clearly visible and easy to read on the homepage and other relevant pages.
 
+Tasks
+
+- Using the wireframes as a guide, add high-quality images to the homepage and other pages.
+- Using the wireframes as a guide, add enticing descriptions to the site.
+
+#### User Story 3: Location, opening hours and contact details
+
+User story
 - As an **Adventurous Browser**, I want to be able to easily find the store's location and opening hours, so I know where and when to visit.
 
-**User Story 4**: Subscription box subscription form
+Acceptance Criteria
+- Each page prominently displays the store's location and opening hours.
+- Each page prominently displays the company's email and phone number.
 
+Tasks
+- On each page, add a footer containing the store's location and opening hours, and the company's email and phone number.
+
+#### User Story 4: Subscription box subscription form
+
+User story
 - As an **Online Surprise Seeker**, I want to be able to easily find a subscription box sign-up form, so I can subscribe immediately.
+
+
 
 **User Story 5**: List of events and booking form
 
