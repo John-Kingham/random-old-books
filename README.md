@@ -36,9 +36,11 @@ There are three main user personas, one for each of the business's three main se
 #### User Story 1: A professional-looking, responsive, user-friendly interface
 
 User story
+
 - As an **Adventurous Browser**, I want to see a professional website that looks good on various screen sizes and is easy to navigate, so I'm not put off by a poor user experience.
 
 Acceptance Criteria
+
 - The website is responsive and looks good across all common screen widths.
 - The site's pages and sections are intuitively laid out and easy to navigate.
 - The site follows best practices for accessibility.
@@ -54,13 +56,12 @@ User story
 - As an **Adventurous Browser**, I want to learn about the business, its products and services, so I can decide if I'd like to visit the store.
 
 Acceptance Criteria
-- The site contains high-quality images of the store, some books, subscription boxes and events, in prominent positions and in a way that looks attractive.
+- The site contains high-quality images of the store, subscription boxes and events, in prominent positions and in a way that looks attractive.
 - The site contains enticing descriptions of the business, its bookshop, subscription service and events, which are clearly visible and easy to read on the homepage and other relevant pages.
 
 Tasks
-
-- Using the wireframes as a guide, add high-quality images to the homepage and other pages.
-- Using the wireframes as a guide, add enticing descriptions to the site.
+- Add high-quality images to the homepage and other pages.
+- Add enticing descriptions to the site in intuitive and easy to find locations.
 
 #### User Story 3: Location, opening hours and contact details
 
@@ -79,19 +80,87 @@ Tasks
 User story
 - As an **Online Surprise Seeker**, I want to be able to easily find a subscription box sign-up form, so I can subscribe immediately.
 
+Acceptance Criteria
+- The website contains a subscription box sign-up form.
+- The form is located on the subscription box page which also includes compelling images and a detailed description of the service.
 
+Tasks
+- Create a subscription box page and a form success page.
+- Add compelling images and descriptions of the subscription box service to the subscription box page.
+- Add an easy to use sign-up form to the subscription box page that takes the user to the form success page.
+- Add a thank you message and a "return to homepage" button to the form success page.
+- Add relevant validation to the form.
 
-**User Story 5**: List of events and booking form
+#### User Story 5: List of events and booking form
 
+User story
 - As a **Conversational Enthusiast**, I want to see a list of upcoming events and a booking form, so I can decide which event to attend and book my place.
 
-**User Story 6**: E-newsletter sign-up form
+Acceptance Criteria
+- The site includes a list of upcoming events in a prominent position, along with their status (seats available / fully booked).
+- The site includes an event booking form where users can book their place on events where seats are still available.
 
+Tasks
+- Add an Events page.
+- Add a list of events to the page, including the name of the speaker, a brief description and the events booking status (seats available / fully booked).
+- Add an events booking form to the page that takes the user to the form success page after submission.
+- Add relevant validation to the form.
+
+#### User Story 6: E-newsletter sign-up form
+
+User story
 - As an **Conversational Enthusiast**, I want to be able to easily subscribe to the company's free e-newsletter, so I can be kept up to date with the latest events and book my seat before they've all gone.
+
+Acceptance Criteria
+
+- Users can sign up to the e-newsletter from any page on the site.
+- The sign-up form is accessible from each page's footer.
+
+Tasks
+
+- Add a description of the newsletter to the footer of each page.
+- Add an e-newsletter sign-up button that opens a modal which contains the sign-up form.
 
 ### Site Structure (Structure Plane)
 
-To flesh out the structure of the site at a very high level, I came up with a list of sections that would fulfil all of the user stories and arranged them onto a handful of web pages, as shown in the diagram below.
+To pass all of the acceptance tests, the site needed the following sections:
+
+**User Story 1**: A professional-looking, responsive, user-friendly interface
+
+- A **Navigation** section so users can easily navigate around the site
+
+**User Story 2**: Enticing images and descriptions of the business, its products and services
+
+- A **Business Hero** section with an enticing image of the store and a good elevator pitch for the business and its services
+- A **Services** section with images and brief descriptions for each service (the store, the subscription box, the regular events)
+- A **Subscription Box Hero** section with an enticing image and description of the subscription box service.
+- An **Events Hero** section with an enticing image and description of the regular events.
+
+**User Story 3**: Location, opening hours and contact details
+
+- A **Contact Details** section where users can find all relevant contact details
+
+**User Story 4**: Subscription box subscription form
+
+- A **Subscription Box Details** section detailing the features and benefits of the service
+- A **Subscription Form** section that contains the sign-up form
+- A **Thank You** section that contains a thank-you message and a homepage button
+
+**User Story 5**: List of events and booking form
+
+- An **Events List** section containing details of upcoming events
+- An **Event Booking Form** section that contains the event booking form
+
+**User Story 6**: E-newsletter sign-up form
+
+- A **Newsletter Sign-up** section containing a description of the newsletter and a sign-up button
+
+These sections were allocated to various web pages based on their importance and the intuitive flow of information that most users would expect (e.g. putting the list of events directly above the event booking form).
+
+The resulting website structure is shown below.
+
+**TODO: This image needs updating to the latest version**
+
 ![Random Old Books Structure Diagram](assets/images/Random%20Old%20Books%20Structure%20Diagram.png)
 
 ### Wireframes (Skeleton Plane)
