@@ -6,7 +6,7 @@ The business has one physical bookshop, where it also holds regular events with 
 
 The company's unique selling proposition is that it believes in the positive power of random events and chance encounters, so it adds a dash of randomness to its customers' lives by placing books randomly on its bookshelves and by sending out a random book each month to subscription box subscribers.
 
-Todo: Include an image showing what the site looks like on various device sizes.
+**TODO: Include an image showing what the site looks like on various device sizes.**
 
 ## User Experience Design
 
@@ -35,166 +35,102 @@ There are three main user personas, one for each of the business's three main se
 
 #### User Story 1: A professional-looking, responsive, user-friendly interface
 
-User story
-
 - As an **Adventurous Browser**, I want to see a professional website that looks good on various screen sizes and is easy to navigate, so I'm not put off by a poor user experience.
-
-Acceptance Criteria
-
-- The website is responsive and looks good across all common screen widths.
-- The site's pages and sections are intuitively laid out and easy to navigate.
-- The site follows best practices for accessibility.
-
-Tasks
-- Use responsive design principles to ensure the site looks good on various device sizes.
-- Structure the site based on best practices, so that all sections are easy to navigate to.
-- Include accessibility attributes for screen readers. 
 
 #### User Story 2: Enticing images and descriptions of the business, its products and services
 
-User story
 - As an **Adventurous Browser**, I want to learn about the business, its products and services, so I can decide if I'd like to visit the store.
-
-Acceptance Criteria
-- The site contains high-quality images of the store, subscription boxes and events, in prominent positions and in a way that looks attractive.
-- The site contains enticing descriptions of the business, its bookshop, subscription service and events, which are clearly visible and easy to read on the homepage and other relevant pages.
-
-Tasks
-- Add high-quality images to the homepage and other pages.
-- Add enticing descriptions to the site in intuitive and easy to find locations.
 
 #### User Story 3: Location, opening hours and contact details
 
-User story
 - As an **Adventurous Browser**, I want to be able to easily find the store's location and opening hours, so I know where and when to visit.
-
-Acceptance Criteria
-- Each page prominently displays the store's location and opening hours.
-- Each page prominently displays the company's email and phone number.
-
-Tasks
-- On each page, add a footer containing the store's location and opening hours, and the company's email and phone number.
 
 #### User Story 4: Subscription box subscription form
 
-User story
 - As an **Online Surprise Seeker**, I want to be able to easily find a subscription box sign-up form, so I can subscribe immediately.
-
-Acceptance Criteria
-- The website contains a subscription box sign-up form.
-- The form is located on the subscription box page which also includes compelling images and a detailed description of the service.
-
-Tasks
-- Create a subscription box page and a form success page.
-- Add compelling images and descriptions of the subscription box service to the subscription box page.
-- Add an easy to use sign-up form to the subscription box page that takes the user to the form success page.
-- Add a thank you message and a "return to homepage" button to the form success page.
-- Add relevant validation to the form.
 
 #### User Story 5: List of events and booking form
 
-User story
 - As a **Conversational Enthusiast**, I want to see a list of upcoming events and a booking form, so I can decide which event to attend and book my place.
-
-Acceptance Criteria
-- The site includes a list of upcoming events in a prominent position, along with their status (seats available / fully booked).
-- The site includes an event booking form where users can book their place on events where seats are still available.
-
-Tasks
-- Add an Events page.
-- Add a list of events to the page, including the name of the speaker, a brief description and the events booking status (seats available / fully booked).
-- Add an events booking form to the page that takes the user to the form success page after submission.
-- Add relevant validation to the form.
 
 #### User Story 6: E-newsletter sign-up form
 
-User story
 - As an **Conversational Enthusiast**, I want to be able to easily subscribe to the company's free e-newsletter, so I can be kept up to date with the latest events and book my seat before they've all gone.
-
-Acceptance Criteria
-
-- Users can sign up to the e-newsletter from any page on the site.
-- The sign-up form is accessible from each page's footer.
-
-Tasks
-
-- Add a description of the newsletter to the footer of each page.
-- Add an e-newsletter sign-up button that opens a modal which contains the sign-up form.
 
 ### Site Structure (Structure Plane)
 
-To pass all of the acceptance tests, the site needed the following sections:
+To realise all of the user stories, the site has the following sections:
 
-**User Story 1**: A professional-looking, responsive, user-friendly interface
-
-- A **Navigation** section so users can easily navigate around the site
-
-**User Story 2**: Enticing images and descriptions of the business, its products and services
-
-- A **Business Hero** section with an enticing image of the store and a good elevator pitch for the business and its services
-- A **Services** section with images and brief descriptions for each service (the store, the subscription box, the regular events)
-- A **Subscription Box Hero** section with an enticing image and description of the subscription box service.
-- An **Events Hero** section with an enticing image and description of the regular events.
-
-**User Story 3**: Location, opening hours and contact details
-
-- A **Contact Details** section where users can find all relevant contact details
-
-**User Story 4**: Subscription box subscription form
-
-- A **Subscription Box Details** section detailing the features and benefits of the service
-- A **Subscription Form** section that contains the sign-up form
-- A **Thank You** section that contains a thank-you message and a homepage button
-
-**User Story 5**: List of events and booking form
-
-- An **Events List** section containing details of upcoming events
-- An **Event Booking Form** section that contains the event booking form
-
-**User Story 6**: E-newsletter sign-up form
-
-- A **Newsletter Sign-up** section containing a description of the newsletter and a sign-up button
+- A **Navigation** section so users can easily navigate around the site (user story 1).
+- A **Business Hero** section with an enticing image of the store and a good elevator pitch for the business and its services (user story 2).
+- A **Why Random** section that explains why users should read (and buy) random books.
+- A **Services** section with images and brief descriptions for each of the company's three services (user story 2).
+- A **Subscription Box Hero** section with an enticing image and description of the subscription box service (user story 2).
+- An **Events Hero** section with an enticing image and summary of the events (user story 2).
+- A **Contact Details** section where users can find all relevant contact details (user story 3).
+- A **Subscription Box Details** section detailing the features and benefits of the service (user story 4).
+- A **Subscription Form** section that contains the sign-up form (user story 4).
+- A **Thank You** section that contains a thank-you message and a homepage button (user story 4).
+- An **Events List** section containing details of upcoming events (user story 5).
+- An **Event Booking Form** section that contains the event booking form (user story 5).
+- A **Newsletter Sign-up** section containing a description of the newsletter and a sign-up button (user story 6).
 
 These sections were allocated to various web pages based on their importance and the intuitive flow of information that most users would expect (e.g. putting the list of events directly above the event booking form).
 
 The resulting website structure is shown below.
 
-**TODO: This image needs updating to the latest version**
-
 ![Random Old Books Structure Diagram](assets/images/Random%20Old%20Books%20Structure%20Diagram.png)
 
 ### Wireframes (Skeleton Plane)
 
-After laying out the site's structure, I used [Wireframe.cc](https://www.wireframe.cc) to build laptop, tablet and mobile wireframes for each page. Click on the links below to see an image of each wireframe.
 
-- Home
+Wireframe software: [Wireframe.cc](https://www.wireframe.cc)
+
+Click on the links below to see an image of each wireframe.
+
+- Homepage
   - [Laptop](assets/docs/1-Home-Laptop.png)
   - [Tablet](assets/docs/2-Home-Tablet.png)
   - [Mobile](assets/docs/3-Home-Mobile.png)
-- Subscription box
+- Subscription box page
   - [Laptop](assets/docs/4-Subscription-Box-Laptop.png)
   - [Tablet](assets/docs/5-Subscription-Box-Tablet.png)
   - [Mobile](assets/docs/6-Subscription-Box-Mobile.png)
-- Events
+- Events page
   - [Laptop](assets/docs/7-Events-Laptop.png)
   - [Tablet](assets/docs/8-Events-Tablet.png)
   - [Mobile](assets/docs/9-Events-Mobile.png)
-- Form success
+- Form Success page
   - [Laptop](assets/docs/10-Success-Laptop.png)
   - [Tablet](assets/docs/11-Success-Tablet.png)
   - [Mobile](assets/docs/12-Success-Mobile.png)
 
 ### Colour Palette, Fonts, Images and Content (Surface Plane)
 
-- Colour palette:
-  - To be decided when the first page is built. 
-  - Probably from: https://craigandrose.com/collections/vintage-styles-art-deco
-- Fonts (Google Fonts)
-  - https://fonts.google.com/
-  - To be decided.
-- Images
-  - To be decided.
-  - Probably: https://unsplash.com/
+#### Colour palette
+
+I wanted a fairly old-fashioned colour scheme for the site so I did a web search for "art deco colours". After looking at several sites I decided to use some of the colours from this site:
+
+- https://craigandrose.com/collections/vintage-styles-art-deco
+
+Specifically, I used the following colours:
+
+- #567a79 (a dark green) as the primary background colour
+- #504746 (a dark brown) as the second background colour
+- #FFFFFF (white) as the light text colour on dark backgrounds
+
+Initially I used a cream colour for the light text colour, but the contrast was too low, so I switched to pure white.
+
+#### Custom fonts
+
+I used two custom fonts from [Google Fonts](https://fonts.google.com/):
+
+- Headings: [Limelight](https://fonts.google.com/specimen/Limelight) (as it has a vintage feel and contrasts strongly with the body font)
+- Body text: [Quicksand](https://fonts.google.com/specimen/Quicksand) (as it's a clean san serif font that should be easy to read on screens)
+
+#### Images
+
+**TODO: Images are still being added, but so far they're all from https://unsplash.com/**
 
 ## Features 
 
