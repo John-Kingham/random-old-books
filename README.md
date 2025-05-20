@@ -109,24 +109,24 @@ Click on the links below to see an image of each wireframe.
 
 #### Colour palette
 
-I wanted a fairly old-fashioned colour scheme for the site so I did a web search for "art deco colours". After looking at several sites I decided to use some of the colours from this site:
+The site has a "vintage" colour scheme based on colours from this site:
 
 - https://craigandrose.com/collections/vintage-styles-art-deco
 
-Specifically, I used the following colours:
+Specifically, the site uses the following colours:
 
 - #567a79 (a dark green) as the primary background colour
 - #504746 (a dark brown) as the second background colour
 - #FFFFFF (white) as the light text colour on dark backgrounds
 
-Initially I used a cream colour for the light text colour, but the contrast was too low, so I switched to pure white.
+Initially the light text colour was cream, but the contrast was too low, so I switched it to pure white.
 
 #### Custom fonts
 
-I used two custom fonts from [Google Fonts](https://fonts.google.com/):
+THe site uses two custom fonts from [Google Fonts](https://fonts.google.com/):
 
-- Headings: [Limelight](https://fonts.google.com/specimen/Limelight) (as it has a vintage feel and contrasts strongly with the body font)
-- Body text: [Quicksand](https://fonts.google.com/specimen/Quicksand) (as it's a clean san serif font that should be easy to read on screens)
+- Headings: [Limelight](https://fonts.google.com/specimen/Limelight) (a vintage font that contrasts strongly with the body font)
+- Body text: [Quicksand](https://fonts.google.com/specimen/Quicksand) (a clean san serif font that should be easy to read on screens)
 
 #### Images
 
