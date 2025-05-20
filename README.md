@@ -114,8 +114,6 @@ The site uses the following "vintage" colours, which suit the company's position
 - #504746 (a dark brown) as the second background colour
 - #FFFFFF (white) as the light text colour on dark backgrounds
 
-Initially the light text colour was cream, but the contrast was too low, so I switched it to pure white.
-
 #### Custom fonts
 
 THe site uses two custom fonts from [Google Fonts](https://fonts.google.com/):
@@ -177,6 +175,14 @@ TODO: Add an image here when the Services section is complete
 ## Testing 
 
 ### Validator Testing 
+
+#### HTML Validation
+
+#### CSS Validation
+
+#### Contrast Checker
+
+Initially the light text colour was cream, but the contrast was too low to pass the Contrast Checker's tests, so I switched it to pure white.
 
 ### Unfixed Bugs
 
