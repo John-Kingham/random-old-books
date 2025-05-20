@@ -174,6 +174,8 @@ TODO: Add an image here when the Services section is complete
 
 ## Testing 
 
+TODO: Add aria accessibility testing
+
 ### Validator Testing 
 
 #### HTML Validation
