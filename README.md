@@ -79,7 +79,7 @@ These sections were allocated to various web pages based on their importance and
 
 The resulting website structure is shown below.
 
-![Random Old Books Structure Diagram](assets/images/Random%20Old%20Books%20Structure%20Diagram.png)
+![Random Old Books Structure Diagram](assets/images/random-old-books-structure-diagram.png)
 
 ### Wireframes (Skeleton Plane)
 
