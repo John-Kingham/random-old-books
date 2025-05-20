@@ -62,8 +62,8 @@ There are three main user personas, one for each of the business's three main se
 To realise all of the user stories, the site has the following sections:
 
 - A **Navigation** section so users can easily navigate around the site (user story 1).
-- A **Business Hero** section with an enticing image of the store and a good elevator pitch for the business and its services (user story 2).
-- A **Why Random** section that explains why users should read (and buy) random books.
+- A **Homepage Hero** section with an enticing image of the store and a good elevator pitch for the business and its services (user story 2).
+- A **Why Random** section that explains why users should read (and buy) random books (user story 2).
 - A **Services** section with images and brief descriptions for each of the company's three services (user story 2).
 - A **Subscription Box Hero** section with an enticing image and description of the subscription box service (user story 2).
 - An **Events Hero** section with an enticing image and summary of the events (user story 2).
@@ -82,7 +82,6 @@ The resulting website structure is shown below.
 ![Random Old Books Structure Diagram](assets/images/Random%20Old%20Books%20Structure%20Diagram.png)
 
 ### Wireframes (Skeleton Plane)
-
 
 Wireframe software: [Wireframe.cc](https://www.wireframe.cc)
 
@@ -109,11 +108,7 @@ Click on the links below to see an image of each wireframe.
 
 #### Colour palette
 
-The site has a "vintage" colour scheme based on colours from this site:
-
-- https://craigandrose.com/collections/vintage-styles-art-deco
-
-Specifically, the site uses the following colours:
+The site uses the following "vintage" colours, which suit the company's position as a seller of old and vintage books:
 
 - #567a79 (a dark green) as the primary background colour
 - #504746 (a dark brown) as the second background colour
@@ -132,9 +127,50 @@ THe site uses two custom fonts from [Google Fonts](https://fonts.google.com/):
 
 **TODO: Images are still being added, but so far they're all from https://unsplash.com/**
 
-## Features 
+## Features
 
 ### Existing Features
+
+#### Navigation bar
+
+**TODO: Add an image when all nav links are in place**
+
+#### Homepage Hero section
+
+- The homepage includes an above-the-fold section with an enticing image from inside the store and an elevator pitch for the idea of reading reading random old books. 
+- This supports the implementation of user story 2 and is useful to users as it helps them understand what the site is about as well as why they should continue scrolling down the page.
+
+![Homepage Hero section](/assets/images/homepage-hero-for-readme.png)
+
+#### Homepage Why Random section
+
+- The homepage includes a section with an engaging and emotive explanation of why the user should read random old books (preferably purchased from the Random Old Books website).
+- This supports the implementation of user story 2 and is useful to users because it gives them a deeper understanding of the value of reading random old books.
+
+![Homepage Why Random section](/assets/images/homepage-why-random-for-readme.png)
+
+#### Homepage Services section
+
+- The homepage includes a section with enticing images and descriptions of the business's three core services. 
+- This supports the implementation of user story 2 and is useful to users because it helps them understand the valuable services offered by the business.
+
+TODO: Add an image here when the Services section is complete
+
+#### Subscription Box Hero section
+
+#### Subscription Box Details section
+
+#### Subscription Form section
+
+#### Events Hero section
+
+#### Events List section
+
+#### Event Booking Form section
+
+#### Contact Details section
+
+#### Newsletter Sign-up section
 
 ### Features Left to Implement
 
@@ -146,24 +182,41 @@ THe site uses two custom fonts from [Google Fonts](https://fonts.google.com/):
 
 ## Deployment
 
+The site has been deployed to GitHub Pages using the following procedure:
+
+1. In the GitHub repository, navigate to Settings / Pages
+2. Under the Build and deployment heading, select the Main branch and click Save
+3. Wait a few minutes for the site to be deployed (refresh the page to check)
+
+The live link can be found here:
+
+- https://john-kingham.github.io/random-old-books/
+
 ## Credits 
 
 ### Content 
 
 - README.md
   - I used [Code Institute's README.md template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) as the starting point for this document.
-  - I also referenced Code Institute's *Creating a README* slide deck.
+  - I referenced Code Institute's *Creating a README* slide deck.
 - User Experience Design
   - I read [The Elements of User Experience](http://www.jjg.net/elements/) and used it to guide me through the user experience design phase.
 - User Personas
   - I used Microsoft Co-Pilot to help me develop the user personas.
-- Colour palette
-  - Used https://imagecolorpicker.com/ to extract hex colours from images.
-  - Used https://webaim.org/resources/contrastchecker/ to adjust foreground and background colours until a sufficient contrast was achieved to pass all checks.
+- Colour Palette
+  - The colour scheme was inspired by the colours on this webpage: https://craigandrose.com/collections/vintage-styles-art-deco. I used https://imagecolorpicker.com/ to extract hex colours from a screenshot of that page.
 - Favicon
-  - Used https://gauger.io/fonticon/ to create a favicon image from an icon.
-  - Used https://favicon.io/ to convert the favicon into multiple favicon formats.
-  - Converted hex to RGB using https://www.rgbtohex.net/hex-to-rgb/.
+  - I used https://gauger.io/fonticon/ to create a favicon image from an icon.
+  - I used https://favicon.io/ to convert the favicon into multiple favicon formats.
+  - I converted hex colours to RGB using https://www.rgbtohex.net/hex-to-rgb/.
+- Fonts
+  - I used fonts from Google Fonts: https://fonts.google.com/
+- Icons
+  - I used Font Awesome for icons: https://fontawesome.com/
+- HTML and CSS
+  - I used Bootstrap to simplify the implementation process: https://getbootstrap.com/
 
 ### Media
+
+- Images were downloaded from https://unsplash.com/, which offers free images that can be used for private or commercial purposes without attribution.
 
