@@ -105,6 +105,17 @@ main h2 {
     border-bottom: double var(--secondary-color);
 }
 
+.custom-card {
+    box-shadow: 3px 3px 3px 1px lightgrey;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.custom-card-title {
+    font-size: 1.25rem;
+}
+
 /* Why Random section styles */
 
 #why-random {
@@ -118,19 +129,6 @@ main h2 {
 #why-random i {
     margin-right: 1rem;
     color: var(--primary-color);
-}
-
-/* Services section styles */
-
-.services-card {
-    box-shadow: 3px 3px 3px 1px lightgrey;
-    padding: 0;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.services-card-title {
-    font-size: 1.25rem;
 }
 
 /* Footer styles */
