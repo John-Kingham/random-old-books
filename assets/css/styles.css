@@ -33,7 +33,7 @@ h3 {
 }
 
 .custom-btn:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color-transparent);
     color: var(--contrast-color);
     font-weight: bold;
 }
@@ -165,6 +165,7 @@ main h2 {
 
 .fully-booked {
     text-decoration: line-through;
+    text-decoration-thickness: 2px;
 }
 
 /* Footer styles */
