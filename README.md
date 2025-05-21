@@ -224,6 +224,7 @@ The live link can be found here:
   - I learned how to use Font Awesome icons in unordered lists from: https://docs.fontawesome.com/web/style/lists  
 - HTML and CSS
   - I used Bootstrap to simplify the implementation process: https://getbootstrap.com/
+  - I learned about CSS box shadows at: https://www.w3schools.com/css/css3_shadows_box.asp 
 
 ### Media
 
