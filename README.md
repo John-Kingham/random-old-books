@@ -6,7 +6,7 @@ The business has one physical bookshop, where it also holds regular events with 
 
 The company's unique selling proposition is that it believes in the positive power of random events and chance encounters, so it adds a dash of randomness to its customers' lives by placing books randomly on its bookshelves and by sending out a random book each month to subscription box subscribers.
 
-**TODO: Include an image showing what the site looks like on various device sizes.**
+![An image of the Random Old Books website on various screen sizes](/assets/images/readme-site-responsiveness.png)
 
 ## User Experience Design
 
@@ -14,22 +14,22 @@ The company's unique selling proposition is that it believes in the positive pow
 
 The backstory is that the Random Old Books business is struggling to remain viable as it doesn't have enough customers and its existing customers don't make enough repeat purchases. To help fix this problem, the manager wanted a new website to be developed with the following goals:
 
-1. Raise awareness of the business and its services (a vintage bookstore, a subscription service and regular events)
-2. Maintain the company's relatively understated branding
-3. Make it easy for users to find and contact the store
-4. Inform users about upcoming events and make it easy for them to book events
-5. Inform users about the subscription box service and make it easy for them to sign up for a trial
-6. Make it easy for users to subscribe to the company's free monthly e-newsletter, which promotes the store, upcoming events and the subscription box service
+1. Raise awareness of the business and its services (a vintage bookstore, a subscription service and regular events).
+2. Maintain the company's relatively understated branding.
+3. Make it easy for users to find and contact the store.
+4. Inform users about upcoming events and make it easy for them to book events.
+5. Inform users about the subscription box service and make it easy for them to sign up for a trial.
+6. Make it easy for users to subscribe to the company's free monthly e-newsletter.
 
 ### User Personas (Strategy Plane)
 
 There are three main user personas, one for each of the business's three main services (bookstore, subscription box, events):
 
-**The Adventurous Browser**: Loves the thrill of unpredictability. Often buys books from authors they've never heard of, accepting whatever fate hands them.
+**The Adventurous Browser**: Loves the thrill of browsing through stores, hoping to discover the unexpected. Often buys books from authors they've never heard of, accepting whatever fate hands them.
 
 **The Online Surprise Seeker**: Prefers reading experiences where every month brings a surprise. Embraces the challenge of reading whatever book they get, treating it as an opportunity to experience new things.
 
-**The Conversational Enthusiast**: Values engaging discussions more than just the books themselves. Enjoys interacting with authors and readers, asking thought-provoking questions, and participating in lively debates.
+**The Conversational Enthusiast**: Values engaging discussions more than just the books themselves. Enjoys interacting with authors and other readers, asking thought-provoking questions and participating in lively debates.
 
 ### User Stories (Scope Plane)
 
@@ -108,7 +108,7 @@ Click on the links below to see an image of each wireframe.
 
 #### Colour palette
 
-The site uses the following "vintage" colours, which suit the company's position as a seller of old and vintage books:
+The site uses the following "vintage" colours, which suit the company's position as a seller of old books:
 
 - #567a79 (a dark green) as the primary background colour
 - #504746 (a dark brown) as the second background colour
@@ -207,6 +207,7 @@ The live link can be found here:
 - README.md
   - I used [Code Institute's README.md template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) as the starting point for this document.
   - I referenced Code Institute's *Creating a README* slide deck.
+  - I used https://ui.dev/amiresponsive to generate the multi-screen image shown at the start of the README.
 - User Experience Design
   - I read [The Elements of User Experience](http://www.jjg.net/elements/) and used it to guide me through the user experience design phase.
 - User Personas

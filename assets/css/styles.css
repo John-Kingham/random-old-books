@@ -10,6 +10,7 @@
     --primary-color-transparent: rgba(86, 122, 121, 0.9);
     --secondary-color: #504746;
     --contrast-color: white;
+    --contrast-color-transparent: rgba(255, 255, 255, 0.8);
 }
 
 /* Global styles */
@@ -195,6 +196,10 @@ main h2 {
 #socials i {
     margin: 2rem 1rem 0 1rem;
     font-size: 1.5rem;
+}
+
+footer i:hover {
+    color: var(--contrast-color-transparent);
 }
 
 /* Media queries for responsive styles */
