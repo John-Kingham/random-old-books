@@ -153,6 +153,19 @@ main h2 {
     margin-bottom: 0.5rem;
 }
 
+/* Events List styles */
+
+.custom-table {
+    border: 1px solid lightgrey;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 3px 3px 3px 1px lightgrey;
+}
+
+.fully-booked {
+    text-decoration: line-through;
+}
+
 /* Footer styles */
 
 #contact-details {
