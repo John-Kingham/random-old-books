@@ -221,6 +221,7 @@ The live link can be found here:
   - I used fonts from Google Fonts: https://fonts.google.com/
 - Icons
   - I used Font Awesome for icons: https://fontawesome.com/
+  - I learned how to use Font Awesome icons in unordered lists from: https://docs.fontawesome.com/web/style/lists  
 - HTML and CSS
   - I used Bootstrap to simplify the implementation process: https://getbootstrap.com/
 
