@@ -76,6 +76,11 @@ h3 {
         center center/cover;
 }
 
+#events-hero {
+    background: url(../images/event-hero-background.jpg) no-repeat center
+        center/cover;
+}
+
 header > div {
     height: 500px;
     color: var(--contrast-color);
