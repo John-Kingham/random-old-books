@@ -136,6 +136,12 @@
                                     <td>18/09/25</td>
                                     <td>42</td>
                                 </tr>
+                                <tr>
+                                    <th scope="row">Claire Kingham</th>
+                                    <td>Catch-23</td>
+                                    <td>27/09/25</td>
+                                    <td>9</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -184,15 +190,42 @@
                                     />
                                 </div>
                                 <div class="col-12 col-lg-6 mb-3">
-                                    <label for="password" class="form-label"
-                                        >Password</label
+                                    <label for="event" class="form-label"
+                                        >Event</label
                                     >
-                                    <input
-                                        type="password"
-                                        class="form-control"
-                                        id="password"
+                                    <select
+                                        name="event"
+                                        class="form-select"
+                                        aria-label="Default select example"
                                         required
-                                    />
+                                    >
+                                        <option value="" selected>
+                                            Choose an author
+                                        </option>
+                                        <option value="123">Joe Bloggs</option>
+                                        <option value="124">Alan McAdam</option>
+                                        <option value="125">Claire Kingham</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-lg-6 mb-3">
+                                    <label for="seats" class="form-label"
+                                        >Seats</label
+                                    >
+                                    <select
+                                        name="seats"
+                                        class="form-select"
+                                        aria-label="Default select example"
+                                        required
+                                    >
+                                        <option value="" selected>
+                                            Choose how many seats
+                                        </option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
                                 </div>
                             </div>
                             <button type="submit" class="btn custom-btn">

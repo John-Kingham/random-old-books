@@ -29,6 +29,7 @@ h3 {
     color: var(--contrast-color);
     font-weight: bold;
     padding: 1rem 2rem;
+    margin-top: 1rem;
 }
 
 .custom-btn:hover {
