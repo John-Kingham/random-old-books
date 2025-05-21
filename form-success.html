@@ -116,6 +116,21 @@
                         Wed (9am - Noon)<br />
                         Sun (Closed)
                     </div>
+                    <div class="col-12 col-lg-4">
+                        <h3>Free Newsletter</h3>
+                        <p>
+                            Subscribe to our free monthly newsletter to get the
+                            latest updates on new stock and new events.
+                        </p>
+                        <button
+                            type="button"
+                            class="btn custom-btn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#newsletter-modal"
+                        >
+                            Subscribe
+                        </button>
+                    </div>
                     <!-- Social media links -->
                     <div
                         id="socials"
@@ -134,6 +149,66 @@
                 </div>
             </section>
         </footer>
+        <!-- Modal for newsletter form -->
+        <div
+            class="modal fade"
+            id="newsletter-modal"
+            tabindex="-1"
+            aria-labelledby="ModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ModalLabel">
+                            Join our Newsletter
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Join hundreds of other readers and get the latest
+                            updates on new stock and new events, straight to
+                            your inbox every month.
+                        </p>
+                        <form method="GET" action="form-success.html">
+                            <div class="mb-3">
+                                <label for="first-name" class="form-label"
+                                    >First name</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="first-name"
+                                    name="first-name"
+                                    required
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label"
+                                    >Email address</label
+                                >
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    name="email"
+                                    required
+                                />
+                            </div>
+                            <button type="submit" class="btn custom-btn">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Bootstrap JS script -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
