@@ -249,11 +249,63 @@ You can see all of the site's images in the features section below.
 
 No features from the project backlog were left unimplemented.
 
-## Testing 
+## Testing
 
-TODO: Add aria accessibility testing
+### Functionality
 
-### Validator Testing 
+#### Links
+
+- Homepage
+  - Navigation: All links working
+  - Services: All links working
+  - Footer: Social media links open correctly in new tabs and newsletter subscription button correctly opens modal
+- Subscription Box page
+  - Navigation: All links working
+  - Footer: Social media links open correctly in new tabs and newsletter subscription button correctly opens modal
+- Events page
+  - Navigation: All links working
+  - Footer: Social media links open correctly in new tabs and newsletter subscription button correctly opens modal
+- Form Success page
+  - Navigation: All links working
+  - Thank-you section: Button works
+  - Footer: Social media links open correctly in new tabs and newsletter subscription button correctly opens modal
+
+#### Forms
+
+- Subscription Box form
+  - Validation works for all fields
+  - Redirects to Form Success page after submission
+  - Field values correctly posted upon submission (in URL of Form Success page)
+- Event form
+  - Validation works for all fields
+  - Redirects to Form Success page after submission
+  - Field values correctly posted upon submission (in URL of Form Success page)
+- Newsletter modal form (launched from footer)
+  - From Homepage
+    - Validation works for all fields
+    - Redirects to Form Success page after submission
+    - Field values correctly posted upon submission (in URL of Form Success page)
+  - From Subscription Box page
+    - Validation works for all fields
+    - Redirects to Form Success page after submission
+    - Field values correctly posted upon submission (in URL of Form Success page)
+  - From Events page
+    - Validation works for all fields
+    - Redirects to Form Success page after submission
+    - Field values correctly posted upon submission (in URL of Form Success page)
+  - From Form Success page
+    - Validation works for all fields
+    - Redirects to Form Success page after submission
+    - Field values correctly posted upon submission (in URL of Form Success page)
+
+### Browsers and Responsiveness
+
+I tested the website across various screen sizes on Chrome, Edge and Firefox, as these are popular browsers.
+
+
+
+
+### Validators 
 
 #### HTML Validation
 
@@ -262,6 +314,12 @@ TODO: Add aria accessibility testing
 #### Contrast Checker
 
 Initially the light text colour was cream, but the contrast was too low to pass the Contrast Checker's tests, so I switched it to pure white.
+
+### Fixed Bugs
+
+Most bugs were fixed during the development process.
+
+During testing, I noticed that the subscription box form's password value wasn't appearing in the Form Success page's URL. I checked the code and found that I hadn't given the password input a name, so I gave it a name and that fixed the defect.
 
 ### Unfixed Bugs
 
