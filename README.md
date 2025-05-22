@@ -6,7 +6,7 @@ The business has one physical bookshop, where it also holds regular events with 
 
 The company's unique selling proposition is that it believes in the positive power of random events and chance encounters, so it adds a dash of randomness to its customers' lives by placing books randomly on its bookshelves and by sending out a random book each month to subscription box subscribers.
 
-![An image of the Random Old Books website on various screen sizes](/assets/images/readme-site-responsiveness.png)
+![An image of the Random Old Books website on various screen sizes](assets/images/readme-site-responsiveness.png)
 
 ## User Experience Design
 
@@ -77,13 +77,13 @@ To realise all of the user stories, the site has the following sections:
 
 These sections were allocated to various web pages based on their importance and the intuitive flow of information that most users would expect (e.g. putting the list of events directly above the event booking form).
 
-The resulting website structure is shown below.
+The resulting structure is shown below.
 
 ![Random Old Books Structure Diagram](assets/images/random-old-books-structure-diagram.png)
 
 ### Wireframes (Skeleton Plane)
 
-Wireframe software: [Wireframe.cc](https://www.wireframe.cc)
+Wireframes were developed for each page to add additional detail before moving to the surface design and implementation phases.
 
 Click on the links below to see an image of each wireframe.
 
@@ -112,47 +112,63 @@ The site uses the following "vintage" colours, which suit the company's position
 
 - #567a79 (a dark green) as the primary background colour
 - #504746 (a dark brown) as the second background colour
-- #FFFFFF (white) as the light text colour on dark backgrounds
+- #FFFFFF (white) as the contrast colour for text on dark backgrounds
 
 #### Custom fonts
 
 THe site uses two custom fonts from [Google Fonts](https://fonts.google.com/):
 
 - Headings: [Limelight](https://fonts.google.com/specimen/Limelight) (a vintage font that contrasts strongly with the body font)
-- Body text: [Quicksand](https://fonts.google.com/specimen/Quicksand) (a clean san serif font that should be easy to read on screens)
+- Body text: [Quicksand](https://fonts.google.com/specimen/Quicksand) (a san serif font that should be easy to read on screens)
 
 #### Images
 
-**TODO: Images are still being added, but so far they're all from https://unsplash.com/**
+Images were chosen to fit in with the site's colour palette and to fulfil the user stories (for example, an image from within a bookstore or an image of someone speaking at an event).
+
+You can see all of the site's images in the features section below.
 
 ## Features
 
 ### Existing Features
 
-#### Navigation bar
+#### Navigation
 
-**TODO: Add an image when all nav links are in place**
+- A logo (essentially the company's name: Random Old Books) and a navigation menu are shown at the top of each page.
+- The logo links to the home page.
+- The navigation menu contains links to all of the site's pages: Home, Subscription Box, Events.
+- The logo uses the heading font (Limelight) and the other links use the body font (Quicksand).
+- The navigation bar's background is the same green as used throughout the rest of the site, as this helps to give the site a consistent "vintage" look and feel.
+- Text is in white as this provides a sufficient degree of contrast.
+- The navigation bar gives users an immediate idea of what they'll find on this website.
+
+![An image of the navigation bar](assets/images/readme-navigation-bar.png)
 
 #### Homepage Hero section
 
-- The homepage includes an above-the-fold section with an enticing image from inside the store and an elevator pitch for the idea of reading reading random old books. 
-- This supports the implementation of user story 2 and is useful to users as it helps them understand what the site is about as well as why they should continue scrolling down the page.
+- The homepage Hero section shows a large and enticing image from inside a bookstore, along with a heading and elevator pitch selling the benefits of reading reading random old books.
+- The text in this section is shown against a transparent background that uses the site's primary green colour. Text is in white to provide a clear contrast.
+- This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it introduces them to the benefits of reading random old books.
 
-![Homepage Hero section](/assets/images/homepage-hero-for-readme.png)
+![Homepage Hero section](assets/images/readme-homepage-hero.png)
 
-#### Homepage Why Random section
+#### Homepage Why-Random section
 
-- The homepage includes a section with an engaging and emotive explanation of why the user should read random old books (preferably purchased from the Random Old Books website).
-- This supports the implementation of user story 2 and is useful to users because it gives them a deeper understanding of the value of reading random old books.
+- The homepage Why-Random section contains an engaging and emotive explanation of why the user should read random old books.
+- The text is broken down into an overall summary of the benefits of reading random old books, followed by three sub-points that cover specific aspects in more detail.
+- Each of the three sub-points has a heading and a relevant icon.
+- This section further supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it gives them a deeper understanding of the benefits of reading random old books.
 
-![Homepage Why Random section](/assets/images/homepage-why-random-for-readme.png)
+![Homepage Why Random section](assets/images/readme-homepage-why-random.png)
 
 #### Homepage Services section
 
-- The homepage includes a section with enticing images and descriptions of the business's three core services. 
-- This supports the implementation of user story 2 and is useful to users because it helps them understand the valuable services offered by the business.
+- The homepage Services section contains three cards, one for each of the company's three core services (Bookshop, Subscription Box, Events).
+- Each card has an image that fits in with the colour scheme and of the site and is relevant to the related service. Each card also has a heading, using the site's heading font, and a brief descriptive paragraph of text.
+- Each card also has a button which links to relevant content (the Contact Details in the footer, the Subscription Box page and the Events page).
+- The background in this section is white, so text is in black to provide a high degree of contrast.
+- This section also supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it helps them understand the specific services offered by the business.
 
-TODO: Add an image here when the Services section is complete
+![An image of the Services section](assets/images/readme-homepage-services.png)
 
 #### Subscription Box Hero section
 
@@ -212,6 +228,8 @@ The live link can be found here:
   - I read [The Elements of User Experience](http://www.jjg.net/elements/) and used it to guide me through the user experience design phase.
 - User Personas
   - I used Microsoft Co-Pilot to help me develop the user personas.
+- Wireframes
+  - Wireframes were built using [Wireframe.cc](https://www.wireframe.cc).
 - Colour Palette
   - The colour scheme was inspired by the colours on this webpage: https://craigandrose.com/collections/vintage-styles-art-deco. I used https://imagecolorpicker.com/ to extract hex colours from a screenshot of that page.
 - Favicon
