@@ -300,15 +300,30 @@ No features from the project backlog were left unimplemented.
 
 ### Browsers and Responsiveness
 
-I tested the website across various screen sizes on Chrome, Edge and Firefox, as these are popular browsers.
+I tested the website across a wide range of device sizes on Chrome, Edge and Firefox, as these are popular browsers.
 
+All pages have some sections that are responsive, most of which follow the relevant wireframe layouts on small, medium and large screens. The wireframe layouts were used as guides, not commandments, so there are some very minor differences between the wireframes and the final implementations.
 
+In all cases, the differences exist for aesthetic reasons (what looked good in a wireframe didn't always look good on the website) and during testing I found no issues with the responsive design as these had all been picked up and resolved during development.
 
+For example, the icons in the Homepage Why-Random section are not displayed on small screens, to avoid the section looking too "busy". And in the Subscription Box Details section, I had to use a minimum height on one of the cards so that all cards were the same height across all screen sizes.
 
 ### Validators 
 
 #### HTML Validation
 
+Validator: https://validator.w3.org/ 
+
+- index.html
+  - No errors
+  - No warnings
+  - 21 info messages: "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"
+    - Trailing slashes are inserted by the Prettier code formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leaves these trailing slashes in place, even though they are no longer considered best practice.
+
+- subscription-box.html
+  - 2 errors: "Duplicate ID"
+    - The subscription box and newsletter modal forms both have fields with IDs "first-name" and "email". **TODO: Fix this by giving the forms an ID and their fields ID with a prefix to make them unique**.
+  - 1 warning: "Section lacks heading" **TODO - FIX!**
 #### CSS Validation
 
 #### Contrast Checker
