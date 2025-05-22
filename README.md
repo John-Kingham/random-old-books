@@ -156,6 +156,7 @@ You can see all of the site's images in the features section below.
 - The homepage Why-Random section contains an engaging and emotive explanation of why the user should read random old books.
 - The text is broken down into an overall summary of the benefits of reading random old books, followed by three sub-points that cover specific aspects in more detail.
 - Each of the three sub-points has a heading and a relevant icon.
+- The background in this section is white, so text is in black to provide a high degree of contrast.
 - This section further supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it gives them a deeper understanding of the benefits of reading random old books.
 
 ![Homepage Why Random section](assets/images/readme-homepage-why-random.png)
@@ -164,29 +165,89 @@ You can see all of the site's images in the features section below.
 
 - The homepage Services section contains three cards, one for each of the company's three core services (Bookshop, Subscription Box, Events).
 - Each card has an image that fits in with the colour scheme and of the site and is relevant to the related service. Each card also has a heading, using the site's heading font, and a brief descriptive paragraph of text.
-- Each card also has a button which links to relevant content (the Contact Details in the footer, the Subscription Box page and the Events page).
+- Each card also has a button which links to relevant content (the Contact Details in the footer, the Subscription Box page and the Events page). Buttons use the site's primary green colour with white text, to make them both stand out and fit in with the overall visual style of the site.
 - The background in this section is white, so text is in black to provide a high degree of contrast.
-- This section also supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it helps them understand the specific services offered by the business.
+- This section also supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it helps them understand the specific services offered by the business, and provides them with a button to access those services.
 
 ![An image of the Services section](assets/images/readme-homepage-services.png)
 
+#### Contact Details and Newsletter Sign-up sections
+
+- Each page has an identical footer, which contains the Contact Details section and the Newsletter Sign-up section. 
+- This section uses the site's secondary brown colour for its background, to differentiate it from the header and main sections of the page. Text is in white to give provide sufficient contrast.
+- The Contact Details supports user story 3 (location, opening hours and contact details) by providing the store's address, opening hours, phone number and email.
+- The Newsletter Sign-up section supports user story 6 (newsletter sign-up form) as it contains a subscribe button which opens a modal subscription form.
+- The footer also contains social media icons and links, which further supports user story 3.
+
+![An image of the site's footer](assets/images/readme-footer.png)
+
 #### Subscription Box Hero section
+
+- The Subscription Box page includes a Hero section with an enticing image and description of the service.
+- The text in this section uses the same style as the homepage Hero section, with white text on a transparent green background.
+- This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It's useful to users because it helps them begin to understand what the subscription box service is about.
+
+![An image of the Subscription Box Hero section](assets/images/readme-subscription-box-hero.png)
 
 #### Subscription Box Details section
 
+- The Subscription Box Details section includes a description of the subscription box service's features and benefits.
+- The section includes three cards, each with an icon, heading and descriptive paragraph, which explain the main benefits of the service.
+- Below the cards is a list of features that are relevant to prospective subscribers.
+- This section has a white background, so the text is black to provide a high degree of contrast.
+- This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services) as it contains a detailed description of the subscription box service. It is useful to users because it gives them a detailed understanding of what they can expect if they subscribe.
+
+![An image of the Subscription Box Details section](assets/images/readme-subscription-box-details.png)
+
 #### Subscription Form section
+
+- The Subscription Form section contains a subscription form where users can subscribe to a free trial of the subscription box service.
+- The form includes fields for first name, last name, email and password, and uses relevant validation for each field.
+- The form includes a subscription button that is consistent in terms of style with other buttons on the site (green background, white text, with a slight change of transparency on hover).
+- When submitted, the user is taken to the Form Success page.
+- This section implements user story 4 (subscription box subscription form). It is useful to users because it allows them to immediately sign up for the subscription box service.
+
+![An image of the Subscription Box form](assets/images/readme-subscription-box-form.png)
 
 #### Events Hero section
 
+- The Events Hero section uses the same styling as the other Hero sections, with an engaging background image and white text over a transparent green background.
+- This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It's useful to users because it helps them begin to understand what type of events the business holds.
+
+![An image of the Events Hero section](assets/images/readme-events-hero.png)
+
 #### Events List section
+
+- The Events List section contains a list of upcoming events within a table.
+- The table has a visible border, a shadow effect and alternate row colouring to help it stand out on the page.
+- The table includes the speaking author's name, their most famous book, the event date and the number of seats remaining.
+- Events that are sold out are still shown to help users understand the range of events held, but the details have a line drawn through them to show that the event can no longer be booked.
+- This section supports the implementation of user story 5 (list of events and booking form). It is useful to users as it shows them the type of events held and which events they can book.
+
+![An image of the Events List table](assets/images/readme-events-list.png)
 
 #### Event Booking Form section
 
-#### Contact Details section
+- The Events page contains a form so users can book events online.
+- The form includes fields for first name, last name, email address, event and number of seats. Each field has relevant validation.
+- Users can only select from events that are not fully booked.
+- The form's style is identical to the subscription box form, with a button that conforms to the button style used across the site.
+- When the form is submitted, the user is sent to the Form Success page.
+- This section supports the implementation of user story 5 (list of events and booking form). It's useful to users because it enables them to book events online.
 
-#### Newsletter Sign-up section
+![An image of the Event form](assets/images/readme-events-form.png)
+
+#### Form Success Thank You section
+
+- The Form Success page contains a simple thank-you heading and message, along with a button directing the user back to the homepage.
+- The section has no background image so the user is motivated to explore the more interesting parts of the site, and the button uses the standard button styling used across the site.
+- This section supports user story 1 (a professional-looking, responsive, user-friendly interface) by giving users feedback that their details were submitted successfully, and by giving them an easy way to get back to the homepage.
+
+![An image of the Form Success thank-you message](assets/images/readme-form-success.png)
 
 ### Features Left to Implement
+
+No features from the project backlog were left unimplemented.
 
 ## Testing 
 
