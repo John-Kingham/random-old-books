@@ -336,27 +336,32 @@ Validator: https://validator.w3.org/
 
 #### CSS Validation
 
+Validator: https://jigsaw.w3.org/css-validator/ 
+
+- styles.css
+  - No errors
+  - 4 warnings
+    - These were warnings about imported style sheets (for Google Fonts) not being checked by the validator, and CSS variables not being statically checked. In this case, these warnings can safely be ignored.
+
 #### Contrast Checker
 
-Initially the light text colour was cream, but the contrast was too low to pass the Contrast Checker's tests, so I switched it to pure white.
+Checked using: https://webaim.org/resources/contrastchecker/ 
 
-### Fixed Bugs
-
-Most bugs were fixed during the development process.
-
-During testing, I noticed that the subscription box form's password value wasn't appearing in the Form Success page's URL. I checked the code and found that I hadn't given the password input a name, so I gave it a name and that fixed the defect.
+I used the contrast checker while selecting the site's colour palette. Originally, I planned to use a cream colour for text on dark backgrounds, but the contrast level was too low to pass the Contrast Checker's tests, so I switched to using pure white.
 
 ### Unfixed Bugs
+
+There are no known unfixed bugs.
 
 ## Deployment
 
 The site has been deployed to GitHub Pages using the following procedure:
 
 1. In the GitHub repository, navigate to Settings / Pages
-2. Under the Build and deployment heading, select the Main branch and click Save
+2. Under the Build and deployment heading, select the main branch and click Save
 3. Wait a few minutes for the site to be deployed (refresh the page to check)
 
-The live link can be found here:
+The live site can be found here:
 
 - https://john-kingham.github.io/random-old-books/
 
@@ -366,16 +371,17 @@ The live link can be found here:
 
 - README.md
   - I used [Code Institute's README.md template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) as the starting point for this document.
-  - I referenced Code Institute's *Creating a README* slide deck.
+  - I also referenced Code Institute's *Creating a README* slide deck.
   - I used https://ui.dev/amiresponsive to generate the multi-screen image shown at the start of the README.
 - User Experience Design
-  - I read [The Elements of User Experience](http://www.jjg.net/elements/) and used it to guide me through the user experience design phase.
+  - I read a UX book ([The Elements of User Experience](http://www.jjg.net/elements/)) and used it to guide me through the user experience design process.
 - User Personas
   - I used Microsoft Co-Pilot to help me develop the user personas.
 - Wireframes
-  - Wireframes were built using [Wireframe.cc](https://www.wireframe.cc).
+  - I built the wireframes using [Wireframe.cc](https://www.wireframe.cc).
 - Colour Palette
-  - The colour scheme was inspired by the colours on this webpage: https://craigandrose.com/collections/vintage-styles-art-deco. I used https://imagecolorpicker.com/ to extract hex colours from a screenshot of that page.
+  - The colour scheme was inspired by the colours on this webpage: https://craigandrose.com/collections/vintage-styles-art-deco. 
+  - I used https://imagecolorpicker.com/ to extract hex colours from a screenshot of that page.
 - Favicon
   - I used https://gauger.io/fonticon/ to create a favicon image from an icon.
   - I used https://favicon.io/ to convert the favicon into multiple favicon formats.
@@ -388,6 +394,7 @@ The live link can be found here:
 - HTML and CSS
   - I used Bootstrap to simplify the implementation process: https://getbootstrap.com/
   - I learned about CSS box shadows at: https://www.w3schools.com/css/css3_shadows_box.asp 
+  - I used https://developer.mozilla.org/ for general reference. 
 
 ### Media
 
