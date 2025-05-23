@@ -6,7 +6,7 @@ The business has one physical bookshop, where it also holds regular events with 
 
 The company's unique selling proposition is that it believes in the positive power of random events and chance encounters, so it adds a dash of randomness to its customers' lives by placing books randomly on its bookshelves and by sending out a random book each month to subscription box subscribers.
 
-![An image of the Random Old Books website on various screen sizes](assets/docs/readme-site-responsiveness.png)
+![An image of the Random Old Books website on various screen sizes](docs/readme-site-responsiveness.png)
 
 ## User Experience Design
 
@@ -79,7 +79,7 @@ These sections were allocated across four pages based on their importance and th
 
 The resulting structure is shown below.
 
-![Random Old Books Structure Diagram](assets/docs/readme-site-structure-diagram.png)
+![Random Old Books Structure Diagram](docs/readme-site-structure-diagram.png)
 
 ### Wireframes (Skeleton Plane)
 
@@ -88,21 +88,21 @@ Wireframes were developed for each page to add further detail before moving to t
 Click on the links below to see an image of each wireframe.
 
 - Homepage
-  - [Laptop](assets/docs/home-laptop.png)
-  - [Tablet](assets/docs/home-tablet.png)
-  - [Mobile](assets/docs/home-mobile.png)
+  - [Laptop](docs/home-laptop.png)
+  - [Tablet](docs/home-tablet.png)
+  - [Mobile](docs/home-mobile.png)
 - Subscription box page
-  - [Laptop](assets/docs/subscription-box-laptop.png)
-  - [Tablet](assets/docs/subscription-box-tablet.png)
-  - [Mobile](assets/docs/subscription-box-mobile.png)
+  - [Laptop](docs/subscription-box-laptop.png)
+  - [Tablet](docs/subscription-box-tablet.png)
+  - [Mobile](docs/subscription-box-mobile.png)
 - Events page
-  - [Laptop](assets/docs/events-laptop.png)
-  - [Tablet](assets/docs/events-tablet.png)
-  - [Mobile](assets/docs/events-mobile.png)
+  - [Laptop](docs/events-laptop.png)
+  - [Tablet](docs/events-tablet.png)
+  - [Mobile](docs/events-mobile.png)
 - Form Success page
-  - [Laptop](assets/docs/success-laptop.png)
-  - [Tablet](assets/docs/success-tablet.png)
-  - [Mobile](assets/docs/success-mobile.png)
+  - [Laptop](docs/success-laptop.png)
+  - [Tablet](docs/success-tablet.png)
+  - [Mobile](docs/success-mobile.png)
 
 ### Colour Palette, Fonts, Images and Content (Surface Plane)
 
@@ -147,7 +147,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - Text is in white, as this provides a sufficient degree of contrast.
 - This section supports the implementation of user story 1 (a professional-looking, responsive, user-friendly interface). It's useful to users as it immediately tells them what they'll find on the site, it gives them an easy way to navigate around the site and it helps them understand where they are on the site. 
 
-![An image of the navigation bar](assets/docs/readme-navigation-bar.png)
+![An image of the navigation bar](docs/readme-navigation-bar.png)
 
 #### Homepage Hero section
 
@@ -155,7 +155,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - The text in this section is shown against a semi-transparent background that uses the site's primary green colour. Text is in white to provide a clear contrast.
 - This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it introduces them to the benefits of reading random old books, and helps them further understand what the site is about.
 
-![Homepage Hero section](assets/docs/readme-homepage-hero.png)
+![Homepage Hero section](docs/readme-homepage-hero.png)
 
 #### Homepage Why-Random section
 
@@ -165,7 +165,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - The background in this section is white, so text is in black to provide a high degree of contrast.
 - This section further supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it gives them a deeper understanding of the benefits of reading random old books.
 
-![Homepage Why Random section](assets/docs/readme-homepage-why-random.png)
+![Homepage Why Random section](docs/readme-homepage-why-random.png)
 
 #### Homepage Services section
 
@@ -175,7 +175,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - The background in this section is white, so text is in black to provide a high degree of contrast.
 - This section also supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it helps them understand the specific services offered by the business, and provides them with a button to access those services.
 
-![An image of the Services section](assets/docs/readme-homepage-services.png)
+![An image of the Services section](docs/readme-homepage-services.png)
 
 #### Footer with Contact Details and Newsletter Sign-up sections
 
@@ -185,7 +185,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - The Newsletter Sign-up section supports user story 6 (newsletter sign-up form) as it contains a subscribe button which opens a modal subscription form.
 - The footer also contains social media icons and links, which further supports user story 3.
 
-![An image of the site's footer](assets/docs/readme-footer.png)
+![An image of the site's footer](docs/readme-footer.png)
 
 #### Subscription Box Hero section
 
@@ -193,7 +193,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - The text in this section uses the same style as the homepage Hero section, with white text on a semi-transparent green background.
 - This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It's useful to users because it helps them begin to understand the subscription box service.
 
-![An image of the Subscription Box Hero section](assets/docs/readme-subscription-box-hero.png)
+![An image of the Subscription Box Hero section](docs/readme-subscription-box-hero.png)
 
 #### Subscription Box Details section
 
@@ -203,7 +203,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - This section has a white background, so the text is black to provide a high degree of contrast.
 - This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services) as it contains a detailed description of the subscription box service. It is useful to users because it gives them a detailed understanding of what they can expect if they subscribe.
 
-![An image of the Subscription Box Details section](assets/docs/readme-subscription-box-details.png)
+![An image of the Subscription Box Details section](docs/readme-subscription-box-details.png)
 
 #### Subscription Form section
 
@@ -213,14 +213,14 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - When submitted, the user is taken to the Form Success page.
 - This section implements user story 4 (subscription box subscription form). It is useful to users because it allows them to immediately sign up for the subscription box service.
 
-![An image of the Subscription Box form](assets/docs/readme-subscription-box-form.png)
+![An image of the Subscription Box form](docs/readme-subscription-box-form.png)
 
 #### Events Hero section
 
 - The Events Hero section uses the same styling as the other Hero sections, with an engaging background image and white text over a semi-transparent green background.
 - This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It's useful to users because it helps them begin to understand what type of events the business holds.
 
-![An image of the Events Hero section](assets/docs/readme-events-hero.png)
+![An image of the Events Hero section](docs/readme-events-hero.png)
 
 #### Events List section
 
@@ -230,7 +230,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - Events that are sold out are still shown to help users understand the range of events held, but the details have a line drawn through them to show that the event can no longer be booked.
 - This section supports the implementation of user story 5 (list of events and booking form). It is useful to users as it shows them the type of events held and which events they can book.
 
-![An image of the Events List table](assets/docs/readme-events-list.png)
+![An image of the Events List table](docs/readme-events-list.png)
 
 #### Event Booking Form section
 
@@ -241,7 +241,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - When the form is submitted, the user is sent to the Form Success page.
 - This section supports the implementation of user story 5 (list of events and booking form). It's useful to users because it enables them to book events online.
 
-![An image of the Event form](assets/docs/readme-events-form.png)
+![An image of the Event form](docs/readme-events-form.png)
 
 #### Form Success Thank You section
 
@@ -249,7 +249,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 - The section has no background image so the user is motivated to explore the more interesting parts of the site, and the button uses the standard button styling used across the site.
 - This section supports user story 1 (a professional-looking, responsive, user-friendly interface) by giving users feedback that their details were submitted successfully, and by giving them an easy way to get back to the homepage.
 
-![An image of the Form Success thank-you message](assets/docs/readme-form-success.png)
+![An image of the Form Success thank-you message](docs/readme-form-success.png)
 
 ### Features Left to Implement
 
@@ -411,4 +411,3 @@ The live site can be found here:
 ### Media
 
 - Images were downloaded from https://unsplash.com/, which offers free images that can be used for private or commercial purposes without attribution.
-
