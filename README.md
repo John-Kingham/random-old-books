@@ -349,6 +349,14 @@ Checked using: https://webaim.org/resources/contrastchecker/
 
 I used the contrast checker while selecting the site's colour palette. Originally, I planned to use a cream colour for text on dark backgrounds, but the contrast level was too low to pass the Contrast Checker's tests, so I switched to using pure white.
 
+### Interesting Bugs
+
+#### Disappearing newsletter subscribe button 
+
+During final testing, I noticed that the footer's newsletter subscribe button disappeared if I exited the modal using the escape key. This put the button into a focus-visible state where Bootstrap seemed to be making the background fully transparent.
+
+To fix this, I added a :focus-visible pseudo-class CSS selector to set the background to the correct colour.
+
 ### Unfixed Bugs
 
 There are no known unfixed bugs.
