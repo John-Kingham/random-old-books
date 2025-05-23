@@ -147,8 +147,9 @@ main h2 {
     color: var(--primary-color);
 }
 
-#subscribe-today {
+:is(#subscription-features-heading, #subscription-form-heading) {
     margin-top: 2rem;
+    text-align: center;
 }
 
 #subscription-features li {

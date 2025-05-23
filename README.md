@@ -317,12 +317,11 @@ Validator: https://validator.w3.org/
 - index.html
   - No errors
   - No warnings
-  - 21 info messages: "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"
-    - Trailing slashes are inserted by the Prettier code formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leaves these trailing slashes in place, even though they are no longer considered best practice.
+  - 21 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*. Trailing slashes are inserted by the Prettier code formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leaves these trailing slashes in place, even though they are no longer considered best practice.
 
 - subscription-box.html
   - 2 errors: "Duplicate ID"
-    - The subscription box and newsletter modal forms both have fields with IDs "first-name" and "email". **TODO: Fix this by giving the forms an ID and their fields ID with a prefix to make them unique**.
+    - The subscription box and newsletter modal forms both have fields with IDs "first-name" and "email". To fix this, I gave the modal form's input IDs the prefix of "modal-".
   - 1 warning: "Section lacks heading" **TODO - FIX!**
 #### CSS Validation
 
