@@ -73,9 +73,9 @@ To realise all of the user stories, the site has the following sections:
 - A **Thank You** section that contains a thank-you message and a homepage button (user story 4).
 - An **Events List** section containing details of upcoming events (user story 5).
 - An **Event Booking Form** section that contains the event booking form (user story 5).
-- A **Newsletter Sign-up** section containing a description of the newsletter and a sign-up button (user story 6).
+- A **Newsletter Sign-up** section containing a description of the newsletter and a sign-up form (user story 6).
 
-These sections were allocated to various web pages based on their importance and the intuitive flow of information that most users would expect (e.g. putting the list of events directly above the event booking form).
+These sections were allocated across four pages based on their importance and the intuitive flow of information that most users would expect (e.g. putting the list of events directly above the event booking form).
 
 The resulting structure is shown below.
 
@@ -83,7 +83,7 @@ The resulting structure is shown below.
 
 ### Wireframes (Skeleton Plane)
 
-Wireframes were developed for each page to add additional detail before moving to the surface design and implementation phases.
+Wireframes were developed for each page to add further detail before moving to the surface design and implementation phases.
 
 Click on the links below to see an image of each wireframe.
 
@@ -108,24 +108,30 @@ Click on the links below to see an image of each wireframe.
 
 #### Colour palette
 
-The site uses the following "vintage" colours, which suit the company's position as a seller of old books:
+The site uses the following vintage-style colours, which suit the company's position as a seller of old books:
 
 - #567a79 (a dark green) as the primary background colour
 - #504746 (a dark brown) as the second background colour
 - #FFFFFF (white) as the contrast colour for text on dark backgrounds
 
+These colours are shown more clearly in the Features section below.
+
 #### Custom fonts
 
-THe site uses two custom fonts from [Google Fonts](https://fonts.google.com/):
+The site uses two custom fonts from [Google Fonts](https://fonts.google.com/):
 
-- Headings: [Limelight](https://fonts.google.com/specimen/Limelight) (a vintage font that contrasts strongly with the body font)
-- Body text: [Quicksand](https://fonts.google.com/specimen/Quicksand) (a san serif font that should be easy to read on screens)
+- For headings: [Limelight](https://fonts.google.com/specimen/Limelight) (a vintage-style font that contrasts strongly with the body font)
+- For body text: [Quicksand](https://fonts.google.com/specimen/Quicksand) (a san serif font that is easy to read on screens)
 
 #### Images
 
 Images were chosen to fit in with the site's colour palette and to fulfil the user stories (for example, an image from within a bookstore or an image of someone speaking at an event).
 
-You can see all of the site's images in the features section below.
+You can see all of the site's images in the Features section below.
+
+#### Content
+
+As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come up with good copy for the site that would attract, engage and convert potential customers.
 
 ## Features
 
@@ -133,21 +139,21 @@ You can see all of the site's images in the features section below.
 
 #### Navigation
 
-- A logo (essentially the company's name: Random Old Books) and a navigation menu are shown at the top of each page.
-- The logo links to the home page.
-- The navigation menu contains links to all of the site's pages: Home, Subscription Box, Events.
+- Each page contains a navigation bar (navbar) at the top.
+- The navbar includes a logo (which is just the company's name: Random Old Books) which links to the homepage.
+- The navbar also contains links to all of the site's main pages: Home, Subscription Box, Events. The link for the current page is shown in bold, to help the user understand which page they're on.
 - The logo uses the heading font (Limelight) and the other links use the body font (Quicksand).
-- The navigation bar's background is the same green as used throughout the rest of the site, as this helps to give the site a consistent "vintage" look and feel.
-- Text is in white as this provides a sufficient degree of contrast.
-- The navigation bar gives users an immediate idea of what they'll find on this website.
+- The navbar's background is the same green as used throughout the site, as this helps to give the site a consistent look and feel.
+- Text is in white, as this provides a sufficient degree of contrast.
+- This section supports the implementation of user story 1 (a professional-looking, responsive, user-friendly interface). It's useful to users as it immediately tells them what they'll find on the site, it gives them an easy way to navigate around the site and it helps them understand where they are on the site. 
 
 ![An image of the navigation bar](assets/docs/readme-navigation-bar.png)
 
 #### Homepage Hero section
 
-- The homepage Hero section shows a large and enticing image from inside a bookstore, along with a heading and elevator pitch selling the benefits of reading reading random old books.
-- The text in this section is shown against a transparent background that uses the site's primary green colour. Text is in white to provide a clear contrast.
-- This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it introduces them to the benefits of reading random old books.
+- The homepage Hero section shows a large image from inside a bookstore, along with a heading and elevator pitch promoting the idea of reading random old books.
+- The text in this section is shown against a semi-transparent background that uses the site's primary green colour. Text is in white to provide a clear contrast.
+- This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it introduces them to the benefits of reading random old books, and helps them further understand what the site is about.
 
 ![Homepage Hero section](assets/docs/readme-homepage-hero.png)
 
@@ -164,17 +170,17 @@ You can see all of the site's images in the features section below.
 #### Homepage Services section
 
 - The homepage Services section contains three cards, one for each of the company's three core services (Bookshop, Subscription Box, Events).
-- Each card has an image that fits in with the colour scheme and of the site and is relevant to the related service. Each card also has a heading, using the site's heading font, and a brief descriptive paragraph of text.
-- Each card also has a button which links to relevant content (the Contact Details in the footer, the Subscription Box page and the Events page). Buttons use the site's primary green colour with white text, to make them both stand out and fit in with the overall visual style of the site.
+- Each card has an image that fits in with the site's colour scheme and is relevant to the related service. Each card also has a heading, using the site's heading font, and a brief descriptive paragraph of text.
+- Each card also has a button which links to relevant content (the Contact Details in the footer, the Subscription Box page and the Events page respectively). Each button uses the site's primary green colour with white text, to make them both stand out and fit in with the overall visual style of the site.
 - The background in this section is white, so text is in black to provide a high degree of contrast.
 - This section also supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it helps them understand the specific services offered by the business, and provides them with a button to access those services.
 
 ![An image of the Services section](assets/docs/readme-homepage-services.png)
 
-#### Contact Details and Newsletter Sign-up sections
+#### Footer with Contact Details and Newsletter Sign-up sections
 
 - Each page has an identical footer, which contains the Contact Details section and the Newsletter Sign-up section. 
-- This section uses the site's secondary brown colour for its background, to differentiate it from the header and main sections of the page. Text is in white to give provide sufficient contrast.
+- The footer uses the site's secondary brown colour for its background, to differentiate it from the header and main sections of the page. Text is in white to provide sufficient contrast.
 - The Contact Details supports user story 3 (location, opening hours and contact details) by providing the store's address, opening hours, phone number and email.
 - The Newsletter Sign-up section supports user story 6 (newsletter sign-up form) as it contains a subscribe button which opens a modal subscription form.
 - The footer also contains social media icons and links, which further supports user story 3.
@@ -184,8 +190,8 @@ You can see all of the site's images in the features section below.
 #### Subscription Box Hero section
 
 - The Subscription Box page includes a Hero section with an enticing image and description of the service.
-- The text in this section uses the same style as the homepage Hero section, with white text on a transparent green background.
-- This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It's useful to users because it helps them begin to understand what the subscription box service is about.
+- The text in this section uses the same style as the homepage Hero section, with white text on a semi-transparent green background.
+- This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It's useful to users because it helps them begin to understand the subscription box service.
 
 ![An image of the Subscription Box Hero section](assets/docs/readme-subscription-box-hero.png)
 
@@ -211,7 +217,7 @@ You can see all of the site's images in the features section below.
 
 #### Events Hero section
 
-- The Events Hero section uses the same styling as the other Hero sections, with an engaging background image and white text over a transparent green background.
+- The Events Hero section uses the same styling as the other Hero sections, with an engaging background image and white text over a semi-transparent green background.
 - This section supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It's useful to users because it helps them begin to understand what type of events the business holds.
 
 ![An image of the Events Hero section](assets/docs/readme-events-hero.png)
@@ -257,18 +263,18 @@ No features from the project backlog were left unimplemented.
 
 - Homepage
   - Navigation: All links working
-  - Services: All links working
-  - Footer: Social media links open correctly in new tabs and newsletter subscription button correctly opens modal
+  - Services section: All links working
+  - Footer: Social media links open correctly in new tabs and the newsletter subscription button correctly opens a modal
 - Subscription Box page
   - Navigation: All links working
-  - Footer: Social media links open correctly in new tabs and newsletter subscription button correctly opens modal
+  - Footer: Social media links open correctly in new tabs and the newsletter subscription button correctly opens a modal
 - Events page
   - Navigation: All links working
-  - Footer: Social media links open correctly in new tabs and newsletter subscription button correctly opens modal
+  - Footer: Social media links open correctly in new tabs and the newsletter subscription button correctly opens a modal
 - Form Success page
   - Navigation: All links working
   - Thank-you section: Button works
-  - Footer: Social media links open correctly in new tabs and newsletter subscription button correctly opens modal
+  - Footer: Social media links open correctly in new tabs and the newsletter subscription button correctly opens a modal
 
 #### Forms
 
@@ -302,11 +308,9 @@ No features from the project backlog were left unimplemented.
 
 I tested the website across a wide range of device sizes on Chrome, Edge and Firefox, as these are popular browsers.
 
-All pages have some sections that are responsive, most of which follow the relevant wireframe layouts on small, medium and large screens. The wireframe layouts were used as guides, not commandments, so there are some very minor differences between the wireframes and the final implementations.
+All pages have some sections that are responsive, most of which follow the relevant wireframe layouts on small, medium and large screens. The wireframe layouts were used as guides, not commandments, so there are some minor differences between the wireframes and the final implementations.
 
 In all cases, the differences exist for aesthetic reasons (what looked good in a wireframe didn't always look good on the website) and during testing I found no issues with the responsive design as these had all been picked up and resolved during development.
-
-For example, the icons in the Homepage Why-Random section are not displayed on small screens, to avoid the section looking too "busy". And in the Subscription Box Details section, I had to use a minimum height on one of the cards so that all cards were the same height across all screen sizes.
 
 ### Validators 
 
@@ -318,19 +322,19 @@ Validator: https://validator.w3.org/
   - No errors
   - No warnings
   - 21 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*. 
-    - Trailing slashes are inserted by the Prettier code formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leaves these trailing slashes in place, even though they are no longer considered best practice.
+    - Trailing slashes are inserted by the Prettier code formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are no longer considered best practice.
 
 - subscription-box.html
-  - 2 errors: *"Duplicate ID"*
-    - The subscription box and newsletter modal forms both have fields with IDs "first-name" and "email". To fix this, I gave the modal form's input IDs the prefix of "modal-".
-  - 1 warning: *"Section lacks heading"*
+  - 2 errors: *"Duplicate ID"* (fixed)
+    - The subscription box and newsletter modal forms both had inputs with IDs "first-name" and "email". To fix this, I gave the modal form's input IDs the prefix of "modal-".
+  - 1 warning: *"Section lacks heading"* (fixed)
     - The subscription box form section didn't have a heading. I fixed this by adding a heading for the section.
   - 23 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*.
     - As with index.html, these slashes were added by the Prettier formatter so I left them in place.
 
 - events.html
-  - 2 errors: *"The value of the for attribute of the label element must be the ID of a non-hidden form control"*
-    - The "event" and "seats" select inputs didn't have ID attributes. To fix this, I gave them the same ID as their name attributes.
+  - 2 errors: *"The value of the for attribute of the label element must be the ID of a non-hidden form control"* (fixed)
+    - The "event" and "seats" form inputs didn't have ID attributes. To fix this, I gave them the same ID as their name attributes.
   - 22 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*.
     - As with the other pages, these slashes were added by the Prettier formatter so I left them in place.
 
@@ -384,7 +388,7 @@ The live site can be found here:
 - User Experience Design
   - I read a UX book ([The Elements of User Experience](http://www.jjg.net/elements/)) and used it to guide me through the user experience design process.
 - User Personas
-  - I used Microsoft Co-Pilot to help me develop the user personas.
+  - I used Microsoft Co-Pilot to help me develop the user personas and most of the copy for the site.
 - Wireframes
   - I built the wireframes using [Wireframe.cc](https://www.wireframe.cc).
 - Colour Palette
