@@ -317,12 +317,23 @@ Validator: https://validator.w3.org/
 - index.html
   - No errors
   - No warnings
-  - 21 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*. Trailing slashes are inserted by the Prettier code formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leaves these trailing slashes in place, even though they are no longer considered best practice.
+  - 21 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*. 
+    - Trailing slashes are inserted by the Prettier code formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leaves these trailing slashes in place, even though they are no longer considered best practice.
 
 - subscription-box.html
-  - 2 errors: "Duplicate ID"
+  - 2 errors: *"Duplicate ID"*
     - The subscription box and newsletter modal forms both have fields with IDs "first-name" and "email". To fix this, I gave the modal form's input IDs the prefix of "modal-".
-  - 1 warning: "Section lacks heading" **TODO - FIX!**
+  - 1 warning: *"Section lacks heading"*
+    - The subscription box form section didn't have a heading. I fixed this by adding a heading for the section.
+  - 23 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*.
+    - As with index.html, these slashes were added by the Prettier formatter so I left them in place.
+
+- events.html
+  - 2 errors: *"The value of the for attribute of the label element must be the ID of a non-hidden form control"*
+    - The "event" and "seats" select inputs didn't have ID attributes. To fix this, I gave them the same ID as their name attributes.
+  - 22 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*.
+    - As with the other pages, these slashes were added by the Prettier formatter so I left them in place.
+
 #### CSS Validation
 
 #### Contrast Checker
