@@ -88,21 +88,21 @@ Wireframes were developed for each page to add further detail before moving to t
 Click on the links below to see an image of each wireframe.
 
 - Homepage
-  - [Laptop](docs/home-laptop.png)
-  - [Tablet](docs/home-tablet.png)
-  - [Mobile](docs/home-mobile.png)
+  - [Laptop](docs/home-laptop-wireframe.png)
+  - [Tablet](docs/home-tablet-wireframe.png)
+  - [Mobile](docs/home-mobile-wireframe.png)
 - Subscription box page
-  - [Laptop](docs/subscription-box-laptop.png)
-  - [Tablet](docs/subscription-box-tablet.png)
-  - [Mobile](docs/subscription-box-mobile.png)
+  - [Laptop](docs/subscription-box-laptop-wireframe.png)
+  - [Tablet](docs/subscription-box-tablet-wireframe.png)
+  - [Mobile](docs/subscription-box-mobile-wireframe.png)
 - Events page
-  - [Laptop](docs/events-laptop.png)
-  - [Tablet](docs/events-tablet.png)
-  - [Mobile](docs/events-mobile.png)
+  - [Laptop](docs/events-laptop-wireframe.png)
+  - [Tablet](docs/events-tablet-wireframe.png)
+  - [Mobile](docs/events-mobile-wireframe.png)
 - Form Success page
-  - [Laptop](docs/success-laptop.png)
-  - [Tablet](docs/success-tablet.png)
-  - [Mobile](docs/success-mobile.png)
+  - [Laptop](docs/success-laptop-wireframe.png)
+  - [Tablet](docs/success-tablet-wireframe.png)
+  - [Mobile](docs/success-mobile-wireframe.png)
 
 ### Colour Palette, Fonts, Images and Content (Surface Plane)
 
@@ -355,17 +355,17 @@ I used the contrast checker while selecting the site's colour palette. Originall
 
 ### Lighthouse
 
-I tested each page using Lighthouse, using both the Mobile and Desktop Device settings (six tests in total).
+I tested each page using Lighthouse, using both the Mobile and Desktop Device settings.
 
 #### Accessibility and Best Practices
 
 These scored 100 in all tests.
 
-==== Performance
+#### Performance
 
 This score varied, ranging from 72 to 99. The homepage was consistently the slowest page, with the header "hero" image usually being the slowest component to load.
 
-The images original size was 2mb, so I used https://tinypng.com/ to reduce the size of the image to 0.5mb. Even after this change the site's performance varied significantly, but the lowest performance score I got was 74, and in most tests the performance score was in the 80-99 range.
+The image's original size was 2MB, so I used https://tinypng.com/ to reduce the size of the image to 0.5MB. Even after this change the site's performance varied significantly, but the lowest performance score I got was 74, and in most tests the performance score was in the 80-99 range.
 
 ![An image of the site's lighthouse test results](docs/readme-lighthouse-results.png)
 
