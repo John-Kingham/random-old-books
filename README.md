@@ -347,11 +347,27 @@ Validator: https://jigsaw.w3.org/css-validator/
   - 4 warnings
     - These were warnings about imported style sheets (for Google Fonts) not being checked by the validator, and CSS variables not being statically checked. In this case, these warnings can safely be ignored.
 
-#### Contrast Checker
+### Contrast Checker
 
 Checked using: https://webaim.org/resources/contrastchecker/ 
 
 I used the contrast checker while selecting the site's colour palette. Originally, I planned to use a cream colour for text on dark backgrounds, but the contrast level was too low to pass the Contrast Checker's tests, so I switched to using pure white.
+
+### Lighthouse
+
+I tested each page using Lighthouse, using both the Mobile and Desktop Device settings (six tests in total).
+
+#### Accessibility and Best Practices
+
+These scored 100 in all tests.
+
+==== Performance
+
+This score varied, ranging from 72 to 99. The homepage was consistently the slowest page, with the header "hero" image usually being the slowest component to load.
+
+The images original size was 2mb, so I used https://tinypng.com/ to reduce the size of the image to 0.5mb. Even after this change the site's performance varied significantly, but the lowest performance score I got was 74, and in most tests the performance score was in the 80-99 range.
+
+![An image of the site's lighthouse test results](docs/readme-lighthouse-results.png)
 
 ### Interesting Bugs
 
