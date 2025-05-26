@@ -194,6 +194,10 @@ main h2 {
     margin-top: 2rem;
 }
 
+#contact-details .custom-btn {
+    border: 1px solid var(--contrast-color);
+}
+
 #location i {
     margin-right: 0.5rem;
 }
