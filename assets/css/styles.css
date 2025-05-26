@@ -25,29 +25,17 @@ h3 {
     font-family: var(--heading-font);
 }
 
-.custom-btn {
+.btn.custom-btn {
     background-color: var(--primary-color);
     color: var(--contrast-color);
     font-weight: bold;
     padding: 1rem 2rem;
     margin-top: 1rem;
+    border: 1px solid var(--contrast-color);
 }
 
-.custom-btn:hover {
+.btn.custom-btn:hover {
     background-color: var(--primary-color-hover);
-    color: var(--contrast-color);
-    font-weight: bold;
-}
-
-.btn.custom-btn:active {
-    background-color: var(--primary-color);
-    color: var(--contrast-color);
-    font-weight: bold;
-}
-
-/* Stops the button disappearing when modal is exited using escape key  */
-.btn.custom-btn:focus-visible {
-    background-color: var(--primary-color);
 }
 
 /* Navbar styles */
@@ -193,10 +181,6 @@ main h2 {
 
 #contact-details h3 {
     margin-top: 2rem;
-}
-
-#contact-details .custom-btn {
-    border: 1px solid var(--contrast-color);
 }
 
 #location i {
