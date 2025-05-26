@@ -4,8 +4,8 @@
 /* CSS variables */
 
 :root {
-    --heading-font: Limelight, sans-serif;
-    --body-font: Quicksand, serif;
+    --heading-font: "Limelight", sans-serif;
+    --body-font: "Quicksand", serif;
     --primary-color: #567a79;
     --primary-color-transparent: #567a79f2;
     --primary-color-hover: #668f8e;
