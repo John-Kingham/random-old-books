@@ -7,10 +7,9 @@
     --heading-font: Limelight, sans-serif;
     --body-font: Quicksand, serif;
     --primary-color: #567a79;
-    --primary-color-transparent: rgba(86, 122, 121, 0.9);
+    --primary-color-hover: #668f8e;
     --secondary-color: #504746;
     --contrast-color: white;
-    --contrast-color-transparent: rgba(255, 255, 255, 0.8);
 }
 
 /* Global styles */
@@ -34,7 +33,7 @@ h3 {
 }
 
 .custom-btn:hover {
-    background-color: var(--primary-color-transparent);
+    background-color: var(--primary-color-hover);
     color: var(--contrast-color);
     font-weight: bold;
 }
@@ -102,7 +101,7 @@ header p {
 }
 
 #hero {
-    background-color: var(--primary-color-transparent);
+    background-color: var(--primary-color);
     padding: 3rem 1rem;
     margin: 1rem;
     border-radius: 0.375rem;
@@ -204,8 +203,8 @@ main h2 {
     font-size: 1.5rem;
 }
 
-footer i:hover {
-    color: var(--contrast-color-transparent);
+#socials i:hover {
+    color: var(--primary-color-hover);
 }
 
 /* Media queries for responsive styles */
