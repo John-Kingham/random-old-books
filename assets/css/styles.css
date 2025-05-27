@@ -60,12 +60,12 @@ h3 {
 
 /* Header styles */
 
-#hero-section {
+#page-header {
     background: url(../images/homepage-hero-background.jpg) no-repeat center
         center/cover;
 }
 
-#subscription-box-hero {
+#subscription-box-header {
     background: url(../images/subscription-box-hero-background.jpg) no-repeat
         center center/cover;
 }
@@ -88,7 +88,7 @@ header p {
     font-weight: bold;
 }
 
-#hero-text {
+.header-text {
     background-color: var(--primary-color);
     padding: 3rem 1rem;
     margin: 1rem;
