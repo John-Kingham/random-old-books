@@ -374,6 +374,141 @@
                         </div>
                     </div>
                 </header>
+                <!-- Events List section -->
+                <section id="events-list" class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <h2>Upcoming events</h2>
+                        </div>
+                        <div class="col-12 col-xl-10 table-responsive">
+                            <table class="table table-striped custom-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Speaker</th>
+                                        <th scope="col">Famous Book</th>
+                                        <th scope="col">Event Date</th>
+                                        <th scope="col">Seats Left</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Joe Blogs</th>
+                                        <td>Wind in the Windmill</td>
+                                        <td>30/06/25</td>
+                                        <td>17</td>
+                                    </tr>
+                                    <tr class="fully-booked">
+                                        <th scope="row">Susan Smith</th>
+                                        <td>Pride or Pancakes</td>
+                                        <td>09/07/25</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Alan McAdam</th>
+                                        <td>War and Peas</td>
+                                        <td>18/09/25</td>
+                                        <td>42</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Claire Kingham</th>
+                                        <td>Catch-23</td>
+                                        <td>27/09/25</td>
+                                        <td>9</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- Event Booking Form section -->
+                <section id="events-form" class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <h3>Book an event</h3>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <form method="GET" action="form-success.html">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label
+                                            for="first-name"
+                                            class="form-label"
+                                            >First name</label
+                                        >
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="first-name"
+                                            name="first-name"
+                                            required
+                                        />
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label for="email" class="form-label"
+                                            >Email address</label
+                                        >
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            name="email"
+                                            required
+                                        />
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label for="event" class="form-label"
+                                            >Event</label
+                                        >
+                                        <select
+                                            id="event"
+                                            name="event"
+                                            class="form-select"
+                                            aria-label="Default select example"
+                                            required
+                                        >
+                                            <option value="" selected>
+                                                Choose an author
+                                            </option>
+                                            <option value="123">
+                                                Joe Blogs
+                                            </option>
+                                            <option value="124">
+                                                Alan McAdam
+                                            </option>
+                                            <option value="125">
+                                                Claire Kingham
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label for="seats" class="form-label"
+                                            >Seats</label
+                                        >
+                                        <select
+                                            id="seats"
+                                            name="seats"
+                                            class="form-select"
+                                            aria-label="Default select example"
+                                            required
+                                        >
+                                            <option value="" selected>
+                                                Choose how many seats
+                                            </option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn custom-btn">
+                                    Book your event
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
             </section>
         </main>
         <!-- Footer with contact details and newsletter subscription -->

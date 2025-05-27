@@ -158,6 +158,10 @@ main h2 {
 
 /* Events List styles */
 
+#events-list {
+    margin-top: 3rem;
+}
+
 .custom-table {
     border: 1px solid lightgrey;
     margin-top: 2rem;
