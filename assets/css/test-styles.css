@@ -60,8 +60,8 @@ h3 {
 
 /* Header styles */
 
-#hero-section {
-    background: url(../images/homepage-hero-background.jpg) no-repeat center
+#homepage-hero {
+    background: url(../images/homepage-hero-background-TESTING.jpg) no-repeat center
         center/cover;
 }
 
@@ -88,7 +88,7 @@ header p {
     font-weight: bold;
 }
 
-#hero-text {
+#hero {
     background-color: var(--primary-color);
     padding: 3rem 1rem;
     margin: 1rem;
@@ -134,6 +134,10 @@ main h2 {
 
 /* Subscription Box Details styles */
 
+#subscription-details {
+    margin-top: 3rem;
+}
+
 #subscription-details i {
     margin-right: 0.5rem;
     color: var(--primary-color);
@@ -148,7 +152,15 @@ main h2 {
     margin-bottom: 0.5rem;
 }
 
+#subscription-form {
+    margin-bottom: 3rem;
+}
+
 /* Events List styles */
+
+#events-list {
+    margin-top: 3rem;
+}
 
 .custom-table {
     border: 1px solid lightgrey;
@@ -205,7 +217,7 @@ main h2 {
 }
 
 @media screen and (min-width: 768px) {
-    #hero-text {
+    #hero {
         padding-left: 3rem;
         padding-right: 3rem;
     }
