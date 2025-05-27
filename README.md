@@ -110,8 +110,8 @@ Click on the links below to see an image of each wireframe.
 
 The site uses the following vintage-style colours, which suit the company's position as a seller of old books:
 
-- #567a79 (a dark green) as the primary background colour
-- #504746 (a dark brown) as the second background colour
+- #425C5C (dark green) as the primary background colour
+- #504746 (dark brown) as the second background colour
 - #FFFFFF (white) as the contrast colour for text on dark backgrounds
 
 These colours are shown more clearly in the Features section below.
@@ -351,11 +351,12 @@ Validator: https://jigsaw.w3.org/css-validator/
 
 Checked using: https://webaim.org/resources/contrastchecker/ 
 
-I used the contrast checker while selecting the site's colour palette. Originally, I planned to use a cream colour for text on dark backgrounds, but the contrast level was too low to pass the Contrast Checker's tests, so I switched to using pure white.
+- #FFFFFF (white) text on #504746 (brown) background: 9:1 contrast, passed all tests
+- #FFFFFF (white) text on #425C5C (green) background: 7.19:1 contrast, passed all tests
 
 ### Lighthouse
 
-I tested each page using Lighthouse, using both the Mobile and Desktop Device settings.
+Each page was tested with Lighthouse, using both Mobile and Desktop Device settings.
 
 #### Accessibility and Best Practices
 

@@ -6,9 +6,8 @@
 :root {
     --heading-font: "Limelight", sans-serif;
     --body-font: "Quicksand", serif;
-    --primary-color: #567a79;
-    --primary-color-transparent: #567a79f2;
-    --primary-color-hover: #668f8e;
+    --primary-color: #425C5C;
+    --primary-color-hover: #668F8E;
     --secondary-color: #504746;
     --contrast-color: white;
 }
@@ -90,7 +89,7 @@ header p {
 }
 
 #hero {
-    background-color: var(--primary-color-transparent);
+    background-color: var(--primary-color);
     padding: 3rem 1rem;
     margin: 1rem;
     border-radius: 0.375rem;
