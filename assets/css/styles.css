@@ -70,7 +70,7 @@ h3 {
         center center/cover;
 }
 
-#events-hero {
+#events-header {
     background: url(../images/event-hero-background.jpg) no-repeat center
         center/cover;
 }
@@ -136,6 +136,10 @@ main h2 {
 
 #subscription-details {
     margin-top: 3rem;
+}
+
+#subscription-form {
+    margin-bottom: 3rem;
 }
 
 #subscription-details i {
