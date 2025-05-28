@@ -47,6 +47,9 @@ h3 {
     background-color: var(--primary-color);
     padding-top: 1rem;
     padding-bottom: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
 
 #topnav .navbar-brand {

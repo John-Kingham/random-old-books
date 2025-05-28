@@ -77,7 +77,9 @@
                             <a class="nav-link" href="#events-header">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact-details">Contact</a>
+                            <a class="nav-link" href="#contact-details"
+                                >Contact</a
+                            >
                         </li>
                     </ul>
                 </div>
@@ -333,7 +335,9 @@
                                         />
                                     </div>
                                     <div class="col-12 col-lg-6 mb-3">
-                                        <label for="subscription-box-email" class="form-label"
+                                        <label
+                                            for="subscription-box-email"
+                                            class="form-label"
                                             >Email address</label
                                         >
                                         <input
@@ -447,7 +451,9 @@
                                         />
                                     </div>
                                     <div class="col-12 col-lg-6 mb-3">
-                                        <label for="events-email" class="form-label"
+                                        <label
+                                            for="events-email"
+                                            class="form-label"
                                             >Email address</label
                                         >
                                         <input
@@ -616,7 +622,9 @@
                         </p>
                         <form method="GET" action="form-success.html">
                             <div class="mb-3">
-                                <label for="newsletter-first-name" class="form-label"
+                                <label
+                                    for="newsletter-first-name"
+                                    class="form-label"
                                     >First name</label
                                 >
                                 <input
@@ -653,5 +661,31 @@
             integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
             crossorigin="anonymous"
         ></script>
+        <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+        <script>
+            document
+                .querySelectorAll(".navbar-collapse .nav-link")
+                .forEach((link) => {
+                    link.addEventListener("click", function (e) {
+                        let section = document.querySelector(
+                            e.target.getAttribute("href")
+                        );
+                        if (section) {
+                            e.preventDefault(); // Prevent default anchor click behavior
+                            let navbarHeight =
+                                document.querySelector(
+                                    ".navbar-toggler"
+                                ).offsetHeight;
+                            window.scroll({
+                                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                                behavior: "smooth",
+                            });
+                            document
+                                .querySelector(".navbar-collapse")
+                                .classList.remove("show"); // Collapse navbar
+                        }
+                    });
+                });
+        </script>
     </body>
 </html>
