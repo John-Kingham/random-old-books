@@ -422,6 +422,7 @@ The live site can be found here:
   - I learned how to use Font Awesome icons in unordered lists from: https://docs.fontawesome.com/web/style/lists  
 - HTML and CSS
   - I used Bootstrap to simplify the implementation process: https://getbootstrap.com/
+  - The JavaScript code that ensures the Bootstrap mobile navbar collapses when navigating to in-page links was copied from the Boardwalk Games project
   - I learned about CSS box shadows at: https://www.w3schools.com/css/css3_shadows_box.asp 
   - I used https://developer.mozilla.org/ for general reference. 
 
