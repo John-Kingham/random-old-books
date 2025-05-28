@@ -6,8 +6,8 @@
 :root {
     --heading-font: "Limelight", sans-serif;
     --body-font: "Quicksand", serif;
-    --primary-color: #425C5C;
-    --primary-color-hover: #668F8E;
+    --primary-color: #567a79;
+    --primary-color-hover: #739C9C;
     --secondary-color: #504746;
     --contrast-color: white;
 }
@@ -37,12 +37,19 @@ h3 {
     background-color: var(--primary-color-hover);
 }
 
+.btn.custom-btn:active {
+    color: var(--contrast-color);
+}
+
 /* Navbar styles */
 
 #topnav {
     background-color: var(--primary-color);
     padding-top: 1rem;
     padding-bottom: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
 
 #topnav .navbar-brand {
@@ -60,17 +67,18 @@ h3 {
 
 /* Header styles */
 
-#homepage-hero {
-    background: url(../images/homepage-hero-background-TESTING.jpg) no-repeat center
+#page-header {
+    background: url(../images/homepage-hero-background.jpg) no-repeat center
         center/cover;
+    margin-top: 72px;
 }
 
-#subscription-box-hero {
+#subscription-box-header {
     background: url(../images/subscription-box-hero-background.jpg) no-repeat
         center center/cover;
 }
 
-#events-hero {
+#events-header {
     background: url(../images/event-hero-background.jpg) no-repeat center
         center/cover;
 }
@@ -88,7 +96,7 @@ header p {
     font-weight: bold;
 }
 
-#hero {
+.header-text {
     background-color: var(--primary-color);
     padding: 3rem 1rem;
     margin: 1rem;
@@ -132,28 +140,28 @@ main h2 {
     color: var(--primary-color);
 }
 
-/* Subscription Box Details styles */
+/* Subscription Box styles */
 
-#subscription-details {
+#subscription-box-details {
     margin-top: 3rem;
 }
 
-#subscription-details i {
+#subscription-box-form {
+    margin-bottom: 3rem;
+}
+
+#subscription-box-details i {
     margin-right: 0.5rem;
     color: var(--primary-color);
 }
 
-:is(#subscription-features-heading, #subscription-form-heading) {
+:is(#subscription-box-features-heading, #subscription-box-form-heading) {
     margin-top: 2rem;
     text-align: center;
 }
 
-#subscription-features li {
+#subscription-box-features li {
     margin-bottom: 0.5rem;
-}
-
-#subscription-form {
-    margin-bottom: 3rem;
 }
 
 /* Events List styles */
@@ -211,13 +219,13 @@ main h2 {
 
 @media screen and (max-width: 767px) {
     /* Hide icons on small screens so the page isn't too "busy" */
-    :is(#why-random, #subscription-cards) i {
+    :is(#why-random, #subscription-box-process) i {
         display: none;
     }
 }
 
 @media screen and (min-width: 768px) {
-    #hero {
+    #hero-text {
         padding-left: 3rem;
         padding-right: 3rem;
     }
@@ -235,14 +243,14 @@ main h2 {
 
 @media screen and (min-width: 1200px) {
     /* Make all the cards the same height */
-    #subscription-details .custom-card {
+    #subscription-box-details .custom-card {
         min-height: 186px;
     }
 }
 
 @media screen and (min-width: 1400px) {
     /* Make all the cards the same height */
-    #subscription-details .custom-card {
+    #subscription-box-details .custom-card {
         min-height: 162px;
     }
 }
