@@ -50,7 +50,7 @@ main {
     border-bottom: double var(--secondary-color);
 }
 
-/* Navbar styles */
+/* Navigation styles */
 
 #topnav {
     background-color: var(--primary-color);
@@ -91,6 +91,10 @@ main {
 #events-header {
     background: url(../images/event-hero-background.jpg) no-repeat center
         center/cover;
+}
+
+.section-header {
+    padding-top: 72px;
 }
 
 .header {
