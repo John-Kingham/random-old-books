@@ -110,8 +110,8 @@ Click on the links below to see an image of each wireframe.
 
 The site uses the following vintage-style colours, which suit the company's position as a seller of old books:
 
-- #425C5C (dark green) as the primary background colour
-- #504746 (dark brown) as the second background colour
+- #567a79 (Hooker's Green) as the primary colour
+- #504746 (Wenge Brown) as the secondary colour
 - #FFFFFF (white) as the contrast colour for text on dark backgrounds
 
 These colours are shown more clearly in the Features section below.
