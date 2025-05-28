@@ -132,10 +132,6 @@ main {
 
 /* Why Random section styles */
 
-#why-random {
-    margin-bottom: 3rem;
-}
-
 #why-random h3 {
     margin-top: 1rem;
 }
@@ -149,10 +145,6 @@ main {
 
 #subscription-box-details {
     margin-top: 3rem;
-}
-
-#subscription-box-form {
-    margin-bottom: 3rem;
 }
 
 #subscription-box-details i {
