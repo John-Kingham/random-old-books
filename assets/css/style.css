@@ -24,6 +24,11 @@ h3 {
     font-family: var(--heading-font);
 }
 
+main {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 .btn.custom-btn {
     background-color: var(--primary-color);
     color: var(--contrast-color);
@@ -39,6 +44,10 @@ h3 {
 
 .btn.custom-btn:active {
     color: var(--contrast-color);
+}
+
+.underline {
+    border-bottom: double var(--secondary-color);
 }
 
 /* Navbar styles */
@@ -83,16 +92,16 @@ h3 {
         center/cover;
 }
 
-header > div {
+.header {
     height: 500px;
     color: var(--contrast-color);
 }
 
-header h1 {
+.header h1 {
     font-size: 2rem;
 }
 
-header p {
+.header p {
     font-weight: bold;
 }
 
@@ -104,15 +113,6 @@ header p {
 }
 
 /* Main styles */
-
-main {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-main h2 {
-    border-bottom: double var(--secondary-color);
-}
 
 .custom-card {
     box-shadow: 3px 3px 3px 1px lightgrey;
@@ -238,12 +238,8 @@ main h2 {
 }
 
 @media screen and (min-width: 992px) {
-    header h1 {
+    .header h1 {
         font-size: 2.5rem;
-    }
-
-    main h2 {
-        font-size: 2rem;
     }
 }
 
