@@ -65,7 +65,7 @@ h3 {
         center/cover;
 }
 
-#subscription-box-header {
+#sb-header {
     background: url(../images/subscription-box-hero-background.jpg) no-repeat
         center center/cover;
 }
@@ -134,25 +134,25 @@ main h2 {
 
 /* Subscription Box styles */
 
-#subscription-details {
+#sb-details {
     margin-top: 3rem;
 }
 
-#subscription-form {
+#sb-form {
     margin-bottom: 3rem;
 }
 
-#subscription-details i {
+#sb-details i {
     margin-right: 0.5rem;
     color: var(--primary-color);
 }
 
-:is(#subscription-features-heading, #subscription-form-heading) {
+:is(#sb-features-heading, #sb-form-heading) {
     margin-top: 2rem;
     text-align: center;
 }
 
-#subscription-features li {
+#sb-features li {
     margin-bottom: 0.5rem;
 }
 
@@ -211,7 +211,7 @@ main h2 {
 
 @media screen and (max-width: 767px) {
     /* Hide icons on small screens so the page isn't too "busy" */
-    :is(#why-random, #subscription-cards) i {
+    :is(#why-random, #sb-process) i {
         display: none;
     }
 }
@@ -235,14 +235,14 @@ main h2 {
 
 @media screen and (min-width: 1200px) {
     /* Make all the cards the same height */
-    #subscription-details .custom-card {
+    #sb-details .custom-card {
         min-height: 186px;
     }
 }
 
 @media screen and (min-width: 1400px) {
     /* Make all the cards the same height */
-    #subscription-details .custom-card {
+    #sb-details .custom-card {
         min-height: 162px;
     }
 }
