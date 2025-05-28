@@ -37,6 +37,10 @@ h3 {
     background-color: var(--primary-color-hover);
 }
 
+.btn.custom-btn:active {
+    color: var(--contrast-color);
+}
+
 /* Navbar styles */
 
 #topnav {
