@@ -211,7 +211,7 @@ h3 {
 /* Media queries for responsive styles */
 
 @media screen and (max-width: 767px) {
-    /* Hide icons on small screens so the page isn't too "busy" */
+    /* Hide icons on small screens so page isn't "busy" */
     :is(#why-random, #subscription-box-process) i {
         display: none;
     }
@@ -231,14 +231,12 @@ h3 {
 }
 
 @media screen and (min-width: 1200px) {
-    /* Make all the cards the same height */
     #subscription-box-details .custom-card {
         min-height: 186px;
     }
 }
 
 @media screen and (min-width: 1400px) {
-    /* Make all the cards the same height */
     #subscription-box-details .custom-card {
         min-height: 162px;
     }
