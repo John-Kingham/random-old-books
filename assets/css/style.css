@@ -6,12 +6,14 @@
 :root {
     --heading-font: "Limelight", sans-serif;
     --body-font: "Quicksand", serif;
-    --primary-color: #567a79;
-    --primary-color-light: #739c9c;
+    --primary-color: #567A79;
+    --primary-color-light: #739C9C;
     --secondary-color: #504746;
-    --contrast-color: white;
+    --contrast-color: #FFFFFF;
     --header-height: 500px;
     --topnav-height: 72px;
+    --bold: 700;
+    --lightgrey: #D3D3D3;
 }
 
 /* Global styles */
@@ -29,7 +31,7 @@ h3 {
 .btn.custom-btn {
     background-color: var(--primary-color);
     color: var(--contrast-color);
-    font-weight: bold;
+    font-weight: var(--bold);
     padding: 1rem 2rem;
     margin-top: 1rem;
     border: 1px solid var(--contrast-color);
@@ -109,13 +111,13 @@ h3 {
 }
 
 .header p {
-    font-weight: bold;
+    font-weight: var(--bold);
 }
 
 /* Main styles */
 
 .custom-card {
-    box-shadow: 3px 3px 3px 1px lightgrey;
+    box-shadow: 3px 3px 3px 1px var(--lightgrey);
     padding: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -155,10 +157,10 @@ h3 {
 /* Events List styles */
 
 .custom-table {
-    border: 1px solid lightgrey;
+    border: 1px solid var(--lightgrey);
     margin-top: 2rem;
     margin-bottom: 3rem;
-    box-shadow: 3px 3px 3px 1px lightgrey;
+    box-shadow: 3px 3px 3px 1px var(--lightgrey);
 }
 
 .fully-booked {
