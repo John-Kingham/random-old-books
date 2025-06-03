@@ -145,7 +145,7 @@ h3 {
     color: var(--primary-color);
 }
 
-:is(#subscription-box-features-heading, #subscription-box-form-heading) {
+.sub-heading {
     margin-top: 2rem;
     text-align: center;
 }
@@ -158,8 +158,6 @@ h3 {
 
 .custom-table {
     border: 1px solid var(--lightgrey);
-    margin-top: 2rem;
-    margin-bottom: 3rem;
     box-shadow: 3px 3px 3px 1px var(--lightgrey);
 }
 
