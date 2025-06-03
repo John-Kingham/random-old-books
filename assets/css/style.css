@@ -11,6 +11,7 @@
     --secondary-color: #504746;
     --contrast-color: white;
     --header-height: 500px;
+    --topnav-height: 72px;
 }
 
 /* Global styles */
@@ -77,7 +78,7 @@ h3 {
 #page-header {
     background: url(../images/homepage-hero-background.jpg) no-repeat center
         center/cover;
-    margin-top: 72px;
+    margin-top: var(--topnav-height);
 }
 
 #subscription-box-header {
@@ -168,7 +169,7 @@ h3 {
 /* Form Success styles */
 
 #thank-you {
-    margin-top: 72px;
+    margin-top: var(--topnav-height);
     height: var(--header-height);
 }
 
