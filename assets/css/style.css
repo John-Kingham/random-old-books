@@ -10,6 +10,7 @@
     --primary-color-light: #739c9c;
     --secondary-color: #504746;
     --contrast-color: white;
+    --header-height: 500px;
 }
 
 /* Global styles */
@@ -90,7 +91,7 @@ h3 {
 }
 
 .header {
-    height: 500px;
+    height: var(--header-height);
     color: var(--contrast-color);
 }
 
@@ -168,6 +169,7 @@ h3 {
 
 #thank-you {
     margin-top: 72px;
+    height: var(--header-height);
 }
 
 /* Footer styles */
