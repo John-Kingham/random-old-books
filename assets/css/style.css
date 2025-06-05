@@ -129,10 +129,6 @@ h3 {
 
 /* Why Random section styles */
 
-#why-random h3 {
-    margin-top: 1rem;
-}
-
 #why-random i {
     margin-right: 1rem;
     color: var(--primary-color);
@@ -148,10 +144,6 @@ h3 {
 .sub-heading {
     margin-top: 2rem;
     text-align: center;
-}
-
-#subscription-box-features li {
-    margin-bottom: 0.5rem;
 }
 
 /* Events List styles */
@@ -205,8 +197,6 @@ h3 {
 #socials i:hover {
     color: var(--primary-color-light);
 }
-
-/* Media queries for responsive styles */
 
 @media screen and (max-width: 767px) {
     /* Hide icons on small screens so page isn't "busy" */
