@@ -198,13 +198,6 @@ h3 {
     color: var(--primary-color-light);
 }
 
-@media screen and (max-width: 767px) {
-    /* Hide icons on small screens so page isn't "busy" */
-    :is(#why-random, #subscription-box-process) i {
-        display: none;
-    }
-}
-
 @media screen and (min-width: 768px) {
     #hero-text {
         padding-left: 3rem;
