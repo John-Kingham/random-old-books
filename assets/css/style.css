@@ -132,23 +132,9 @@ h3 {
     font-size: 1.25rem;
 }
 
-/* Why Random section styles */
-
-#why-random i {
+.heading-icon {
     margin-right: 1rem;
     color: var(--primary-color);
-}
-
-/* Subscription Box styles */
-
-#subscription-box-details i {
-    margin-right: 0.5rem;
-    color: var(--primary-color);
-}
-
-.sub-heading {
-    margin-top: 2rem;
-    text-align: center;
 }
 
 /* Events List styles */
@@ -161,6 +147,18 @@ h3 {
 .fully-booked {
     text-decoration: line-through;
     text-decoration-thickness: 2px;
+}
+
+/* Subscription Box styles */
+
+#subscription-box-details i {
+    margin-right: 0.5rem;
+    color: var(--primary-color);
+}
+
+.sub-heading {
+    margin-top: 2rem;
+    text-align: center;
 }
 
 /* Form Success styles */
