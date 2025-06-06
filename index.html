@@ -637,7 +637,7 @@
                 </section>
             </section>
         </main>
-        <!-- Footer with contact details and newsletter subscription -->
+        <!-- Footer with contact details -->
         <!-- mt-auto allows footer to stay at the bottom of the screen -->
         <footer id="contact-details" class="mt-auto">
             <div class="container">
@@ -645,7 +645,7 @@
                     <header class="col-12 text-center">
                         <h2>Contact details</h2>
                     </header>
-                    <!-- Bookstore location -->
+                    <!-- location -->
                     <section id="location" class="col-12 col-md-6 col-lg-4">
                         <h3>Visit our bookshop</h3>
                         <strong>Random Old Books</strong><br />
@@ -656,28 +656,12 @@
                         <i class="fa-solid fa-phone"></i>01234 567 890<br />
                         <i class="fa-solid fa-envelope"></i>hello@example.com
                     </section>
-                    <!-- Bookstore opening times -->
+                    <!-- opening times -->
                     <section class="col-12 col-md-6 col-lg-4">
                         <h3>Opening times</h3>
                         Mon, Tue, Thu, Fri, Sat (8am - 6pm)<br />
                         Wed (9am - Noon)<br />
                         Sun (Closed)
-                    </section>
-                    <!-- Free newsletter sign-up -->
-                    <section class="col-12 col-lg-4">
-                        <h3>Free newsletter</h3>
-                        <p>
-                            Subscribe to our free monthly newsletter to get the
-                            latest updates on new stock and new events.
-                        </p>
-                        <button
-                            type="button"
-                            class="btn custom-btn"
-                            data-bs-toggle="modal"
-                            data-bs-target="#newsletter-modal"
-                        >
-                            Subscribe
-                        </button>
                     </section>
                     <!-- Social media links -->
                     <section
@@ -709,68 +693,6 @@
                 </div>
             </div>
         </footer>
-        <!-- Modal for newsletter form -->
-        <div
-            class="modal fade"
-            id="newsletter-modal"
-            tabindex="-1"
-            aria-labelledby="ModalLabel"
-            aria-hidden="true"
-        >
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <header class="modal-header">
-                        <h1 class="modal-title fs-5" id="ModalLabel">
-                            Join our Newsletter
-                        </h1>
-                        <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                    </header>
-                    <section class="modal-body">
-                        <p>
-                            Join hundreds of other readers and get the latest
-                            updates on new stock and new events, straight to
-                            your inbox every month.
-                        </p>
-                        <form method="GET" action="form-success.html">
-                            <div class="mb-3">
-                                <label
-                                    for="newsletter-first-name"
-                                    class="form-label"
-                                    >First name</label
-                                >
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="newsletter-first-name"
-                                    name="newsletter-first-name"
-                                    required
-                                />
-                            </div>
-                            <div class="mb-3">
-                                <label for="newsletter-email" class="form-label"
-                                    >Email address</label
-                                >
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    id="newsletter-email"
-                                    name="newsletter-email"
-                                    required
-                                />
-                            </div>
-                            <button type="submit" class="btn custom-btn">
-                                Subscribe
-                            </button>
-                        </form>
-                    </section>
-                </div>
-            </div>
-        </div>
         <!-- Bootstrap JS script -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
