@@ -6,14 +6,14 @@
 :root {
     --heading-font: "Limelight", sans-serif;
     --body-font: "Quicksand", serif;
-    --primary-color: #567A79;
-    --primary-color-light: #739C9C;
+    --primary-color: #567a79;
+    --primary-color-light: #739c9c;
     --secondary-color: #504746;
-    --contrast-color: #FFFFFF;
+    --contrast-color: #ffffff;
     --header-height: 500px;
     --topnav-height: 72px;
     --bold: 700;
-    --lightgrey: #D3D3D3;
+    --lightgrey: #d3d3d3;
 }
 
 /* Global styles */
@@ -93,8 +93,8 @@ h3 {
 }
 
 #subscription-box-header {
-    background: url(../images/subscription-box.jpg) no-repeat
-        center center/cover;
+    background: url(../images/subscription-box.jpg) no-repeat center
+        center/cover;
 }
 
 #events-header {
@@ -209,7 +209,6 @@ h3 {
 }
 
 @media screen and (min-width: 992px) {
-
     #topnav-logo {
         font-size: 1.5rem;
     }
