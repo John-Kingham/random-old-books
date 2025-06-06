@@ -41,7 +41,7 @@
         <!-- Nav element contains the top navbar common to all pages -->
         <nav id="topnav" class="navbar navbar-expand-lg">
             <div class="container">
-                <a id="topnav-logo" class="navbar-brand" href="index.html">Random Old Books</a>
+                <a id="topnav-logo" class="navbar-brand" href="#page-header">Random Old Books</a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -56,15 +56,12 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#events">Events</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#subscription-box"
                                 >Subscription Box</a
                             >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#events">Events</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact-details"
@@ -168,6 +165,201 @@
                         </div>
                     </div>
                 </article>
+            </section>
+            <!-- Events section -->
+            <section id="events">
+                <header
+                    id="events-header"
+                    aria-label="An image of an author speaking at one of our events"
+                >
+                    <div
+                        class="section-header container justify-content-center d-flex align-items-center"
+                    >
+                        <div class="row header-text-box">
+                            <div class="col-12 text-center">
+                                <h2 class="header-heading">
+                                    Come to our bookshop and live events
+                                </h2>
+                                <p class="bold">
+                                    Browse our collection of random old books
+                                    and hear from random old authors!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- Events Details section -->
+                <section id="events-details" class="container text-section">
+                    <!-- Events Description section -->
+                    <section
+                        id="events-description"
+                        class="row justify-content-center"
+                    >
+                        <header class="col-12">
+                            <h2 class="underline text-center">
+                                About our events
+                            </h2>
+                        </header>
+                        <section class="col-12 col-lg-6 p-3">
+                            We regularly invite authors to share their
+                            experiences at intimate, engaging events in our
+                            bookshop. Over an hour or so, they talk about the
+                            struggles and triumphs behind their writing,
+                            offering a glimpse into the creative process.
+                            Whether you're an avid reader or an aspiring writer,
+                            these sessions promise fresh perspectives and
+                            fascinating stories.
+                        </section>
+                        <section class="col-12 col-lg-6 p-3">
+                            Beyond the talk, our gatherings are a chance to
+                            connect with fellow book lovers over tea and
+                            biscuits. The atmosphere is warm and welcoming;
+                            perfect for exchanging thoughts, meeting new friends
+                            and asking authors your burning questions. Let fate
+                            guide your next read, then let the author bring it
+                            to life in person.
+                        </section>
+                    </section>
+                    <!-- Events List section -->
+                    <section
+                        id="events-list"
+                        class="row justify-content-center"
+                    >
+                        <header class="col-12">
+                            <h3 class="sub-heading">Upcoming events</h3>
+                        </header>
+                        <div class="col-12 col-xl-8 table-responsive">
+                            <table class="table table-striped custom-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Speaker</th>
+                                        <th scope="col">Famous Book</th>
+                                        <th scope="col">Event Date</th>
+                                        <th scope="col">Seats Left</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Joe Blogs</th>
+                                        <td>Wind in the Windmill</td>
+                                        <td>30/06/25</td>
+                                        <td>17</td>
+                                    </tr>
+                                    <tr class="fully-booked">
+                                        <th scope="row">Susan Smith</th>
+                                        <td>Pride or Pancakes</td>
+                                        <td>09/07/25</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Alan McAdam</th>
+                                        <td>War and Peas</td>
+                                        <td>18/09/25</td>
+                                        <td>42</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Claire Kingham</th>
+                                        <td>Catch-23</td>
+                                        <td>27/09/25</td>
+                                        <td>9</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                    <!-- Event Booking Form section -->
+                    <section
+                        id="events-form"
+                        class="row justify-content-center"
+                    >
+                        <header class="col-12">
+                            <h3 class="sub-heading">Book an event</h3>
+                        </header>
+                        <div class="col-12 col-md-8">
+                            <form method="GET" action="form-success.html">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label
+                                            for="events-first-name"
+                                            class="form-label"
+                                            >First name</label
+                                        >
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="events-first-name"
+                                            name="events-first-name"
+                                            required
+                                        />
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label
+                                            for="events-email"
+                                            class="form-label"
+                                            >Email address</label
+                                        >
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="events-email"
+                                            name="events-email"
+                                            required
+                                        />
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label for="event" class="form-label"
+                                            >Event</label
+                                        >
+                                        <select
+                                            id="event"
+                                            name="event"
+                                            class="form-select"
+                                            aria-label="Default select example"
+                                            required
+                                        >
+                                            <option value="" selected>
+                                                Choose an author
+                                            </option>
+                                            <option value="123">
+                                                Joe Blogs
+                                            </option>
+                                            <option value="124">
+                                                Alan McAdam
+                                            </option>
+                                            <option value="125">
+                                                Claire Kingham
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-3">
+                                        <label for="seats" class="form-label"
+                                            >Seats</label
+                                        >
+                                        <select
+                                            id="seats"
+                                            name="seats"
+                                            class="form-select"
+                                            aria-label="Default select example"
+                                            required
+                                        >
+                                            <option value="" selected>
+                                                Choose how many seats
+                                            </option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn custom-btn">
+                                    Book your event
+                                </button>
+                            </form>
+                        </div>
+                    </section>
+                </section>
             </section>
             <!-- Subscription Box section -->
             <section id="subscription-box">
@@ -423,203 +615,6 @@
                                 </div>
                                 <button type="submit" class="btn custom-btn">
                                     Start your risk-free trial
-                                </button>
-                            </form>
-                        </div>
-                    </section>
-                </section>
-            </section>
-            <!-- Events section -->
-            <section id="events">
-                <header
-                    id="events-header"
-                    aria-label="An image of an author speaking at one of our events"
-                >
-                    <div
-                        class="section-header container justify-content-center d-flex align-items-center"
-                    >
-                        <div class="row header-text-box">
-                            <div class="col-12 text-center">
-                                <h2 class="header-heading">
-                                    Come and Listen to<br />
-                                    Random Old Authors
-                                </h2>
-                                <p class="bold">
-                                    If you enjoy reading random old books,
-                                    you'll love hearing random old authors at
-                                    our regular events.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-                <!-- Events Details section -->
-                <section id="events-details" class="container text-section">
-                    <!-- Events Description section -->
-                    <section
-                        id="events-description"
-                        class="row justify-content-center"
-                    >
-                        <header class="col-12">
-                            <h2 class="underline text-center">
-                                About our events
-                            </h2>
-                        </header>
-                        <section class="col-12 col-lg-6 p-3">
-                            We regularly invite authors to share their
-                            experiences at intimate, engaging events in our
-                            bookshop. Over an hour or so, they talk about the
-                            struggles and triumphs behind their writing,
-                            offering a glimpse into the creative process.
-                            Whether you're an avid reader or an aspiring writer,
-                            these sessions promise fresh perspectives and
-                            fascinating stories.
-                        </section>
-                        <section class="col-12 col-lg-6 p-3">
-                            Beyond the talk, our gatherings are a chance to
-                            connect with fellow book lovers over tea and
-                            biscuits. The atmosphere is warm and welcoming;
-                            perfect for exchanging thoughts, meeting new friends
-                            and asking authors your burning questions. Let fate
-                            guide your next read, then let the author bring it
-                            to life in person.
-                        </section>
-                    </section>
-                    <!-- Events List section -->
-                    <section
-                        id="events-list"
-                        class="row justify-content-center"
-                    >
-                        <header class="col-12">
-                            <h3 class="sub-heading">Upcoming events</h3>
-                        </header>
-                        <div class="col-12 col-xl-8 table-responsive">
-                            <table class="table table-striped custom-table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Speaker</th>
-                                        <th scope="col">Famous Book</th>
-                                        <th scope="col">Event Date</th>
-                                        <th scope="col">Seats Left</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Joe Blogs</th>
-                                        <td>Wind in the Windmill</td>
-                                        <td>30/06/25</td>
-                                        <td>17</td>
-                                    </tr>
-                                    <tr class="fully-booked">
-                                        <th scope="row">Susan Smith</th>
-                                        <td>Pride or Pancakes</td>
-                                        <td>09/07/25</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Alan McAdam</th>
-                                        <td>War and Peas</td>
-                                        <td>18/09/25</td>
-                                        <td>42</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Claire Kingham</th>
-                                        <td>Catch-23</td>
-                                        <td>27/09/25</td>
-                                        <td>9</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </section>
-                    <!-- Event Booking Form section -->
-                    <section
-                        id="events-form"
-                        class="row justify-content-center"
-                    >
-                        <header class="col-12">
-                            <h3 class="sub-heading">Book an event</h3>
-                        </header>
-                        <div class="col-12 col-md-8">
-                            <form method="GET" action="form-success.html">
-                                <div class="row">
-                                    <div class="col-12 col-lg-6 mb-3">
-                                        <label
-                                            for="events-first-name"
-                                            class="form-label"
-                                            >First name</label
-                                        >
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="events-first-name"
-                                            name="events-first-name"
-                                            required
-                                        />
-                                    </div>
-                                    <div class="col-12 col-lg-6 mb-3">
-                                        <label
-                                            for="events-email"
-                                            class="form-label"
-                                            >Email address</label
-                                        >
-                                        <input
-                                            type="email"
-                                            class="form-control"
-                                            id="events-email"
-                                            name="events-email"
-                                            required
-                                        />
-                                    </div>
-                                    <div class="col-12 col-lg-6 mb-3">
-                                        <label for="event" class="form-label"
-                                            >Event</label
-                                        >
-                                        <select
-                                            id="event"
-                                            name="event"
-                                            class="form-select"
-                                            aria-label="Default select example"
-                                            required
-                                        >
-                                            <option value="" selected>
-                                                Choose an author
-                                            </option>
-                                            <option value="123">
-                                                Joe Blogs
-                                            </option>
-                                            <option value="124">
-                                                Alan McAdam
-                                            </option>
-                                            <option value="125">
-                                                Claire Kingham
-                                            </option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12 col-lg-6 mb-3">
-                                        <label for="seats" class="form-label"
-                                            >Seats</label
-                                        >
-                                        <select
-                                            id="seats"
-                                            name="seats"
-                                            class="form-select"
-                                            aria-label="Default select example"
-                                            required
-                                        >
-                                            <option value="" selected>
-                                                Choose how many seats
-                                            </option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <button type="submit" class="btn custom-btn">
-                                    Book your event
                                 </button>
                             </form>
                         </div>
