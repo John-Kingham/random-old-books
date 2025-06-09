@@ -64,9 +64,9 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#events">Events</a>
+                            <a class="nav-link me-3" href="#events">Shop &amp; Events</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item me-3">
                             <a class="nav-link" href="#subscription-box"
                                 >Subscription Box</a
                             >
@@ -223,12 +223,9 @@
                             </p>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <h3>
-                                <i
-                                    class="heading-icon fa-solid fa-microphone"
-                                ></i>
+                            <h2 class="underline">
                                 Come to our events
-                            </h3>
+                            </h2>
                             <p>
                                 We regularly invite authors to share their
                                 experiences at intimate, engaging events in our
@@ -241,62 +238,49 @@
                             </p>
                         </div>
                     </section>
-                    <!-- Events List section -->
-                    <section
-                        id="events-list"
-                        class="row justify-content-center"
-                    >
-                        <header class="col-12">
-                            <h3 class="sub-heading">Upcoming events</h3>
-                        </header>
-                        <div class="col-12 col-xl-8 table-responsive">
-                            <table class="table table-striped custom-table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Speaker</th>
-                                        <th scope="col">Famous Book</th>
-                                        <th scope="col">Event Date</th>
-                                        <th scope="col">Seats Left</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Joe Blogs</th>
-                                        <td>Wind in the Windmill</td>
-                                        <td>30/06/25</td>
-                                        <td>17</td>
-                                    </tr>
-                                    <tr class="fully-booked">
-                                        <th scope="row">Susan Smith</th>
-                                        <td>Pride or Pancakes</td>
-                                        <td>09/07/25</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Alan McAdam</th>
-                                        <td>War and Peas</td>
-                                        <td>18/09/25</td>
-                                        <td>42</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Claire Kingham</th>
-                                        <td>Catch-23</td>
-                                        <td>27/09/25</td>
-                                        <td>9</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <!-- Events List and Booking Form section -->
+                    <section id="events-list" class="row">
+                        <div class="col-12 col-lg-6 mt-3">
+                            <h3>Upcoming events list</h3>
+                            <div class="table-responsive">
+                                <table class="table table-striped custom-table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Author</th>
+                                            <th scope="col">Famous Book</th>
+                                            <th scope="col">Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Joe Blogs</th>
+                                            <td>Wind in the Windmill</td>
+                                            <td>30/06/25</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Susan Smith</th>
+                                            <td>Pride or Pancakes</td>
+                                            <td>09/07/25</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Alan McAdam</th>
+                                            <td>War and Peas</td>
+                                            <td>18/09/25</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Claire Kingham</th>
+                                            <td>Catch-23</td>
+                                            <td>27/09/25</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-                    </section>
-                    <!-- Event Booking Form section -->
-                    <section
-                        id="events-form"
-                        class="row justify-content-center"
-                    >
-                        <header class="col-12">
-                            <h3 class="sub-heading">Book an event</h3>
-                        </header>
-                        <div class="col-12 col-md-8 text-center">
+                        <div class="col-12 col-lg-6 mt-3">
+                            <h3>Book an event</h3>
+                            <p>
+                                Choose an event from the events list and book your place now, before they're all gone!
+                            </p>
                             <button
                                 type="button"
                                 class="btn custom-btn"
@@ -674,8 +658,9 @@
                                         Choose an author
                                     </option>
                                     <option value="123">Joe Blogs</option>
-                                    <option value="124">Alan McAdam</option>
-                                    <option value="125">Claire Kingham</option>
+                                    <option value="124">Susan Smith</option>
+                                    <option value="125">Alan McAdam</option>
+                                    <option value="126">Claire Kingham</option>
                                 </select>
                             </div>
                             <div class="mb-3">

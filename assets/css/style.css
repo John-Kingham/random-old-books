@@ -144,11 +144,6 @@ h3 {
     box-shadow: 3px 3px 3px 1px var(--lightgrey);
 }
 
-.fully-booked {
-    text-decoration: line-through;
-    text-decoration-thickness: 2px;
-}
-
 /* Subscription Box styles */
 
 #subscription-box-details i {
