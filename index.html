@@ -296,88 +296,15 @@
                         <header class="col-12">
                             <h3 class="sub-heading">Book an event</h3>
                         </header>
-                        <div class="col-12 col-md-8">
-                            <form method="GET" action="form-success.html">
-                                <div class="row">
-                                    <div class="col-12 col-lg-6 mb-3">
-                                        <label
-                                            for="events-name"
-                                            class="form-label"
-                                            >Name</label
-                                        >
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="events-name"
-                                            name="events-name"
-                                            required
-                                        />
-                                    </div>
-                                    <div class="col-12 col-lg-6 mb-3">
-                                        <label
-                                            for="events-email"
-                                            class="form-label"
-                                            >Email address</label
-                                        >
-                                        <input
-                                            type="email"
-                                            class="form-control"
-                                            id="events-email"
-                                            name="events-email"
-                                            required
-                                        />
-                                    </div>
-                                    <div class="col-12 col-lg-6 mb-3">
-                                        <label for="event" class="form-label"
-                                            >Event</label
-                                        >
-                                        <select
-                                            id="event"
-                                            name="event"
-                                            class="form-select"
-                                            aria-label="Default select example"
-                                            required
-                                        >
-                                            <option value="" selected>
-                                                Choose an author
-                                            </option>
-                                            <option value="123">
-                                                Joe Blogs
-                                            </option>
-                                            <option value="124">
-                                                Alan McAdam
-                                            </option>
-                                            <option value="125">
-                                                Claire Kingham
-                                            </option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12 col-lg-6 mb-3">
-                                        <label for="seats" class="form-label"
-                                            >Seats</label
-                                        >
-                                        <select
-                                            id="seats"
-                                            name="seats"
-                                            class="form-select"
-                                            aria-label="Default select example"
-                                            required
-                                        >
-                                            <option value="" selected>
-                                                Choose how many seats
-                                            </option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <button type="submit" class="btn custom-btn">
-                                    Book your event
-                                </button>
-                            </form>
+                        <div class="col-12 col-md-8 text-center">
+                            <button
+                                type="button"
+                                class="btn custom-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#eventsModal"
+                            >
+                                Book event
+                            </button>
                         </div>
                     </section>
                 </section>
@@ -685,6 +612,101 @@
                 </div>
             </div>
         </footer>
+        <!-- Events modal form -->
+        <div
+            class="modal fade"
+            id="eventsModal"
+            tabindex="-1"
+            aria-labelledby="eventsModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="eventsModalLabel">
+                            Book an event
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="GET" action="form-success.html">
+                            <div class="mb-3">
+                                <label for="events-name" class="form-label"
+                                    >Name</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="events-name"
+                                    name="events-name"
+                                    required
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="events-email" class="form-label"
+                                    >Email address</label
+                                >
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="events-email"
+                                    name="events-email"
+                                    required
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="event" class="form-label"
+                                    >Event</label
+                                >
+                                <select
+                                    id="event"
+                                    name="event"
+                                    class="form-select"
+                                    aria-label="Default select example"
+                                    required
+                                >
+                                    <option value="" selected>
+                                        Choose an author
+                                    </option>
+                                    <option value="123">Joe Blogs</option>
+                                    <option value="124">Alan McAdam</option>
+                                    <option value="125">Claire Kingham</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="seats" class="form-label"
+                                    >Seats</label
+                                >
+                                <select
+                                    id="seats"
+                                    name="seats"
+                                    class="form-select"
+                                    aria-label="Default select example"
+                                    required
+                                >
+                                    <option value="" selected>
+                                        Choose how many seats
+                                    </option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn custom-btn">
+                                Book event
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Bootstrap JS script -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
