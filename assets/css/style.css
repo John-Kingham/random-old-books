@@ -50,11 +50,6 @@ h3 {
     border-bottom: double var(--secondary-color);
 }
 
-.text-section {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
 .bold {
     font-weight: var(--bold);
 }
@@ -84,7 +79,7 @@ h3 {
     color: var(--contrast-color);
 }
 
-/* Header styles */
+/* Header section */
 
 #page-header {
     background: url(../images/random-old-books.jpg) no-repeat center
@@ -92,15 +87,7 @@ h3 {
     padding-top: var(--topnav-height);
 }
 
-#subscription-box-header {
-    background: url(../images/subscription-box.jpg) no-repeat center
-        center/cover;
-}
-
-#events-header {
-    background: url(../images/author-speaking-at-event.jpg) no-repeat center
-        center/cover;
-}
+/* Main section */
 
 .section-header {
     height: var(--header-height);
@@ -119,7 +106,19 @@ h3 {
     font-size: 2rem;
 }
 
-/* Main styles */
+.sub-heading {
+    margin-top: 2rem;
+}
+
+.heading-icon {
+    margin-right: 1rem;
+    color: var(--primary-color);
+}
+
+.text-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
 
 .custom-card {
     box-shadow: 3px 3px 3px 1px var(--lightgrey);
@@ -132,88 +131,67 @@ h3 {
     font-size: 1.25rem;
 }
 
-.heading-icon {
-    margin-right: 1rem;
-    color: var(--primary-color);
-}
-
-/* Events List styles */
+/* Events section */
 
 .custom-table {
     border: 1px solid var(--lightgrey);
     box-shadow: 3px 3px 3px 1px var(--lightgrey);
 }
 
-/* Subscription Box styles */
+#events-header {
+    background: url(../images/author-speaking-at-event.jpg) no-repeat center
+        center/cover;
+}
+
+/* Subscription Box section */
+
+#subscription-box-header {
+    background: url(../images/subscription-box.jpg) no-repeat center
+        center/cover;
+}
 
 #subscription-box-details i {
     margin-right: 0.5rem;
     color: var(--primary-color);
 }
 
-.sub-heading {
-    margin-top: 2rem;
-    /* text-align: center; */
-}
-
-/* Form Success styles */
+/* Form Success page */
 
 #thank-you {
     margin-top: var(--topnav-height);
     height: var(--header-height);
 }
 
-/* Footer styles */
+/* Footer section */
 
-#contact-details {
-    background-color: var(--secondary-color);
+.social-link {
     color: var(--contrast-color);
-}
-
-#contact-details a {
-    color: var(--contrast-color);
-}
-
-#contact-details .container {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-#contact-details h3 {
-    margin-top: 2rem;
-}
-
-#location i {
-    margin-right: 0.5rem;
-}
-
-#socials i {
     margin: 2rem 1rem 0 1rem;
     font-size: 1.5rem;
 }
 
-#socials i:hover {
+.social-link:hover {
     color: var(--primary-color-light);
 }
 
-@media screen and (min-width: 768px) {
-    #hero-text {
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
+#contact-details {
+    background-color: var(--secondary-color);
+    color: var(--contrast-color);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 @media screen and (min-width: 992px) {
-    #topnav-logo {
-        font-size: 1.5rem;
-    }
-
     .header-heading {
         font-size: 2.5rem;
     }
 
     .custom-card {
         min-height: 14.25rem;
+    }
+
+    #topnav-logo {
+        font-size: 1.5rem;
     }
 }
 
