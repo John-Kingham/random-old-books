@@ -267,23 +267,20 @@ During final testing I found no issues with the responsive design as these had a
 Validation was carried out using the [W3 HTML Validator](https://validator.w3.org/).
 
 - index.html
-  - No errors or warnings
-  - 21 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*. 
+  - Error: Header must not appear as a descendant of the footer (fixed)
+    - The footer contained a header element which has now been removed.
+  - Error: The for attribute of the label element must be the ID of a non-hidden form control (fixed)
+    - On the events form, the "event" and "seats" inputs didn't have ID attributes. To fix this, I gave them the same ID as their name attributes.
+  - Error: Duplicate ID (fixed)
+    - The events and subscription box forms both had inputs with IDs "name" and "email". To fix this, I gave them IDs using prefixes "events" and "subscription-box".
+  - Warning: Section elements should have a heading (fixed)
+    - Some sections didn't have a heading as a direct descendent. I fixed this by changing these sections to divs as I had used too many section elements.
+  - Info messages: Trailing slash on void elements (not fixed) 
     - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
 
-- subscription-box.html
-  - 2 errors: *"Duplicate ID"* (fixed)
-    - The subscription box and newsletter modal forms both had inputs with IDs "first-name" and "email". To fix this, I gave the modal form's input IDs the prefix of "modal-".
-  - 1 warning: *"Section lacks heading"* (fixed)
-    - The subscription box form section didn't have a heading. I fixed this by adding a heading for the section.
-  - 23 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*.
-    - As with index.html, these slashes were added by the Prettier formatter so I left them in place.
-
-- events.html
-  - 2 errors: *"The value of the for attribute of the label element must be the ID of a non-hidden form control"* (fixed)
-    - The "event" and "seats" form inputs didn't have ID attributes. To fix this, I gave them the same ID as their name attributes.
-  - 22 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*.
-    - As with the other pages, these slashes were added by the Prettier formatter so I left them in place.
+- form-success.html
+  - Error: Header must not appear as a descendant of the footer (fixed)
+    - The footer contained a header element which has now been removed.
 
 #### CSS Validation
 
