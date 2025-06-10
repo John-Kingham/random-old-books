@@ -273,14 +273,18 @@ Validation was carried out using the [W3 HTML Validator](https://validator.w3.or
     - On the events form, the "event" and "seats" inputs didn't have ID attributes. To fix this, I gave them the same ID as their name attributes.
   - Error: Duplicate ID (fixed)
     - The events and subscription box forms both had inputs with IDs "name" and "email". To fix this, I gave them IDs using prefixes "events" and "subscription-box".
-  - Warning: Section elements should have a heading (fixed)
+  - Warning: Section lacks heading (fixed)
     - Some sections didn't have a heading as a direct descendent. I fixed this by changing these sections to divs as I had used too many section elements.
-  - Info messages: Trailing slash on void elements (not fixed) 
+  - Info: Trailing slash on void elements (not fixed) 
     - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
 
 - form-success.html
   - Error: Header must not appear as a descendant of the footer (fixed)
     - The footer contained a header element which has now been removed.
+  - Warning: Section lacks heading (fixed)
+    - The social media section lacked a heading. I converted this section into a div as it didn't have enough content to be a section.
+  - Info: Trailing slash on void elements (not fixed) 
+    - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
 
 #### CSS Validation
 
