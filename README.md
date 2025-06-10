@@ -233,45 +233,38 @@ I took this onboard and the final implementation uses a single main page.
 
 - Homepage
   - Navigation: All links working
+  - Why Random: Contact Details link works
   - Footer: Social media links open correctly in new tabs
 - Form Success page
   - Navigation: All links working
   - Thank-you section: Button works
-  - Footer: Social media links open correctly in new tabs and the newsletter subscription button correctly opens a modal
+  - Footer: Social media links open correctly in new tabs
 
 #### Forms
 
+- Event form
+  - Modal opens correctly
+  - Validation works for all fields
+  - Redirects to Form Success page after submission
+  - Field values correctly posted upon submission (visible in URL of Form Success page)
 - Subscription Box form
   - Validation works for all fields
   - Redirects to Form Success page after submission
   - Field values correctly posted upon submission (visible in URL of Form Success page)
-- Event form
-  - Validation works for all fields
-  - Redirects to Form Success page after submission
-  - Field values correctly posted upon submission (visible in URL of Form Success page)
-- Newsletter modal form (launched from footer)
-  - From Homepage
-    - Validation works for all fields
-    - Redirects to Form Success page after submission
-    - Field values correctly posted upon submission (visible in URL of Form Success page)
-  - From Form Success page
-    - Validation works for all fields
-    - Redirects to Form Success page after submission
-    - Field values correctly posted upon submission (visible in URL of Form Success page)
 
 ### Browsers and Responsiveness
 
-I tested the website across a wide range of device sizes on Chrome, Edge and Firefox, as these are popular browsers.
+I tested the site across a wide range of device sizes on Chrome, Edge and Firefox, as these are some of the most popular browsers.
 
-All pages have some sections that are responsive, most of which follow the relevant wireframe layouts on small, medium and large screens. The wireframe layouts were used as guides, not commandments, so there are some minor differences between the wireframes and the final implementations.
+All pages are responsive, with layouts that work well on small, medium and large screens. The wireframe layouts were used for the initial implementation, but when the site moved to a single-page the responsive layouts were changed to better suit the structure of a one-page site.
 
-In all cases, the differences exist for aesthetic reasons (what looked good in a wireframe didn't always look good on the website) and during testing I found no issues with the responsive design as these had all been picked up and resolved during development.
+During final testing I found no issues with the responsive design as these had all been picked up and resolved during development.
 
 ### Validators 
 
 #### HTML Validation
 
-Validation carried out using the [W3 HTML Validator](https://validator.w3.org/).
+Validation was carried out using the [W3 HTML Validator](https://validator.w3.org/).
 
 - index.html
   - No errors
