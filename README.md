@@ -6,7 +6,7 @@ The business has one physical bookshop, where it also holds regular events with 
 
 The company's unique selling proposition is that it believes in the positive power of random events and chance encounters, so it adds a dash of randomness to its customers' lives by placing books randomly on its bookshelves and by sending out a random book each month to subscription box subscribers.
 
-![The Random Old Books website on various screen sizes](docs/readme-site-responsiveness.png)
+![The Random Old Books website on various screen sizes](docs/readme-am-i-responsive.png)
 
 ## User Experience Design
 
@@ -108,9 +108,11 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 
 ## Features
 
-During user testing, there was a strong preference from users to have all of the sections (noted under Site Structure above) on one page. This was because the overall site was quite small, and navigation was easier on one page than the original three-page design (plus one subscription-success page).
+### Differences between design to implementation 
 
-The features listed below show the final single-page design.
+During user testing, there was a strong preference from users for a simpler design with all sections of the site on one main page. This was because the overall site was quite small, and users felt that navigation would be easier on one page than the original three-page design (plus one form-success page).
+
+I took this onboard and the final implementation uses a single main page.
 
 ### Existing Features
 
@@ -118,21 +120,21 @@ The features listed below show the final single-page design.
 
 - The site contains a navigation bar (navbar) at the top.
 - The navbar includes a logo that links to the top of the homepage.
-- The navbar contains links to the site's three main sections: Home, Subscription Box, Events.
+- The navbar also contains links to the site's other sections: Events and Subscription Box.
 - The logo uses the heading font (Limelight) and the other links use the body font (Quicksand).
 - The navbar's background is the same green as used throughout the site, as this helps to give the site a consistent look and feel.
 - Text is in white, as this provides a sufficient degree of contrast.
-- This section supports the implementation of user story 1. It's useful to users as it immediately tells them what they'll find on the site and it gives them an easy way to navigate around the site.
+- This section is useful to users as it shows them what they'll find on the site and gives them an easy way to navigate around the site (user story 1).
 
-![The navigation bar](docs/readme-navigation-bar.png)
+![The navigation bar](docs/readme-navbar.png)
 
 #### Homepage Hero section
 
-- The Homepage Hero section shows a large image of some random old books, along with the name of the site and an elevator pitch promoting the idea of reading random old books.
+- The Homepage Hero section shows a large image of some random old books, along with a heading and elevator pitch promoting the idea of reading random old books.
 - The text in this section is shown against a background that uses the site's primary green colour. Text is in white to provide a clear contrast.
-- This section supports the implementation of user story 2. It is useful to users because it gradually introduces them to the idea of reading random old books, and helps them further understand what the site is about.
+- This section is useful to users because it helps them understand the adventurous nature of reading random old books, and helps them further understand what the site is about (user stories 1 and 2).
 
-![Site Hero section](docs/readme-homepage-hero.png)
+![Site Hero section](docs/readme-hero.png)
 
 #### Why Random section
 
@@ -140,29 +142,44 @@ The features listed below show the final single-page design.
 - The text is broken down into an overall summary of the benefits of reading random old books, followed by three sub-points that cover specific aspects in more detail.
 - Each of the three sub-points has a heading and a relevant icon.
 - The background in this section is white, so text is in black to provide a high degree of contrast.
-- This section further supports the implementation of user story 2 (enticing images and descriptions of the business, its products and services). It is useful to users because it gives them a deeper understanding of the benefits of reading random old books.
+- This section is useful to users because it gives them a deeper understanding of the benefits of reading random old books (user story 2).
 
-![Why Random section](docs/readme-homepage-why-random.png)
+![Why Random section](docs/readme-why-random.png)
 
-#### Homepage Services section
+#### Events Hero section
 
-- This section was removed from the final design as it became redundant when the site evolved from three main pages to one.
+- The Events Hero section uses the same styling as the site's Hero section, with a relevant background image and white text over a green background.
+- As part of the move to a one-page design, this section now mentions the company's bookshop as well as the events held in the bookshop.
+- This section is useful to users because it separates the Why-Random section from the Events section, and helps users understand that the business has a bookshop and that the bookshop holds regular events (user stories 1 and 2).
 
-#### Footer with Contact Details and Newsletter Sign-up sections
+![The Events Hero section](docs/readme-events-hero.png)
 
-- The footer contains the Contact Details section and the Newsletter Sign-up section.
-- The footer uses the site's secondary brown colour for its background, to differentiate it from the header and main sections of the page. Text is in white to provide sufficient contrast.
-- The Contact Details section supports user story 3 by providing the store's address, opening hours, phone number and email.
-- The Newsletter Sign-up section supports user story 6 as it contains a subscribe button which opens a modal subscription form.
-- The footer also contains social media icons and links, which further support user story 3.
+#### Events List section
 
-![The site's footer](docs/readme-footer.png)
+- The Events List section contains a description of the type of events held and a table of upcoming events. 
+- As part of the move to a one-page site, this section includes more details about the bookshop and has a link to the Contact Details section.
+- The events table has a visible border and alternate row colouring to help it stand out on the page.
+- The table includes the speaking author's name, their most famous book and the event date.
+- This section is useful to users because it gives them a more detailed understanding of the bookshop and the events, and shows them a list of upcoming events (user stories 2 and 5).
+
+![The Events List section](docs/readme-events-list.png)
+
+#### Event Booking Form section
+
+- The site contains a form so users can book events online.
+- The form was originally implemented as a section on the Events page, but when the site was changed to a one-page design the form was changed to a modal form to give the homepage a cleaner appearance.
+- The form includes fields for name, email address, event and number of seats. Each field has relevant validation.
+- The form includes a button that matches the button style used across the site.
+- When the form is submitted, the user is sent to the Form Success page.
+- This form is useful to users because it enables them to book events online (user story 5).
+
+![The Event form](docs/readme-events-form.png)
 
 #### Subscription Box Hero section
 
-- The Subscription Box Hero section introduces the company's subscription box service with an enticing image and description.
+- The Subscription Box Hero section introduces the subscription box service with an enticing image and description.
 - The text in this section uses the same style as the Homepage Hero section, with white text on a green background.
-- This section supports the implementation of user story 2. It's useful to users because it helps them begin to understand the subscription box service.
+- This section is useful to users because it separates the Events section from the Subscription Box section and helps them begin to understand the subscription box service (user stories 1 and 2).
 
 ![The Subscription Box Hero section](docs/readme-subscription-box-hero.png)
 
@@ -172,59 +189,41 @@ The features listed below show the final single-page design.
 - The section includes three cards, each with an icon, heading and descriptive paragraph, which explain the main benefits of the service.
 - Below the cards is a list of features that are relevant to prospective subscribers.
 - This section has a white background, so the text is black to provide a high degree of contrast.
-- This section supports the implementation of user story 2 as it contains a detailed description of the subscription box service. It is useful to users because it gives them a detailed understanding of what they can expect if they subscribe.
+- This section is useful to users because it gives them a detailed understanding of the subscription box service (user story 2).
 
 ![The Subscription Box Details section](docs/readme-subscription-box-details.png)
 
-#### Subscription Form section
+#### Subscription Box Form section
 
-- The Subscription Form section contains a subscription form where users can subscribe to a free trial of the subscription box service.
-- The form includes fields for first name, last name, email and physical address details (so users can be sent their first free book), and the form uses relevant validation for each field.
-- The form includes a subscription button that is consistent in terms of style with other buttons on the site (green background, white text, with a slight change of colour on hover).
+- The Subscription Box Form section contains a form where users can request an e-brochure with more details on the subscription box service.
+- The original implementation included a full sign-up form with delivery address fields. In the final implementation, this was scaled back to focus on gathering email leads, so the final form is simpler and only includes name and email fields.
+- The form has relevant validation for each field.
+- The form has a subscription button that is consistent in terms of style with other buttons on the site (green background, white text, with a slight change of colour on hover).
 - When submitted, the user is taken to the Form Success page.
-- This section implements user story 4. It's useful to users because it allows them to sign up for the subscription box service.
+- This section is useful to users because it allows them to get more details about the subscription box service in the from of a glossy e-brochure (partially fulfils user story 4).
 
 ![The Subscription Box form](docs/readme-subscription-box-form.png)
 
-#### Events Hero section
+#### Footer with Contact Details section
 
-- The Events Hero section uses the same styling as the other Hero sections, with an engaging background image and white text over a green background.
-- This section supports the implementation of user story 2. It's useful to users because it helps them begin to understand what type of events the business holds.
+- The footer contains the Contact Details section. The first implementation of the site included the Newsletter Sign-up section within the footer, but this was removed to simplify the design when the site changed to a one-page design.
+- The footer uses the site's secondary brown colour for its background, to differentiate it from the header and main sections of the page. Text is in white to provide sufficient contrast.
+- The Contact Details section is useful because it shows users the store's address, opening hours, phone number, email and social media links (user story 3).
 
-![The Events Hero section](docs/readme-events-hero.png)
-
-#### Events List section
-
-- The Events List section contains a brief description of the events, followed by a table of upcoming events.
-- The table has a visible border, a shadow effect and alternate row colouring to help it stand out on the page.
-- The table includes the speaking author's name, their most famous book, the event date and the number of seats remaining.
-- Events that are sold out are still shown to help users understand the range of events held, but the details have a line drawn through them to show that the event can no longer be booked.
-- This section supports the implementation of user story 5. It is useful to users as it explains the type of events held and which events they can book.
-
-![The Events List section](docs/readme-events-list.png)
-
-#### Event Booking Form section
-
-- The site contains a form so users can book events online.
-- The form includes fields for first name, last name, email address, event and number of seats. Each field has relevant validation.
-- Users can only select from events that are not fully booked.
-- The form's style is identical to the subscription box form, with a button that conforms to the button style used across the site.
-- When the form is submitted, the user is sent to the Form Success page.
-- This section supports the implementation of user story 5. It's useful to users because it enables them to book events online.
-
-![The Event form](docs/readme-events-form.png)
+![The site's footer](docs/readme-footer.png)
 
 #### Form Success Thank You section
 
 - The Form Success page contains a simple thank-you heading and message, along with a button directing the user back to the homepage.
 - The section has no background image so the user is motivated to explore the more interesting parts of the site, and the button uses the standard button styling used across the site.
-- This section supports user story 1 by giving users feedback on the status of their form submission, and by giving them an easy way to navigate back to the homepage.
+- This section is useful to users because it gives them feedback on the status of their form submission, and gives them an easy way to navigate back to the homepage (user story 1).
 
-![The Form Success thank-you message](docs/readme-form-success.png)
+![The Form Success thank-you message](docs/readme-thank-you.png)
 
 ### Features Left to Implement
 
-No features from the project backlog were left unimplemented.
+- **Subscription box sign-up form**: The original plan was to include a form that would allow visitors to sign up for the subscription box service, including details of a physical delivery address, with the option of entering payment details at a later date. This has been pushed back to a future release and the current version of the site includes a simpler form where users can request an e-brochure.
+- **Newsletter sign-up form**: The original plan was to have a newsletter sign-up form in the footer so visitors could sign up to the company's e-newsletter. This has been pushed back to a future release due to time constraints.
 
 ## Testing
 
@@ -234,7 +233,7 @@ No features from the project backlog were left unimplemented.
 
 - Homepage
   - Navigation: All links working
-  - Footer: Social media links open correctly in new tabs and the newsletter subscription button correctly opens a modal
+  - Footer: Social media links open correctly in new tabs
 - Form Success page
   - Navigation: All links working
   - Thank-you section: Button works
