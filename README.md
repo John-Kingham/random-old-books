@@ -266,65 +266,59 @@ During final testing I found no issues with the responsive design as these had a
 
 Validation was carried out using the [W3 HTML Validator](https://validator.w3.org/).
 
-- index.html
-  - Error: Header must not appear as a descendant of the footer (fixed)
-    - The footer contained a header element which has now been removed.
-  - Error: The for attribute of the label element must be the ID of a non-hidden form control (fixed)
-    - On the events form, the "event" and "seats" inputs didn't have ID attributes. To fix this, I gave them the same ID as their name attributes.
-  - Error: Duplicate ID (fixed)
-    - The events and subscription box forms both had inputs with IDs "name" and "email". To fix this, I gave them IDs using prefixes "events" and "subscription-box".
-  - Warning: Section lacks heading (fixed)
-    - Some sections didn't have a heading as a direct descendent. I fixed this by changing these sections to divs as I had used too many section elements.
-  - Info: Trailing slash on void elements (not fixed) 
-    - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
+##### index.html
+- Error: Header must not appear as a descendant of the footer (fixed)
+  - The footer contained a header element which has now been removed.
+- Error: The for attribute of the label element must be the ID of a non-hidden form control (fixed)
+  - On the events form, the "event" and "seats" inputs didn't have ID attributes. To fix this, I gave them the same ID as their name attributes.
+- Error: Duplicate ID (fixed)
+  - The events and subscription box forms both had inputs with IDs "name" and "email". To fix this, I gave them IDs using prefixes "events" and "subscription-box".
+- Warning: Section lacks heading (fixed)
+  - Some sections didn't have a heading as a direct descendent. I fixed this by changing these sections to divs as I had used too many section elements.
+- Info: Trailing slash on void elements (not fixed) 
+  - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
 
-- form-success.html
-  - Error: Header must not appear as a descendant of the footer (fixed)
-    - The footer contained a header element which has now been removed.
-  - Warning: Section lacks heading (fixed)
-    - The social media section lacked a heading. I converted this section into a div as it didn't have enough content to be a section.
-  - Info: Trailing slash on void elements (not fixed) 
-    - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
+##### form-success.html
+- Error: Header must not appear as a descendant of the footer (fixed)
+  - The footer contained a header element which has now been removed.
+- Warning: Section lacks heading (fixed)
+  - The social media section lacked a heading. I converted this section into a div as it didn't have enough content to be a section.
+- Info: Trailing slash on void elements (not fixed) 
+  - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
 
 #### CSS Validation
 
 Validation carried out using the [W3 CSS Validator](https://jigsaw.w3.org/css-validator/).  
 
-- styles.css
-  - No errors
-  - 4 warnings
-    - These were warnings about imported style sheets (for Google Fonts) not being checked by the validator, and CSS variables not being statically checked. In this case, these warnings can safely be ignored.
+##### styles.css
+- No errors
+- Warnings
+  - There were warnings about imported style sheets (for Google Fonts) not being checked by the validator, and CSS variables not being statically checked. In this case, these warnings can be ignored.
 
 ### Contrast Checker
 
 Contrast checked using the [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/).
 
-- #FFFFFF (white) text on #504746 (brown) background: 9:1 contrast, passed all tests
-- #FFFFFF (white) text on #425C5C (green) background: 7.19:1 contrast, passed all tests
+- #FFFFFF (white) text on #567a79 (green) background: 4.71:1 contrast, passed all tests at AA level
+- #FFFFFF (white) text on #504746 (brown) background: 9:1 contrast, passed all tests at AA and AAA levels
 
 ### Lighthouse
 
 Each page was tested with Lighthouse, using both Mobile and Desktop Device settings.
 
-#### Accessibility and Best Practices
+##### index.html
+![The site's lighthouse test results](docs/readme-lighthouse-index.png)
 
-These scored 100 in all tests.
+Accessibility and Best Practices scored 100 in all tests. 
 
-#### Performance
+Performance varied from 60% to 67%. To improve this, I used [Tiny PNG](https://tinypng.com/) to reduce the size of all images. Even after this change, the page's performance score only fell into the amber 50-89% range.
 
-This score varied, ranging from 72 to 99. The homepage was consistently the slowest page, with the header "hero" image usually being the slowest component to load.
+##### form-success.html
+![The site's lighthouse test results](docs/readme-lighthouse-form-success.png)
 
-The image's original size was 2MB, so I used [Tiny PNG](https://tinypng.com/) to reduce the size of the image to 0.5MB. Even after this change the site's performance varied significantly, but the lowest performance score I got was 74, and in most tests the performance score was in the 80-99 range.
+The Accessibility score was 100%, but the Best Practices score was 81%. This was because the page included a H1 element without a specified font size. To fix this, I changed the heading to H2, which improved the score to 100%.
 
-![The site's lighthouse test results](docs/readme-lighthouse-results.png)
-
-### Noteworthy Bugs
-
-#### Disappearing newsletter subscribe button 
-
-During final testing, I noticed that the footer's newsletter subscribe button disappeared if I exited the modal using the escape key. This put the button into a focus-visible state where Bootstrap seemed to be making the background transparent.
-
-To fix this, I added a :focus-visible pseudo-class CSS selector to set the background to the correct colour.
+The Performance score was consistently around 80%.
 
 ### Unfixed Bugs
 
@@ -368,9 +362,10 @@ The live site can be found here:
   - I learned how to use Font Awesome icons in unordered lists from the [Font Awesome Docs](https://docs.fontawesome.com/web/style/lists).  
 - HTML and CSS
   - I used [Bootstrap](https://getbootstrap.com/) to simplify the implementation process.
-  - The JavaScript code that ensures the Bootstrap mobile navbar collapses when navigating to in-page links was copied from Code Institute's Boardwalk Games project
   - I learned about CSS box shadows from [W3Schools](https://www.w3schools.com/css/css3_shadows_box.asp).
   - I used the [Mozilla Developer Network](https://developer.mozilla.org/) for general reference. 
+- JavaScript
+  - I used JavaScript code to make the Bootstrap mobile navbar collapse when navigating to in-page links. I copied this code from Code Institute's Boardwalk Games project.
 
 ### Media
 
