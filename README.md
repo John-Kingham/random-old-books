@@ -267,10 +267,9 @@ During final testing I found no issues with the responsive design as these had a
 Validation was carried out using the [W3 HTML Validator](https://validator.w3.org/).
 
 - index.html
-  - No errors
-  - No warnings
+  - No errors or warnings
   - 21 info messages: *"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values"*. 
-    - Trailing slashes are inserted by the Prettier code formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are no longer considered best practice.
+    - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
 
 - subscription-box.html
   - 2 errors: *"Duplicate ID"* (fixed)
