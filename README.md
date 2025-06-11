@@ -366,6 +366,8 @@ The live site can be found here:
   - I used the [Mozilla Developer Network](https://developer.mozilla.org/) for general reference. 
 - JavaScript
   - I used JavaScript code to make the Bootstrap mobile navbar collapse when navigating to in-page links. I copied this code from Code Institute's Boardwalk Games project.
+- Text
+  - I used Microsoft Co-Pilot to help me generate some of the site's text.
 
 ### Media
 
