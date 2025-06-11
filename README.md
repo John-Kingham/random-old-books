@@ -340,35 +340,48 @@ The live site can be found here:
 
 ### Content 
 
-- README.md
-  - I used [Code Institute's README.md template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) as the starting point for this document.
-  - I also referenced Code Institute's *Creating a README* slide deck.
-  - I used [Am I Responsive](https://ui.dev/amiresponsive) to generate the multi-screen image shown at the start of the README.
-- User Experience Design
+README.md
+- I used [Code Institute's README.md template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) as the starting point for this document.
+- I also referenced Code Institute's *Creating a README* slide deck.
+- I used [Am I Responsive](https://ui.dev/amiresponsive) to generate the multi-screen image shown at the start of the README.
+
+User Experience Design
   - I read ([The Elements of User Experience](http://www.jjg.net/elements/)) and used it to guide me through the user experience design process.
-- Wireframes
+
+Wireframes
   - I built the wireframes using [Wireframe.cc](https://www.wireframe.cc).
-- Colour Palette
+
+Colour Palette
   - The colour scheme was inspired by a collection of vintage colours on the [Craig and Rose](https://craigandrose.com/collections/vintage-styles-art-deco) webpage. 
   - I used [ImageColorPicker.com](https://imagecolorpicker.com/) to extract hex colours from a screenshot of that page.
-- Favicon
+
+Favicon
   - I used [Gauger.io](https://gauger.io/fonticon/) to create a favicon image from an icon.
   - I used [Favicon.io](https://favicon.io/) to convert the favicon into multiple favicon formats.
   - I converted hex colours to RGB using [RGBtoHex.net](https://www.rgbtohex.net/hex-to-rgb/).
-- Fonts
+
+Fonts
   - I used fonts from [Google Fonts](https://fonts.google.com/).
-- Icons
+
+Icons
   - I used [Font Awesome](https://fontawesome.com/) for icons.
   - I learned how to use Font Awesome icons in unordered lists from the [Font Awesome Docs](https://docs.fontawesome.com/web/style/lists).  
-- HTML and CSS
+
+HTML and CSS
   - I used [Bootstrap](https://getbootstrap.com/) to simplify the implementation process.
   - I learned about CSS box shadows from [W3Schools](https://www.w3schools.com/css/css3_shadows_box.asp).
   - I used the [Mozilla Developer Network](https://developer.mozilla.org/) for general reference. 
-- JavaScript
+
+JavaScript
   - I used JavaScript code to make the Bootstrap mobile navbar collapse when navigating to in-page links. I copied this code from Code Institute's Boardwalk Games project.
-- Text
+
+Text
   - I used Microsoft Co-Pilot to help me generate some of the site's text.
 
 ### Media
 
-- Images were downloaded from [UnSplash](https://unsplash.com/), which offers free images for private or commercial use without attribution.
+Images were downloaded from [UnSplash](https://unsplash.com/), which offers free images for private or commercial use without attribution. Here are the direct links to each image's Unsplash page:
+- [Homepage header image](https://unsplash.com/photos/assorted-book-lot-x7CDil50KKY)
+- [Events header image](https://unsplash.com/photos/man-speaking-in-front-of-crowd-RfiBK6Y_upQ)
+- [Subscription box header image](https://unsplash.com/photos/a-wrapped-present-box-sitting-on-top-of-a-pile-of-logs-nMpMO6_0VPg)
+
