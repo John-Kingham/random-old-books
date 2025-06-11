@@ -58,24 +58,30 @@ The resulting structure is shown below.
 
 Wireframes were developed for each page to add further detail before moving to the surface design and implementation phases.
 
-Click on the links below to see an image of each wireframe.
-
-- Homepage
-  - [Laptop](docs/home-laptop-wireframe.png)
-  - [Tablet](docs/home-tablet-wireframe.png)
-  - [Mobile](docs/home-mobile-wireframe.png)
-- Subscription box page
-  - [Laptop](docs/subscription-box-laptop-wireframe.png)
-  - [Tablet](docs/subscription-box-tablet-wireframe.png)
-  - [Mobile](docs/subscription-box-mobile-wireframe.png)
-- Events page
-  - [Laptop](docs/events-laptop-wireframe.png)
-  - [Tablet](docs/events-tablet-wireframe.png)
-  - [Mobile](docs/events-mobile-wireframe.png)
-- Form Success page
-  - [Laptop](docs/success-laptop-wireframe.png)
-  - [Tablet](docs/success-tablet-wireframe.png)
-  - [Mobile](docs/success-mobile-wireframe.png)
+#### Homepage - Laptop
+![Laptop](docs/home-laptop-wireframe.png)
+#### Homepage - Tablet
+![Tablet](docs/home-tablet-wireframe.png)
+#### Homepage - Mobile
+![Mobile](docs/home-mobile-wireframe.png)
+####  Subscription Box page - Laptop
+![Laptop](docs/subscription-box-laptop-wireframe.png)
+####  Subscription Box page - Tablet
+![Tablet](docs/subscription-box-tablet-wireframe.png)
+####  Subscription Box page - Mobile
+![Mobile](docs/subscription-box-mobile-wireframe.png)
+####  Events page - Laptop
+![Laptop](docs/events-laptop-wireframe.png)
+####  Events page - Tablet
+![Tablet](docs/events-tablet-wireframe.png)
+####  Events page - Mobile
+![Mobile](docs/events-mobile-wireframe.png)
+####  Form Success page - Laptop
+![Laptop](docs/success-laptop-wireframe.png)
+####  Form Success page - Tablet
+![Tablet](docs/success-tablet-wireframe.png)
+####  Form Success page - Mobile
+![Mobile](docs/success-mobile-wireframe.png)
 
 ### Colour Palette, Fonts, Images and Content (Surface Plane)
 
