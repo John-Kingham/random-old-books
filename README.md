@@ -326,15 +326,51 @@ There are no known unfixed bugs.
 
 ## Deployment
 
-The site has been deployed to GitHub Pages using the following procedure:
+Random Old Books has been deployed via GitHub pages.
 
-1. In the GitHub repository, navigate to Settings / Pages
-2. Under the Build and deployment heading, select the main branch and click Save
-3. Wait a few minutes for the site to be deployed (refresh the page to check)
+- In the [GitHub repository](https://github.com/John-Kingham/random-old-books), navigate to the "Settings" tab.
+- In Settings, click on the "Pages" link from the menu on the left.
+- From the "Build and deployment" section, click the drop-down called "Branch", and select the **main** branch, then click "Save".
+- The page will be automatically refreshed with a message display to indicate the successful deployment.
+- Allow up to 5 minutes for the site to fully deploy.
 
-The live site can be found here:
+The live link can be found on the [Random Old Books GitHub Page](https://john-kingham.github.io/random-old-books).
 
-- [Random Old Books GitHub Page](https://john-kingham.github.io/random-old-books/)
+### Local Development
+
+This project can be cloned or forked to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository using these steps:
+
+1. Go to the [GitHub repository](https://github.com/John-Kingham/random-old-books).
+2. Click on the green "Code" button at the very top, above the commits and files.
+3. Select whether you prefer to clone using "HTTPS", "SSH", or "GitHub CLI", and click the "copy" button to copy the URL to your clipboard.
+4. Within your IDE, open "Git Bash" or "Terminal".
+5. Change the current working directory to the location where you want the cloned directory.
+6. In your IDE Terminal, type the following command to clone the repository:
+	- `git clone https://github.com/John-Kingham/random-old-books.git`
+7. Press "Enter" to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/John-Kingham/random-old-books)
+
+**Please Note**: in order to directly open the project in Gitpod, you should have the browser extension installed. A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository. You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/John-Kingham/random-old-books).
+2. At the top of the Repository, just below the "Settings" button on the menu, locate and click the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+### Local VS Deployment
+
+There are no remaining major differences between the local version when compared to the deployed version online.
+
 
 ## Credits 
 
@@ -344,6 +380,7 @@ README.md
 - I used [Code Institute's README.md template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) as the starting point for this document.
 - I also referenced Code Institute's *Creating a README* slide deck.
 - I used [Am I Responsive](https://ui.dev/amiresponsive) to generate the multi-screen image shown at the start of the README.
+- My mentor provided a template for the Deployment section.
 
 User Experience Design
   - I read ([The Elements of User Experience](http://www.jjg.net/elements/)) and used it to guide me through the user experience design process.
