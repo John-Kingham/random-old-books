@@ -226,10 +226,13 @@ I took this onboard and the final implementation uses a single main page.
 
 ![The Form Success thank-you message](docs/readme-thank-you.png)
 
-### Features Left to Implement
+### Future Features
 
-- **Subscription box sign-up form**: The original plan was to include a form that would allow visitors to sign up for the subscription box service, including details of a physical delivery address, with the option of entering payment details at a later date. This has been pushed back to a future release and the current version of the site includes a simpler form where users can request an e-brochure.
-- **Newsletter sign-up form**: The original plan was to have a newsletter sign-up form in the footer so visitors could sign up to the company's e-newsletter. This has been pushed back to a future release due to time constraints.
+#### Subscription box subscription form
+The original plan was to include a form that would allow visitors to sign up for the subscription box service, but this was dropped in favour of a simpler form to request an e-brochure by email. In the future, it would be good to add full e-commerce capabilities to the site to allow visitors to sign up and pay for a monthly subscription box.
+
+#### Newsletter sign-up form
+The original plan was to have an e-newsletter sign-up form in the footer so visitors could be get regular updates by email. This was eventually dropped for the current release, but it would still be a good feature to add in a future release.
 
 ## Testing
 
