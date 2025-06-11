@@ -322,7 +322,7 @@ The Performance score was consistently around 80%.
 
 ### Unfixed Bugs
 
-There are no known unfixed bugs.
+There are no remaining bugs that I am aware of, but even after thorough testing I cannot completely rule out the possibility of some hidden bugs.
 
 ## Deployment
 
