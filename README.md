@@ -26,8 +26,8 @@ The backstory is that the Random Old Books business is struggling to remain viab
 1. As a user, I want to see a professional website that looks good on various screen sizes and is easy to navigate, so I'm not put off by a poor user experience.
 2. As a user, I want to learn about the business, its products and services, so I can decide if this is a business I'd like to buy from.
 3. As a user, I want to be able to easily find the store's location and opening hours, so I know where and when to visit.
-4. As a user, I want to be able to easily find a subscription box sign-up form, so I can subscribe immediately.
-5. As a user, I want to see a list of upcoming events and a booking form, so I can decide which event to attend and book my place.
+4. As a user, I want to be able to easily find a subscription box form, so I can sign up for more information.
+5. As a user, I want to see a list of upcoming events and a booking form, so I can decide which events to attend and book my place.
 6. As a user, I want to be able to easily subscribe to the company's free e-newsletter, so I can be kept up to date with the latest news and events.
 
 ### Site Structure (Structure Plane)
