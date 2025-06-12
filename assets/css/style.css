@@ -154,13 +154,6 @@ h3 {
     color: var(--primary-color);
 }
 
-/* Form Success page */
-
-#thank-you {
-    margin-top: var(--topnav-height);
-    height: var(--header-height);
-}
-
 /* Footer section */
 
 .social-link {
@@ -179,6 +172,14 @@ h3 {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+
+/* Form Success and 404 error pages */
+
+:is(#thank-you, #error-404) {
+    margin-top: var(--topnav-height);
+    height: var(--header-height);
+}
+
 
 @media screen and (min-width: 992px) {
     .header-heading {

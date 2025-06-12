@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="404 Error" />
+        <title>404 Error</title>
+        <!-- Bootstrap CSS link -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <!-- Favicon links from favicon.io -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/favicons/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/favicons/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="assets/favicons/favicon-16x16.png"
+        />
+        <!-- Font Awesome kit -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- Custom CSS link -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <!-- flex and min-vh-100 keeps the footer at the bottom of the screen -->
+    <body class="d-flex flex-column min-vh-100">
+        <!-- Nav element contains the top navbar common to all pages -->
+        <nav id="topnav" class="navbar navbar-expand-lg">
+            <div class="container">
+                <a id="topnav-logo" class="navbar-brand" href="index.html"
+                    >Random Old Books</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link me-3" href="index.html#events"
+                                >Shop &amp; Events</a
+                            >
+                        </li>
+                        <li class="nav-item me-3">
+                            <a
+                                class="nav-link"
+                                href="index.html#subscription-box"
+                                >Subscription Box</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="index.html#contact-details"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Main section containing the error message -->
+        <main class="container">
+            <section
+                id="error-404"
+                class="row justify-content-center align-content-center text-center"
+            >
+                <div class="col-12">
+                    <h1>Page not found</h1>
+                    <p>
+                        Apologies, but the page you're looking for doesn't
+                        exist.
+                    </p>
+                    <a href="index.html" class="btn custom-btn mt-3"
+                        >Return to the home page</a
+                    >
+                </div>
+            </section>
+        </main>
+        <!-- Footer with contact details -->
+        <!-- mt-auto allows footer to stay at the bottom of the screen -->
+        <footer id="contact-details" class="mt-auto">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h2>Contact details</h2>
+                    </div>
+                    <!-- location -->
+                    <section id="location" class="col-12 col-md-6 col-lg-4">
+                        <h3 class="sub-heading">Visit our bookshop</h3>
+                        <strong>Random Old Books</strong><br />
+                        123 Book Street<br />
+                        Book Town<br />
+                        Book Land<br />
+                        AB12 3CD<br />
+                        <i class="fa-solid fa-phone me-3"></i>01234 567 890<br />
+                        <i class="fa-solid fa-envelope me-3"></i
+                        >hello@example.com
+                    </section>
+                    <!-- opening times -->
+                    <section class="col-12 col-md-6 col-lg-4">
+                        <h3 class="sub-heading">Opening times</h3>
+                        Mon, Tue, Thu, Fri, Sat (8am - 6pm)<br />
+                        Wed (9am - Noon)<br />
+                        Sun (Closed)
+                    </section>
+                    <!-- Social media links -->
+                    <div
+                        id="socials"
+                        class="col-12 d-flex justify-content-center"
+                    >
+                        <a
+                            class="social-link"
+                            href="https://bsky.app/"
+                            target="_blank"
+                            aria-label="Visit our BlueSky social media page (opens in a new tab)"
+                        >
+                            <i class="fa-brands fa-bluesky"></i>
+                        </a>
+                        <a
+                            class="social-link"
+                            href="https://www.tiktok.com/"
+                            target="_blank"
+                            aria-label="Visit our TikTok social media page (opens in a new tab)"
+                        >
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a
+                            class="social-link"
+                            href="https://www.facebook.com/"
+                            target="_blank"
+                            aria-label="Visit our Facebook social media page (opens in a new tab)"
+                        >
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap JS script -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
