@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 // Ensures the Bootstrap mobile navbar collapses when navigating to in-page links
 // Code copied from Code Institute's Boardwalk Games project
 document
