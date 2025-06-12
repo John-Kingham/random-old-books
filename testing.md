@@ -1,10 +1,10 @@
 # Random Old Books - Testing
 
-## Functionality
+## Testing Functionality
 
-### Links
+### Testing Links
 
-#### Homepage links
+#### Testing Homepage links
 
 |Feature|Expect|Action|Result|
 |---|---|---|---|
@@ -17,7 +17,7 @@
 |Footer social media icon: TikTok|When clicked, the TikTok homepage opens in a new tab|Clicked the icon|The TikTok homepage opened in a new tab|
 |Footer social media icon: Facebook|When clicked, the Facebook homepage opens in a new tab|Clicked the icon|The Facebook homepage opened in a new tab|
 
-#### Form Success page links
+#### Testing Form Success page links
 |Feature|Expect|Action|Result|
 |---|---|---|---|
 |Navbar Logo link|When clicked, the homepage opens|Clicked the logo|The homepage opened|
@@ -29,7 +29,8 @@
 |Footer social media icon: TikTok|When clicked, the TikTok homepage opens in a new tab|Clicked the icon|The TikTok homepage opened in a new tab|
 |Footer social media icon: Facebook|When clicked, the Facebook homepage opens in a new tab|Clicked the icon|The Facebook homepage opened in a new tab|
 
-#### 404 Error page links
+#### Testing 404 Error page links
+
 |Feature|Expect|Action|Result|
 |---|---|---|---|
 |Navbar Logo link|When clicked, the homepage opens|Clicked the logo|The homepage opened|
@@ -41,27 +42,43 @@
 |Footer social media icon: TikTok|When clicked, the TikTok homepage opens in a new tab|Clicked the icon|The TikTok homepage opened in a new tab|
 |Footer social media icon: Facebook|When clicked, the Facebook homepage opens in a new tab|Clicked the icon|The Facebook homepage opened in a new tab|
 
-### Forms
+### Testing Forms
 
-- Event form
-  - Modal opens correctly
-  - Validation works for all fields
-  - Redirects to Form Success page after submission
-  - Field values correctly posted upon submission (visible in URL of Form Success page)
-- Subscription Box form
-  - Validation works for all fields
-  - Redirects to Form Success page after submission
-  - Field values correctly posted upon submission (visible in URL of Form Success page)
+#### Testing the Event modal form
+|Feature|Expect|Action|Result|Image|
+|---|---|---|---|---|
+|Events section "Book event" button|When clicked, the modal Event form opens|Clicked the button|The modal Event form opened| ![Events modal form](docs/events-form.png)|
+|Name validation|An error message is displayed if the form is submitted when Name is empty|Submitted the form when Name was empty|An error message was displayed| ![Event form Name validation](docs/events-form-name-validation.png)|
+|Missing Email Address validation|An error message is displayed if the form is submitted when Email Address is empty|Submitted the form when Email Address was empty|An error message was displayed| ![Event form missing Email Address validation](docs/events-form-email-validation.png)|
+|Invalid Email Address validation|An error message is displayed if the form is submitted with an invalid Email Address|Submitted the form with an invalid Email Address|An error message was displayed| ![Event form invalid Email Address validation](docs/events-form-invalid-email-validation.png)|
+|Event validation|An error message is displayed if the form is submitted with no Event selected|Submitted the form with no Event selected|An error message was displayed| ![Event form Event validation](docs/events-form-event-validation.png)|
+|Seats validation|An error message is displayed if the form is submitted with no Seats selected|Submitted the form with no Seats selected|An error message was displayed| ![Event form Seats validation](docs/events-form-seats-validation.png)|
+|Redirection after successful submission|When the form is successfully submitted, the Form Success page is loaded with the form's input values in the URL|Submitted the form|The Form Success page was loaded with the input values shown in the URL| ![Event form Seats validation](docs/events-form-submission-success.png)|
 
-## Browsers and Responsiveness
+#### Testing the Subscription Box form
+- Validation works for all fields
+- Redirects to Form Success page after submission
+- Field values correctly posted upon submission (visible in URL of Form Success page)
 
-I tested the site across a wide range of device sizes on Chrome, Edge and Firefox, as these are some of the most popular browsers.
+### Testing 404 Errors
+
+|Feature|Expect|Action|Result|
+|---|---|---|---|
+|Bespoke 404 error page|When the user tries to navigate to a missing page, the bespoke 404 error page opens|Visited a URL that doesn't exist on the site|The 404 error page opened|
+
+![404 error page test](docs/404-page-not-found-test.png)
+
+## Testing Responsiveness
 
 All pages are responsive, with layouts that work well on small, medium and large screens. The wireframe layouts were used for the initial implementation, but when the site moved to a single-page the responsive layouts were changed to better suit the structure of a one-page site.
 
 During final testing I found no issues with the responsive design as these had all been picked up and resolved during development.
 
-## Validators 
+## Testing Browsers 
+
+I tested the site across a wide range of device sizes on Chrome, Edge and Firefox, as these are some of the most popular browsers.
+
+## Code Validation
 
 ### HTML Validation
 
