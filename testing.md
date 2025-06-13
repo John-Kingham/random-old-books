@@ -117,6 +117,26 @@ During final testing I found no issues with the responsive design as these had a
 
 ## Browser tests
 
+I tested the site's functionality and responsiveness on Edge, Chrome and Firefox, as these are some of the most popular browsers.
+
+All of the functionality and responsiveness screenshots above were taken on Edge, so I've included a few additional screenshots on Chrome and Firefox in this section. 
+
+### Homepage on Chrome
+
+![Homepage on Chrome](docs/browser-testing-chrome-homepage.png)
+
+### Event form validation on Chrome
+
+![Event form validation on Chrome](docs/browser-testing-chrome-homepage-event-form.png)
+
+### Form Success page on Firefox
+
+![Form Success on Firefox](docs/browser-testing-firefox-form-success.png)
+
+### 404 Error page on Firefox
+
+![404 Error on Firefox](docs/browser-testing-firefox-404.png)
+
 ## Code Validation
 
 ### HTML Validation
