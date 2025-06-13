@@ -1,10 +1,10 @@
 # Random Old Books - Testing
 
-## Testing Functionality
+## Functionality
 
-### Testing Links
+### Links
 
-#### Testing Homepage links
+#### Homepage links
 
 |Feature|Expect|Action|Result|
 |---|---|---|---|
@@ -17,19 +17,7 @@
 |Footer social media icon: TikTok|When clicked, the TikTok homepage opens in a new tab|Clicked the icon|The TikTok homepage opened in a new tab|
 |Footer social media icon: Facebook|When clicked, the Facebook homepage opens in a new tab|Clicked the icon|The Facebook homepage opened in a new tab|
 
-#### Testing Form Success page links
-|Feature|Expect|Action|Result|
-|---|---|---|---|
-|Navbar Logo link|When clicked, the homepage opens|Clicked the logo|The homepage opened|
-|Navbar "Shop & Events" link|When clicked, the homepage opens and scrolls to the events header|Clicked the link|The homepage opened and scrolled to the events header|
-|Navbar "Subscription Box" link|When clicked, the homepage opens and scrolls to the subscription box header|Clicked the link|The homepage opened and scrolled to the subscription box header|
-|Navbar "Contact" link|When clicked, the homepage opens and scrolls to the footer's contact details section|Clicked the link|The homepage opened and scrolled to the footer's contact details section|
-|"Return to the homepage" button|When clicked, the homepage opens|Clicked the button|The homepage opened|
-|Footer social media icon: Bluesky|When clicked, the Bluesky homepage opens in a new tab|Clicked the icon|The Bluesky homepage opened in a new tab|
-|Footer social media icon: TikTok|When clicked, the TikTok homepage opens in a new tab|Clicked the icon|The TikTok homepage opened in a new tab|
-|Footer social media icon: Facebook|When clicked, the Facebook homepage opens in a new tab|Clicked the icon|The Facebook homepage opened in a new tab|
-
-#### Testing 404 Error page links
+#### Form Success page links
 
 |Feature|Expect|Action|Result|
 |---|---|---|---|
@@ -42,9 +30,23 @@
 |Footer social media icon: TikTok|When clicked, the TikTok homepage opens in a new tab|Clicked the icon|The TikTok homepage opened in a new tab|
 |Footer social media icon: Facebook|When clicked, the Facebook homepage opens in a new tab|Clicked the icon|The Facebook homepage opened in a new tab|
 
-### Testing Forms
+#### 404 Error page links
 
-#### Testing the Event modal form
+|Feature|Expect|Action|Result|
+|---|---|---|---|
+|Navbar Logo link|When clicked, the homepage opens|Clicked the logo|The homepage opened|
+|Navbar "Shop & Events" link|When clicked, the homepage opens and scrolls to the events header|Clicked the link|The homepage opened and scrolled to the events header|
+|Navbar "Subscription Box" link|When clicked, the homepage opens and scrolls to the subscription box header|Clicked the link|The homepage opened and scrolled to the subscription box header|
+|Navbar "Contact" link|When clicked, the homepage opens and scrolls to the footer's contact details section|Clicked the link|The homepage opened and scrolled to the footer's contact details section|
+|"Return to the homepage" button|When clicked, the homepage opens|Clicked the button|The homepage opened|
+|Footer social media icon: Bluesky|When clicked, the Bluesky homepage opens in a new tab|Clicked the icon|The Bluesky homepage opened in a new tab|
+|Footer social media icon: TikTok|When clicked, the TikTok homepage opens in a new tab|Clicked the icon|The TikTok homepage opened in a new tab|
+|Footer social media icon: Facebook|When clicked, the Facebook homepage opens in a new tab|Clicked the icon|The Facebook homepage opened in a new tab|
+
+### Forms
+
+#### Event modal form
+
 |Feature|Expect|Action|Result|Image|
 |---|---|---|---|---|
 |Events section "Book event" button|When clicked, the modal Event form opens|Clicked the button|The modal Event form opened| ![Events modal form](docs/events-form.png)|
@@ -55,7 +57,7 @@
 |Seats validation|An error message is displayed if the form is submitted with no Seats selected|Submitted the form with no Seats selected|An error message was displayed| ![Event form Seats validation](docs/events-form-seats-validation.png)|
 |Redirection after successful submission|When the form is successfully submitted, the Form Success page is loaded with the form's input values in the URL|Submitted the form|The Form Success page was loaded with the input values shown in the URL| ![Event form Seats validation](docs/events-form-submission-success.png)|
 
-#### Testing the Subscription Box form
+#### Subscription Box form
 |Feature|Expect|Action|Result|Image|
 |---|---|---|---|---|
 |Name validation|An error message is displayed if the form is submitted when Name is empty|Submitted the form when Name was empty|An error message was displayed| ![Event form Name validation](docs/subscription-box-form-name-validation.png)|
@@ -63,7 +65,7 @@
 |Invalid Email Address validation|An error message is displayed if the form is submitted with an invalid Email Address|Submitted the form with an invalid Email Address|An error message was displayed| ![Event form invalid Email Address validation](docs/subscription-box-form-invalid-email-validation.png)|
 |Redirection after successful submission|When the form is successfully submitted, the Form Success page is loaded with the form's input values in the URL|Submitted the form|The Form Success page was loaded with the input values shown in the URL| ![Event form Seats validation](docs/subscription-box-form-submission-success.png)|
 
-### Testing 404 Errors
+### 404 errors (page not found)
 
 |Feature|Expect|Action|Result|
 |---|---|---|---|
@@ -71,15 +73,49 @@
 
 ![404 error page test](docs/404-page-not-found-test.png)
 
-## Testing Responsiveness
+## Responsiveness
 
-All pages are responsive, with layouts that work well on small, medium and large screens. The wireframe layouts were used for the initial implementation, but when the site moved to a single-page the responsive layouts were changed to better suit the structure of a one-page site.
+All pages are responsive, with layouts that work well on small, medium and large screens. The wireframe layouts were used for the initial implementation, but when the site moved to a single-page design the responsive layouts were changed to better suit the structure of a one-page site.
 
 During final testing I found no issues with the responsive design as these had all been picked up and resolved during development.
 
-## Testing Browsers 
+### Homepage on mobile
 
-I tested the site across a wide range of device sizes on Chrome, Edge and Firefox, as these are some of the most popular browsers.
+![Homepage on mobile](docs/responsive-homepage-mobile.jpeg)
+
+### Homepage on tablet
+
+![Homepage on tablet](docs/responsive-homepage-tablet.jpeg)
+
+### Homepage on desktop
+
+![Homepage on desktop](docs/responsive-homepage-desktop.jpeg)
+
+### Form Success page on mobile
+
+![Form Success on mobile](docs/responsive-form-success-mobile.jpeg)
+
+### Form Success page on tablet
+
+![Form Success on tablet](docs/responsive-form-success-tablet.jpeg)
+
+### Form Success page on desktop
+
+![Form Success on desktop](docs/responsive-form-success-desktop.jpeg)
+
+### 404 Error page on mobile
+
+![404 Error on mobile](docs/responsive-404-mobile.jpeg)
+
+### 404 Error page on tablet
+
+![404 Error on tablet](docs/responsive-404-tablet.jpeg)
+
+### 404 Error page on desktop
+
+![404 Error on desktop](docs/responsive-404-desktop.jpeg)
+
+## Browser tests
 
 ## Code Validation
 
@@ -87,7 +123,7 @@ I tested the site across a wide range of device sizes on Chrome, Edge and Firefo
 
 Validation was carried out using the [W3 HTML Validator](https://validator.w3.org/).
 
-#### index.html
+#### Homepage Validation
 - Error: Header must not appear as a descendant of the footer (fixed)
   - The footer contained a header element which has now been removed.
 - Error: The for attribute of the label element must be the ID of a non-hidden form control (fixed)
@@ -99,7 +135,7 @@ Validation was carried out using the [W3 HTML Validator](https://validator.w3.or
 - Info: Trailing slash on void elements (not fixed) 
   - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
 
-#### form-success.html
+#### Form Success page 
 - Error: Header must not appear as a descendant of the footer (fixed)
   - The footer contained a header element which has now been removed.
 - Warning: Section lacks heading (fixed)
