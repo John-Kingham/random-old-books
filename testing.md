@@ -49,16 +49,19 @@
 |---|---|---|---|---|
 |Events section "Book event" button|When clicked, the modal Event form opens|Clicked the button|The modal Event form opened| ![Events modal form](docs/events-form.png)|
 |Name validation|An error message is displayed if the form is submitted when Name is empty|Submitted the form when Name was empty|An error message was displayed| ![Event form Name validation](docs/events-form-name-validation.png)|
-|Missing Email Address validation|An error message is displayed if the form is submitted when Email Address is empty|Submitted the form when Email Address was empty|An error message was displayed| ![Event form missing Email Address validation](docs/events-form-email-validation.png)|
+|Empty Email Address validation|An error message is displayed if the form is submitted when Email Address is empty|Submitted the form when Email Address was empty|An error message was displayed| ![Event form empty Email Address validation](docs/events-form-email-validation.png)|
 |Invalid Email Address validation|An error message is displayed if the form is submitted with an invalid Email Address|Submitted the form with an invalid Email Address|An error message was displayed| ![Event form invalid Email Address validation](docs/events-form-invalid-email-validation.png)|
 |Event validation|An error message is displayed if the form is submitted with no Event selected|Submitted the form with no Event selected|An error message was displayed| ![Event form Event validation](docs/events-form-event-validation.png)|
 |Seats validation|An error message is displayed if the form is submitted with no Seats selected|Submitted the form with no Seats selected|An error message was displayed| ![Event form Seats validation](docs/events-form-seats-validation.png)|
 |Redirection after successful submission|When the form is successfully submitted, the Form Success page is loaded with the form's input values in the URL|Submitted the form|The Form Success page was loaded with the input values shown in the URL| ![Event form Seats validation](docs/events-form-submission-success.png)|
 
 #### Testing the Subscription Box form
-- Validation works for all fields
-- Redirects to Form Success page after submission
-- Field values correctly posted upon submission (visible in URL of Form Success page)
+|Feature|Expect|Action|Result|Image|
+|---|---|---|---|---|
+|Name validation|An error message is displayed if the form is submitted when Name is empty|Submitted the form when Name was empty|An error message was displayed| ![Event form Name validation](docs/subscription-box-form-name-validation.png)|
+|Empty Email Address validation|An error message is displayed if the form is submitted when Email Address is empty|Submitted the form when Email Address was empty|An error message was displayed| ![Event form empty Email Address validation](docs/subscription-box-form-email-validation-missing.png)|
+|Invalid Email Address validation|An error message is displayed if the form is submitted with an invalid Email Address|Submitted the form with an invalid Email Address|An error message was displayed| ![Event form invalid Email Address validation](docs/subscription-box-form-invalid-email-validation.png)|
+|Redirection after successful submission|When the form is successfully submitted, the Form Success page is loaded with the form's input values in the URL|Submitted the form|The Form Success page was loaded with the input values shown in the URL| ![Event form Seats validation](docs/subscription-box-form-submission-success.png)|
 
 ### Testing 404 Errors
 
