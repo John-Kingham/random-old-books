@@ -138,9 +138,9 @@ All of the functionality and responsiveness screenshots above were taken on Edge
 
 ![404 Error on Firefox](docs/browser-testing-firefox-404.png)
 
-## Code Validation
+## Code validation
 
-### HTML Validation
+### HTML validation
 
 HTML validation was carried out using the [W3 HTML Validator](https://validator.w3.org/).
 
@@ -198,19 +198,39 @@ CSS validation was carried out using the [W3 CSS Validator](https://jigsaw.w3.or
 
 ![CSS validation warnings](docs/validation-css-style-warnings.png)
 
-## Contrast Checker
+### Javascript validation
 
-Contrast checked using the [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/).
+Javascript validation was carried out using [JS Hint](https://jshint.com/).
 
-- #FFFFFF (white) text on #567a79 (green) background: 4.71:1 contrast, passed all tests at AA level
-- #FFFFFF (white) text on #504746 (brown) background: 9:1 contrast, passed all tests at AA and AAA levels
+#### script.js
+
+*Warnings or errors: None*
+
+![Javascript validation](docs/validation-js.png)
+
+## Contrast checker
+
+Contrast strength was checked using the [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/).
+
+### Contrast between #FFFFFF (white) text on #567A79 (green) background
+
+All tests passed at AA level.
+
+![Testing white and green contrast](docs/testing-contrast-white-green.png)
+
+### Contrast between #FFFFFF (white) text on #504746 (brown) background
+
+All tests passed at AA and AAA levels.
+
+![Testing white and brown contrast](docs/testing-contrast-white-brown.png)
 
 ## Lighthouse
 
-Each page was tested with Lighthouse, using both Mobile and Desktop Device settings.
+Each page was tested with Lighthouse, using both Mobile and Desktop settings.
 
 #### index.html
-![The site's lighthouse test results](docs/readme-lighthouse-index.png)
+
+![index.html lighthouse results](docs/readme-lighthouse-index.png)
 
 Accessibility and Best Practices scored 100 in all tests. 
 
@@ -223,6 +243,6 @@ The Accessibility score was 100%, but the Best Practices score was 81%. This was
 
 The Performance score was consistently around 80%.
 
-## Unfixed Bugs
+## Unfixed bugs
 
 There are no remaining bugs that I am aware of, but even after thorough testing I cannot completely rule out the possibility of some hidden bugs.
