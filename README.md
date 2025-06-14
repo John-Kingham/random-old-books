@@ -114,7 +114,7 @@ As Random Old Books is a fictional business, I asked Microsoft Co-Pilot to come 
 
 ## Features
 
-### Differences between design to implementation 
+### Differences between design and implementation 
 
 During user testing, there was a strong preference from users for a simpler design with all sections of the site on one main page. This was because the overall site was quite small, and users felt that navigation would be easier on one page than the original three-page design (plus one form-success page).
 
@@ -226,13 +226,21 @@ I took this onboard and the final implementation uses a single main page.
 
 ![The Form Success thank-you message](docs/readme-thank-you.png)
 
+#### 404 Error page
+
+- In the third mentor review, my mentor suggested adding a bespoke 404 error.
+- The page is based on the Form Success page and has essentially the same format, with a simple message explaining that the page wasn't found, along with a button to take the user back to the homepage.
+This page is useful to users as it gives them a 404 error page that is visually consistent with the rest of the site and an easy way to navigation back to the homepage.
+
+![404 Error section](docs/readme-404-error-section.png)
+
 ### Future Features
 
-#### Subscription box subscription form
-The original plan was to include a form that would allow visitors to sign up for the subscription box service, but this was dropped in favour of a simpler form to request an e-brochure by email. In the future, it would be good to add full e-commerce capabilities to the site to allow visitors to sign up and pay for a monthly subscription box.
+#### Subscription box e-commerce form
+The original design included a form to allow visitors to sign up for the subscription box service, but this was dropped in favour of a simpler form to request an e-brochure by email. In the future, it would be good to add full e-commerce capabilities to the site to allow visitors to sign up and pay for a monthly subscription box.
 
 #### Newsletter sign-up form
-The original plan was to have an e-newsletter sign-up form in the footer so visitors could be get regular updates by email. This was eventually dropped for the current release, but it would still be a good feature to add in a future release.
+The original design included an e-newsletter sign-up form in the footer so visitors could be get regular updates by email. This was eventually dropped from the current release, but it would still be a good feature to add in the future.
 
 ## Testing
 
