@@ -226,11 +226,21 @@ All tests passed at AA and AAA levels.
 
 ## Lighthouse
 
-Each page was tested with Lighthouse, using both Mobile and Desktop settings.
+Each page was tested with Lighthouse, using Mobile and Desktop settings.
 
-#### index.html
+|Page|Device|Result|
+|---|---|---|
+|index.html|Mobile| ![lighthouse mobile result for index.html](docs/testing-lighthouse-index-mobile.png) |
+|index.html|Desktop| ![lighthouse desktop result for index.html](docs/testing-lighthouse-index-desktop.png) |
+|form-success.html|Mobile| ![lighthouse mobile result for form-success.html](docs/testing-lighthouse-form-success-mobile.png) |
+|form-success.html|Desktop| ![lighthouse desktop result for form-success.html](docs/testing-lighthouse-form-success-desktop.png) |
+|404.html|Mobile| insert image |
+|404.html|Desktop| insert image |
 
-![index.html lighthouse results](docs/readme-lighthouse-index.png)
+#### index.html mobile
+
+
+![index.html lighthouse mobile results](docs/readme-lighthouse-mobile.png)
 
 Accessibility and Best Practices scored 100 in all tests. 
 
