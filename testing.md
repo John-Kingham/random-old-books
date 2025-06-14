@@ -79,6 +79,7 @@ All pages are responsive, with layouts that work well on small, medium and large
 
 During final testing I found no issues with the responsive design as these had all been picked up and resolved during development.
 
+
 ### Homepage on mobile
 
 ![Homepage on mobile](docs/responsive-homepage-mobile.jpeg)
@@ -145,39 +146,39 @@ HTML validation was carried out using the [W3 HTML Validator](https://validator.
 
 #### Homepage
 
-**Error: Header must not appear as a descendant of the footer (fixed)**
+*Error: Header must not appear as a descendant of the footer (fixed)*
 - The footer contained a header element which has now been removed.
 
-**Error: The for attribute of the label element must be the ID of a non-hidden form control (fixed)**
+*Error: The for attribute of the label element must be the ID of a non-hidden form control (fixed)*
 - On the events form, the "event" and "seats" inputs didn't have ID attributes. To fix this, I gave them the same ID as their name attributes.
 
-**Error: Duplicate ID (fixed)**
+*Error: Duplicate ID (fixed)*
 - The events and subscription box forms both had inputs with IDs "name" and "email". To fix this, I gave them IDs using prefixes "events" and "subscription-box".
 
-**Warning: Section lacks heading (fixed)**
+*Warning: Section lacks heading (fixed)*
 - Some sections didn't have a heading as a direct descendent. I fixed this by changing these sections to divs as I had used too many section elements.
 
-**Info: Trailing slash on void elements (not fixed)**
+*Info: Trailing slash on void elements (not fixed)*
 - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
 
 ![Homepage HTML validation](docs/validation-html-homepage.png)
 
 #### Form Success page
 
-**Error: Header must not appear as a descendant of the footer (fixed)**
+*Error: Header must not appear as a descendant of the footer (fixed)*
 - The footer contained a header element which has now been removed.
 
-**Warning: Section lacks heading (fixed)**
+*Warning: Section lacks heading (fixed)*
 - The social media section lacked a heading. I converted this section into a div as it didn't have enough content to warrant being a section.
 
-**Info: Trailing slash on void elements (not fixed)** 
+*Info: Trailing slash on void elements (not fixed)*
 - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
 
 ![Form Success HTML validation](docs/validation-html-form-success.png)
 
 #### 404 Error page
 
-**Info: Trailing slash on void elements (not fixed)** 
+*Info: Trailing slash on void elements (not fixed)*
 - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
 
 ![404 HTML validation](docs/validation-html-404.png)
