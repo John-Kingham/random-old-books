@@ -120,21 +120,21 @@ During final testing I found no issues with the responsive design as these had a
 
 I tested the site's functionality and responsiveness on Edge, Chrome and Firefox, as these are some of the most popular browsers.
 
-All of the functionality and responsiveness screenshots above were taken on Edge, so I've included a few additional screenshots on Chrome and Firefox in this section. 
+All of the functionality and responsiveness screenshots above were taken on Edge, so I've included a few additional screenshots of the site on Chrome and Firefox in this section. 
 
-### Homepage on Chrome
+### Homepage at tablet width on Chrome
 
 ![Homepage on Chrome](docs/browser-testing-chrome-homepage.png)
 
-### Event form validation on Chrome
+### Event form validation at tablet width on Chrome
 
 ![Event form validation on Chrome](docs/browser-testing-chrome-homepage-event-form.png)
 
-### Form Success page on Firefox
+### Form Success page at desktop width on Firefox
 
 ![Form Success on Firefox](docs/browser-testing-firefox-form-success.png)
 
-### 404 Error page on Firefox
+### 404 Error page at desktop width on Firefox
 
 ![404 Error on Firefox](docs/browser-testing-firefox-404.png)
 
@@ -144,7 +144,7 @@ All of the functionality and responsiveness screenshots above were taken on Edge
 
 HTML validation was carried out using the [W3 HTML Validator](https://validator.w3.org/).
 
-#### Homepage
+#### index.html
 
 *Error: Header must not appear as a descendant of the footer (fixed)*
 - The footer contained a header element which has now been removed.
@@ -163,7 +163,7 @@ HTML validation was carried out using the [W3 HTML Validator](https://validator.
 
 ![Homepage HTML validation](docs/validation-html-homepage.png)
 
-#### Form Success page
+#### form-success.html
 
 *Error: Header must not appear as a descendant of the footer (fixed)*
 - The footer contained a header element which has now been removed.
@@ -176,7 +176,7 @@ HTML validation was carried out using the [W3 HTML Validator](https://validator.
 
 ![Form Success HTML validation](docs/validation-html-form-success.png)
 
-#### 404 Error page
+#### 404.html
 
 *Info: Trailing slash on void elements (not fixed)*
 - Trailing slashes are inserted by the Prettier formatting extension that I use in VS Code. Given that the point of using an opinionated auto-formatter is to standardise formatting and avoid formatting arguments, I decided to leave these trailing slashes in place, even though they are not considered best practice.
@@ -185,12 +185,18 @@ HTML validation was carried out using the [W3 HTML Validator](https://validator.
 
 ### CSS Validation
 
-Validation carried out using the [W3 CSS Validator](https://jigsaw.w3.org/css-validator/).  
+CSS validation was carried out using the [W3 CSS Validator](https://jigsaw.w3.org/css-validator/).
 
 #### styles.css
-- No errors
-- Warnings
-  - There were warnings about imported style sheets (for Google Fonts) not being checked by the validator, and CSS variables not being statically checked. In this case, these warnings can be ignored.
+
+*Errors: None*
+
+![CSS validation errors](docs/validation-css-style-error.png)
+
+*Warnings: 3*
+  - There were warnings about CSS variables not being statically checked. As the CSS variables have effectively been tested by the site's functional and visual tests, these warnings can be ignored.
+
+![CSS validation warnings](docs/validation-css-style-warnings.png)
 
 ## Contrast Checker
 
