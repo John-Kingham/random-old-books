@@ -234,25 +234,9 @@ Each page was tested with Lighthouse, using Mobile and Desktop settings.
 |index.html|Desktop| ![lighthouse desktop result for index.html](docs/testing-lighthouse-index-desktop.png) |
 |form-success.html|Mobile| ![lighthouse mobile result for form-success.html](docs/testing-lighthouse-form-success-mobile.png) |
 |form-success.html|Desktop| ![lighthouse desktop result for form-success.html](docs/testing-lighthouse-form-success-desktop.png) |
-|404.html|Mobile| insert image |
-|404.html|Desktop| insert image |
-
-#### index.html mobile
-
-
-![index.html lighthouse mobile results](docs/readme-lighthouse-mobile.png)
-
-Accessibility and Best Practices scored 100 in all tests. 
-
-Performance varied from 60% to 67%. To improve this, I used [Tiny PNG](https://tinypng.com/) to reduce the size of all images. Even after this change, the page's performance score only fell into the amber 50-89% range.
-
-#### form-success.html
-![The site's lighthouse test results](docs/readme-lighthouse-form-success.png)
-
-The Accessibility score was 100%, but the Best Practices score was 81%. This was because the page included a H1 element without a specified font size. To fix this, I changed the heading to H2, which improved the score to 100%.
-
-The Performance score was consistently around 80%.
+|404.html|Mobile| ![lighthouse mobile result for 404.html](docs/testing-lighthouse-404-mobile.png) |
+|404.html|Desktop| ![lighthouse desktop result for 404.html](docs/testing-lighthouse-404-desktop.png) |
 
 ## Unfixed bugs
 
-There are no remaining bugs that I am aware of, but even after thorough testing I cannot completely rule out the possibility of some hidden bugs.
+There are no remaining bugs that I am aware of. Having said that, even after thorough testing I cannot completely rule out the possibility of some hidden bugs.
