@@ -340,7 +340,14 @@ Text
 ### Media
 
 Images were downloaded from [UnSplash](https://unsplash.com/), which offers free images for private or commercial use without attribution. Here are the direct links to each image's Unsplash page:
+
 - [Homepage header image](https://unsplash.com/photos/assorted-book-lot-x7CDil50KKY)
 - [Events header image](https://unsplash.com/photos/man-speaking-in-front-of-crowd-RfiBK6Y_upQ)
 - [Subscription box header image](https://unsplash.com/photos/a-wrapped-present-box-sitting-on-top-of-a-pile-of-logs-nMpMO6_0VPg)
+
+I used [Tinify](https://tinypng.com/) to reduce the size of several large images in order to improve loading times.
+
+### People
+
+I would like to thank my mentors, Simen and Tim, who were both extremely helpful. 
 
